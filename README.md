@@ -1,4 +1,8 @@
-# periodic-vue
+# This is a test vue project to get a website presenting Harry Potter Trading Cards.
+
+> A website for Harry Potter Trading Cards.
+
+# Based on alex-c's A simple periodic table in vue:
 
 > A simple periodic table built with Vue. Visit the [demo](https://alex-c.github.io/periodic-vue/)!
 
