@@ -33,7 +33,7 @@ function createCharacter(cardLines){
 	let card = {};
 	card.set = set;
 	card.number = cardLines[0].split(' ')[0];
-	card.name = cardLines[0].split(' ')[1];
+	card.name = cardLines[0].slice(card.number.length+1);
 	card.rarity = cardLines[1].split(' ')[0];
 	card.type = cardLines[1].split(' ')[1].split('/')[0];
 	card.descriptors = [];
@@ -57,19 +57,99 @@ function createCharacter(cardLines){
 }
 
 function createAdventure(cardLines){
-	console.log('adventure')
+	let card = {};
+	card.set = set;
+	card.number = cardLines[0].split(' ')[0];
+	card.name = cardLines[0].slice(card.number.length+1);
+	card.rarity = cardLines[1].split(' ')[0];
+	card.type = cardLines[1].split(' ')[1].split('/')[0];
+	card.text = ''
+	for (let i = 2; i<cardLines.length; i++){
+		card.text += cardLines[i];
+	}
+	return card;
 }
 
 function createCreature(cardLines){
 	console.log('creature');
+	let card = {};
+	card.set = set;
+	card.number = cardLines[0].split(' ')[0];
+	card.name = cardLines[0].slice(card.number.length+1);
+	card.rarity = cardLines[1].split(' ')[0];
+	card.type = cardLines[1].split(' ')[1].split('/')[0];
+	card.text = ''
+	for (let i = 2; i<cardLines.length; i++){
+		card.text += cardLines[i];
+	}
+	return card;
 }
 
 function createItem(cardLines){}
+	let card = {};
+	card.set = set;
+	card.number = cardLines[0].split(' ')[0];
+	card.name = cardLines[0].slice(card.number.length+1);
+	card.rarity = cardLines[1].split(' ')[0];
+	card.type = cardLines[1].split(' ')[1].split('/')[0];
+	card.text = ''
+	for (let i = 2; i<cardLines.length; i++){
+		card.text += cardLines[i];
+	}
+	return card;
 
-function createLesson(cardLines){}
+function createLesson(cardLines){
+	let card = {};
+	card.set = set;
+	card.number = cardLines[0].split(' ')[0];
+	card.name = cardLines[0].slice(card.number.length+1);
+	card.rarity = 'Common';
+	card.type = cardLines[1];
+	card.text = ''
+	for (let i = 2; i<cardLines.length; i++){
+		card.text += cardLines[i];
+	}
+	return card;
+}
 
-function createLocation(cardLines){}
+function createLocation(cardLines){
+	let card = {};
+	card.set = set;
+	card.number = cardLines[0].split(' ')[0];
+	card.name = cardLines[0].slice(card.number.length+1);
+	card.rarity = cardLines[1].split(' ')[0];
+	card.type = cardLines[1].split(' ')[1].split('/')[0];
+	card.text = ''
+	for (let i = 2; i<cardLines.length; i++){
+		card.text += cardLines[i];
+	}
+	return card;
+}
 
-function createMatch(cardLines){}
+function createMatch(cardLines){
+	let card = {};
+	card.set = set;
+	card.number = cardLines[0].split(' ')[0];
+	card.name = cardLines[0].slice(card.number.length+1);
+	card.rarity = cardLines[1].split(' ')[0];
+	card.type = cardLines[1].split(' ')[1].split('/')[0];
+	card.text = ''
+	for (let i = 2; i<cardLines.length; i++){
+		card.text += cardLines[i];
+	}
+	return card;
+}
 
-function createSpell(cardLines){}
+function createSpell(cardLines){
+	let card = {};
+	card.set = set;
+	card.number = cardLines[0].split(' ')[0];
+	card.name = cardLines[0].slice(card.number.length+1);
+	card.rarity = cardLines[1].split(' ')[0];
+	card.type = cardLines[1].split(' ')[1].split('/')[0];
+	card.text = ''
+	for (let i = 2; i<cardLines.length; i++){
+		card.text += cardLines[i];
+	}
+	return card;
+}
