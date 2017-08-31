@@ -7,7 +7,6 @@ var set = 'Base Set';
 for (let cardToken of fileString.split("\nnewcard\n")){
 	let cardLines = cardToken.split('\n');
 	let card;
-	console.log(cardLines[1]);
 	if (cardLines[1].search('Creature')>-1){
 		card = createCreature(cardLines);
 	} else if (cardLines[1].search('Character')>-1){
@@ -26,8 +25,12 @@ for (let cardToken of fileString.split("\nnewcard\n")){
 		card = createItem(cardLines);
 	}
 	cardList.push(card);
-	console.log(card);
 }
+
+var cardsString = JSON.stringify(cardList);
+var ws = fs.createWriteStream('base_json');
+ws.write(cardsString);
+ws.close();
 
 function createCharacter(cardLines){
 	let card = {};
@@ -71,32 +74,34 @@ function createAdventure(cardLines){
 }
 
 function createCreature(cardLines){
-	console.log('creature');
 	let card = {};
 	card.set = set;
 	card.number = cardLines[0].split(' ')[0];
 	card.name = cardLines[0].slice(card.number.length+1);
 	card.rarity = cardLines[1].split(' ')[0];
 	card.type = cardLines[1].split(' ')[1].split('/')[0];
+	card.cost = cardLines[2];
 	card.text = ''
-	for (let i = 2; i<cardLines.length; i++){
+	for (let i = 3; i<cardLines.length; i++){
 		card.text += cardLines[i];
 	}
 	return card;
 }
 
-function createItem(cardLines){}
+function createItem(cardLines){
 	let card = {};
 	card.set = set;
 	card.number = cardLines[0].split(' ')[0];
 	card.name = cardLines[0].slice(card.number.length+1);
 	card.rarity = cardLines[1].split(' ')[0];
 	card.type = cardLines[1].split(' ')[1].split('/')[0];
+	card.cost = cardLines[2];
 	card.text = ''
-	for (let i = 2; i<cardLines.length; i++){
+	for (let i = 3; i<cardLines.length; i++){
 		card.text += cardLines[i];
 	}
 	return card;
+}
 
 function createLesson(cardLines){
 	let card = {};
@@ -119,8 +124,9 @@ function createLocation(cardLines){
 	card.name = cardLines[0].slice(card.number.length+1);
 	card.rarity = cardLines[1].split(' ')[0];
 	card.type = cardLines[1].split(' ')[1].split('/')[0];
+	card.cost = cardLines[2];
 	card.text = ''
-	for (let i = 2; i<cardLines.length; i++){
+	for (let i = 3; i<cardLines.length; i++){
 		card.text += cardLines[i];
 	}
 	return card;
@@ -133,8 +139,9 @@ function createMatch(cardLines){
 	card.name = cardLines[0].slice(card.number.length+1);
 	card.rarity = cardLines[1].split(' ')[0];
 	card.type = cardLines[1].split(' ')[1].split('/')[0];
+	card.cost = cardLines[2];
 	card.text = ''
-	for (let i = 2; i<cardLines.length; i++){
+	for (let i = 3; i<cardLines.length; i++){
 		card.text += cardLines[i];
 	}
 	return card;
@@ -147,8 +154,9 @@ function createSpell(cardLines){
 	card.name = cardLines[0].slice(card.number.length+1);
 	card.rarity = cardLines[1].split(' ')[0];
 	card.type = cardLines[1].split(' ')[1].split('/')[0];
+	card.cost = cardLines[2];
 	card.text = ''
-	for (let i = 2; i<cardLines.length; i++){
+	for (let i = 3; i<cardLines.length; i++){
 		card.text += cardLines[i];
 	}
 	return card;
