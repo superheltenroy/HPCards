@@ -1,8 +1,8 @@
 fs = require('fs');
 
 var cardList = [];
-var fileString = fs.readFileSync('base_raw', 'utf8');
-var set = 'Base Set';
+var fileString = fs.readFileSync('quidditch_raw', 'utf8');
+var set = 'Quidditch Cup';
 
 for (let cardToken of fileString.split("\nnewcard\n")){
 	let cardLines = cardToken.split('\n');
@@ -28,7 +28,7 @@ for (let cardToken of fileString.split("\nnewcard\n")){
 }
 
 var cardsString = JSON.stringify(cardList);
-var ws = fs.createWriteStream('base_json');
+var ws = fs.createWriteStream('quidditch_json');
 ws.write(cardsString);
 ws.close();
 
