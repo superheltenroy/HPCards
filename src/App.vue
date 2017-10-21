@@ -1,20 +1,20 @@
 <template>
     <div id="app">
         <sidebar></sidebar>
-        <periodic-table :elementsData="elementsData"></periodic-table>
+        <cards-table :cardsData="cardsData"></cards-table>
     </div>
 </template>
 
 <script>
 import Sidebar from './Sidebar.vue';
-import PeriodicTable from './PeriodicTable.vue';
-import elementsData from './elements.js';
+import CardTable from './CardTable.vue';
+import cardsData from './cards.js';
 export default {
     name: 'app',
-    components: {Sidebar, PeriodicTable},
+    components: {Sidebar, CardTable},
     data () {
         return {
-            elementsData: elementsData
+            cardsData: cardsData
         }
     }
 }
