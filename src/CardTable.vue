@@ -34,19 +34,6 @@
                                             @showModal="triggerModal">
                         </card-details>
                     </grid-item>
-                    <grid-item size="16/18" v-else-if="card.placeholder && card.placeholder==16"></grid-item>
-                    <grid-item size="10/18" v-else-if="card.placeholder && card.placeholder==10"></grid-item>
-                </grid>
-                <grid>
-                    <grid-item size="3/18"></grid-item>
-                    <grid-item size="1/18" v-for="card in cardsData" :key="card.atomicNumber" v-if="card.symbol && !isOnMainTable(card)">
-                        <card-details   :card="card"
-                                            :highlightedcardGroup="highlightedcardGroup"
-                                            :class="buildcardClasses(card)"
-                                            @showModal="triggerModal">
-                        </card-details>
-                    </grid-item>
-                    <grid-item size="3/18" v-else-if="card.placeholder && card.placeholder==3"></grid-item>
                 </grid>
             </container>
             <card-modal v-if="showModal" :card="modalcard" @close="showModal = false"></card-modal>
@@ -55,12 +42,12 @@
 </template>
 
 <script>
-import CardDetails from './CardDetails.vue';
-import cardModal from './cardModal.vue';
+import CardToken from './CardToken.vue';
+import CardModal from './CardModal.vue';
 export default {
     name: 'cards-table',
     props: ['cardsData'],
-    components: {CardDetails, cardModal},
+    components: {CardToken, CardModal},
     data () {
         return ({
             highlightedcardGroup: '',
@@ -126,17 +113,23 @@ export default {
 }
 
 /* Buttons */
-.b-nonmetal {background-color: $eg-nonmetal;}
-.b-noble-gas {background-color: $eg-noble-gas;}
-.b-alkali-metal {background-color: $eg-alkali-metal;}
-.b-alkaline-earth-metal {background-color: $eg-alkaline-earth-metal;}
-.b-metalloid {background-color: $eg-metalloid}
-.b-halogen {background-color: $eg-halogen}
-.b-metal {background-color: $eg-metal}
-.b-transition-metal {background-color: $eg-transition-metal}
-.b-lanthanoid {background-color: $eg-lanthanoid}
-.b-actinoid {background-color: $eg-actinoid}
-.b-post-transition-metal {background-color: $eg-post-transition-metal}
+.b-rare {background-color: $eg-rare;}
+.b-uncommon {background-color: $eg-uncommon;}
+.b-common {background-color: $eg-common;}
+.b-spell {background-color: $eg-spell;}
+.b-character {background-color: $eg-character}
+.b-location {background-color: $eg-location}
+.b-item {background-color: $eg-item}
+.b-adventure {background-color: $eg-transition-adventure}
+.b-match {background-color: $eg-match}
+.b-creature {background-color: $eg-creature}
+.b-unique {background-color: $eg-unique}
+.b-healing {background-color: $eg-healing}
+.b-potions {background-color: $eg-potions}
+.b-transfiguration {background-color: $eg-transfiguration}
+.b-charms {background-color: $eg-charms}
+.b-care-of-magical-creatures {background-color: $eg-care-of-magical-creatures}
+.b-quidditch {background-color: $eg-quidditch}
 .button {
     border: none;
 }
