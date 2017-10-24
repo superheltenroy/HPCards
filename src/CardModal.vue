@@ -19,50 +19,22 @@
                         <table class="table is-narrow">
                             <tbody>
                                 <tr>
-                                    <td>Atomic mass:</td>
-                                    <td>{{element.atomicMass}}</td>
-                                    <td>Electronic configuration:</td>
-                                    <td>{{element.electronicConfiguration}}</td>
+                                    <td>Card Number:</td>
+                                    <td>{{card.set}} {{card.number}}</td>
+                                    <td>Name:</td>
+                                    <td>{{card.name}}</td>
                                 </tr>
                                 <tr>
-                                    <td>Electronegativity</td>
-                                    <td>{{element.electronegativity}}</td>
-                                    <td>Atomic radius:</td>
-                                    <td>{{element.atomicRadius}}</td>
+                                    <td>Kind</td>
+                                    <td>{{card.kind}}</td>
+                                    <td>Cost:</td>
+                                    <td>{{card.cost}}</td>
                                 </tr>
                                 <tr>
-                                    <td>Ion radius:</td>
-                                    <td>{{element.ionRadius}}</td>
-                                    <td>Van der Waals radius:</td>
-                                    <td>{{element.vanDelWaalsRadius}}</td>
-                                </tr>
-                                <tr>
-                                    <td>Ionization energy:</td>
-                                    <td>{{element.ionizationEnergy}}</td>
-                                    <td>Electron affinity:</td>
-                                    <td>{{element.electronAffinity}}</td>
-                                </tr>
-                                <tr>
-                                    <td>Oxidation states:</td>
-                                    <td>{{element.oxidationStates}}</td>
-                                    <td>Standard state:</td>
-                                    <td>{{element.standardState}}</td>
-                                </tr>
-                                <tr>
-                                    <td>Bonding type:</td>
-                                    <td>{{element.bondingType}}</td>
-                                    <td>Melting point:</td>
-                                    <td>{{element.meltingPoint}}</td>
-                                </tr>
-                                <tr>
-                                    <td>Boiling point:</td>
-                                    <td>{{element.boilingPoint}}</td>
-                                    <td>Density:</td>
-                                    <td>{{element.density}}</td>
-                                </tr>
-                                <tr>
-                                    <td>Discovered:</td>
-                                    <td>{{element.yearDiscovered}}</td>
+                                    <td>Text:</td>
+                                    <td>{{card.text}}</td>
+                                    <td>Rarity:</td>
+                                    <td>{{card.rarity}}</td>
                                 </tr>
                             </tbody>
                         </table>
