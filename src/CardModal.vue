@@ -4,13 +4,12 @@
             <div class="modal-wrapper">
                 <div class="modal-container" @click.stop>
                     <div class="modal-header">
-                        <div class="modal-element" :class="'e-'+element.groupBlock.replace(new RegExp(' ', 'g'), '-')">
-                            <div class="modal-element-symbol">{{element.symbol}}</div>
-                            <span class="modal-element-number">{{element.atomicNumber}}</span>
+                        <div class="modal-card" :class="'e-'+card.type.replace(new RegExp(' ', 'g'), '-')">
+                            <span class="modal-card-number">{{card.number}}</span>
                         </div>
                         <div class="modal-header-inner">
-                            <span class="modal-element-name">{{element.name}}</span><br />
-                            <span class="modal-element-group">{{element.groupBlock}}</span>
+                            <span class="modal-card-name">{{card.name}}</span><br />
+                            <span class="modal-card-type">{{card.type}}</span>
                         </div>
                         <span @click="$emit('close')"><icon class="modal-icon-close" name="times" scale="1.3"></icon></span>
                     </div>
@@ -40,8 +39,8 @@
                         </table>
                     </div>
                     <div class="modal-footer">
-                        <div class="modal-tag" :class="'e-'+element.groupBlock.replace(new RegExp(' ', 'g'), '-')">
-                            <a :href="'https://en.wikipedia.org/wiki/'+element.name" target="_blank">
+                        <div class="modal-tag" :class="'e-'+card.type.replace(new RegExp(' ', 'g'), '-')">
+                            <a :href="'https://en.wikipedia.org/wiki/'+card.name" target="_blank">
                                 <icon class="modal-tag-icon" name="wikipedia-w" scale="1"></icon>
                                 {{element.name}} on Wikipedia
                             </a>

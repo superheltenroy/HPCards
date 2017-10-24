@@ -3,10 +3,6 @@
         <div id="table-container">
             <div id="toolbar">
                 Highlight:
-                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Rare" class="button is-small b-rare">Rare</div>
-                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Uncommon" class="button is-small b-uncommon">Uncommon</div>
-                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Common" class="button is-small b-common">Common</div>
-                
                 <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Spell" class="button is-small b-spell">Spell</div>
                 <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Character" class="button is-small b-character">Character</div>
                 <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Adventure" class="button is-small b-adventure">Adventure</div>
@@ -14,20 +10,10 @@
                 <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Item" class="button is-small b-item">Item</div>
                 <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Creature" class="button is-small b-creature">Creature</div>
                 <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Match" class="button is-small b-match">Match</div>
-                
-                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Transfiguration" class="button is-small b-transfiguration">Transfiguration</div>
-                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Care of Magical Creatures" class="button is-small b-care-of-magical-creatures">Care of Magical Creatures</div>
-                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Charms" class="button is-small b-charms">Charms</div>
-                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Potions" class="button is-small b-potions">Potions</div>
-                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Quidditch" class="button is-small b-quidditch">Quidditch</div>
-           
-                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Healing" class="button is-small b-healing">Healing</div>
-                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Unique" class="button is-small b-unique">Unique</div>
-                
             </div>
             <container width="100%">
                 <grid>
-                    <grid-item size="1/18" v-for="card in cardsData" :key="card.atomicNumber" v-if="card.symbol && isOnMainTable(card)">
+                    <grid-item size="1/18" v-for="card in cardsData" :key="card.number" v-if="card.set === 'Chamber of Secrets'">
                         <card-details   :card="card"
                                             :highlightedcardGroup="highlightedcardGroup"
                                             :class="buildcardClasses(card)"
@@ -113,9 +99,9 @@ export default {
 }
 
 /* Buttons */
-.b-rare {background-color: $eg-rare;}
-.b-uncommon {background-color: $eg-uncommon;}
-.b-common {background-color: $eg-common;}
+//.b-rare {background-color: $eg-rare;}
+//.b-uncommon {background-color: $eg-uncommon;}
+//.b-common {background-color: $eg-common;}
 .b-spell {background-color: $eg-spell;}
 .b-character {background-color: $eg-character}
 .b-location {background-color: $eg-location}
@@ -123,13 +109,13 @@ export default {
 .b-adventure {background-color: $eg-transition-adventure}
 .b-match {background-color: $eg-match}
 .b-creature {background-color: $eg-creature}
-.b-unique {background-color: $eg-unique}
-.b-healing {background-color: $eg-healing}
-.b-potions {background-color: $eg-potions}
-.b-transfiguration {background-color: $eg-transfiguration}
-.b-charms {background-color: $eg-charms}
-.b-care-of-magical-creatures {background-color: $eg-care-of-magical-creatures}
-.b-quidditch {background-color: $eg-quidditch}
+//.b-unique {background-color: $eg-unique}
+//.b-healing {background-color: $eg-healing}
+//.b-potions {background-color: $eg-potions}
+//.b-transfiguration {background-color: $eg-transfiguration}
+//.b-charms {background-color: $eg-charms}
+//.b-care-of-magical-creatures {background-color: $eg-care-of-magical-creatures}
+//.b-quidditch {background-color: $eg-quidditch}
 .button {
     border: none;
 }
