@@ -1,5 +1,5 @@
 <template>
-    <div id="cards-table">
+    <div id="card-table">
         <div id="table-container">
             <div id="toolbar">
                 Highlight:
@@ -31,7 +31,7 @@
 import CardToken from './CardToken.vue';
 import CardModal from './CardModal.vue';
 export default {
-    name: 'cards-table',
+    name: 'card-table',
     props: ['cardsData'],
     components: {CardToken, CardModal},
     data () {
