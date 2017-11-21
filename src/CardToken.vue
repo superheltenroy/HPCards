@@ -19,7 +19,7 @@ export default {
 <style lang="scss">
 @import './assets/scss/variables.scss';
 
-.element {
+.card {
     width: 100%;
     min-width: 64px;
     height: 84px;
@@ -28,26 +28,26 @@ export default {
     opacity: 0.8;
 }
 
-.element:hover {
+.card:hover {
     opacity: 1.0;
     cursor: pointer;
 }
 
-.element-muted {
+.card-muted {
     opacity: 0.3;
 }
 
-.element-topbar {
+.card-topbar {
     font-size: 14px;
     padding-right: 4px;
     text-align: right;
 }
 
-.element-body {
+.card-body {
     font-size: 24px;
 }
 
-.element-footer {
+.card-footer {
     font-size: 12px;
 }
 

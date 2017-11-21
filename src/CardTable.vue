@@ -13,10 +13,10 @@
             </div>
             <container width="100%">
                 <grid>
-                    <grid-item size="1/20" v-for="card in cardsData" :key="card.number">
+                    <grid-item size="1/8" v-for="card in cardsData" :key="card.number">
                         <card-details   :card="card"
                                             :highlightedCardGroup="highlightedCardGroup"
-                                            :class="buildcardClasses(card)"
+                                            :class="buildCardClasses(card)"
                                             @showModal="triggerModal">
                         </card-details>
                     </grid-item>
@@ -48,7 +48,7 @@ export default {
         reset: function(event) {
             this.highlightedCardGroup = '';
         },
-        buildcardClasses: function(card) {
+        buildCardClasses: function(card) {
             var groupBlock = card.groupBlock.replace(new RegExp(' ', 'g'), '-');
             if(this.highlightedCardGroup == '') {
                 return('e-'+groupBlock);
@@ -58,7 +58,7 @@ export default {
 
         },
         placeholderSize: function(card) {
-            return(card.placeholder+'/18')
+            return(card.placeholder+'/20')
         },
         triggerModal: function(card) {
             this.modalcard = card;

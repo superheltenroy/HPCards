@@ -9,7 +9,7 @@
                         </div>
                         <div class="modal-header-inner">
                             <span class="modal-card-name">{{card.name}}</span><br />
-                            <span class="modal-card-type">{{card.type}}</span>
+                            <span class="modal-card-group">{{card.groupBlock}}</span>
                         </div>
                         <span @click="$emit('close')"><icon class="modal-icon-close" name="times" scale="1.3"></icon></span>
                     </div>
