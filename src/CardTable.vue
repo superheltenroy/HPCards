@@ -13,9 +13,9 @@
             </div>
             <container width="100%">
                 <grid>
-                    <grid-item size="1/18" v-for="card in cardsData" :key="card.number" v-if="card.set === 'Chamber of Secrets'">
+                    <grid-item size="1/20" v-for="card in cardsData" :key="card.number">
                         <card-details   :card="card"
-                                            :highlightedcardGroup="highlightedcardGroup"
+                                            :highlightedCardGroup="highlightedCardGroup"
                                             :class="buildcardClasses(card)"
                                             @showModal="triggerModal">
                         </card-details>
@@ -36,33 +36,29 @@ export default {
     components: {CardToken, CardModal},
     data () {
         return ({
-            highlightedcardGroup: '',
+            highlightedCardGroup: '',
             showModal: false,
             modalcard: {}
         });
     },
     methods: {
         highlight: function(event) {
-            this.highlightedcardGroup = event.target.dataset.cardGroup;
+            this.highlightedCardGroup = event.target.dataset.cardGroup;
         },
         reset: function(event) {
-            this.highlightedcardGroup = '';
+            this.highlightedCardGroup = '';
         },
         buildcardClasses: function(card) {
             var groupBlock = card.groupBlock.replace(new RegExp(' ', 'g'), '-');
-            if(this.highlightedcardGroup == '') {
+            if(this.highlightedCardGroup == '') {
                 return('e-'+groupBlock);
             } else {
-                return('e-'+groupBlock+' '+(groupBlock != this.highlightedcardGroup ? 'card-muted ' : ''));
+                return('e-'+groupBlock+' '+(groupBlock != this.highlightedCardGroup ? 'card-muted ' : ''));
             }
 
         },
         placeholderSize: function(card) {
             return(card.placeholder+'/18')
-        },
-        isOnMainTable: function(card) {
-            var n = card.atomicNumber;
-            return(n<=57 || n>=104 || (n>=72 && n<=89));
         },
         triggerModal: function(card) {
             this.modalcard = card;

@@ -39,10 +39,10 @@
                         </table>
                     </div>
                     <div class="modal-footer">
-                        <div class="modal-tag" :class="'e-'+card.type.replace(new RegExp(' ', 'g'), '-')">
+                        <div class="modal-tag" :class="'e-'+card.groupBlock.replace(new RegExp(' ', 'g'), '-')">
                             <a :href="'https://en.wikipedia.org/wiki/'+card.name" target="_blank">
                                 <icon class="modal-tag-icon" name="wikipedia-w" scale="1"></icon>
-                                {{element.name}} on Wikipedia
+                                {{card.name}} on Wikipedia
                             </a>
                         </div>
                     </div>
@@ -54,8 +54,8 @@
 
 <script>
 export default {
-    name: 'element-modal',
-    props: ['element'],
+    name: 'card-modal',
+    props: ['card'],
     data () {
         return ({});
     }
@@ -103,7 +103,7 @@ export default {
     box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
 }
 
-.modal-element {
+.modal-card {
     float: left;
     width: 80px;
     height: 80px;
@@ -112,7 +112,7 @@ export default {
     text-align: center;
 }
 
-.modal-element-symbol {
+.modal-card-symbol {
     height: 40px;
     margin-top: 6px;
     margin-bottom: 4px;
@@ -125,11 +125,11 @@ export default {
     margin-left: 100px;
 }
 
-.modal-element-name{
+.modal-card-name{
     font-size: 24px;
 }
 
-.modal-element-group {
+.modal-card-group {
     color: #AAAAAA;
 }
 
