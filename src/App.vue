@@ -8,13 +8,13 @@
 <script>
 import Sidebar from './Sidebar.vue';
 import CardTable from './CardTable.vue';
-import cardsData from './cards.js';
+import cards from './cards.js';
 export default {
     name: 'app',
     components: {Sidebar, CardTable},
     data () {
         return {
-            cardsData: cardsData
+            cardsData: cards
         }
     }
 }

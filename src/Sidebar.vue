@@ -13,10 +13,10 @@
                 <div id="logo-backdrop">
                     <icon name="flask" scale="7"></icon>
                 </div>
-                <div id="title">periodic-vue</div>
+                <div id="title">HPCards-vue</div>
             </div>
             <div id="sidebar-content">
-                <div id="project-description">A simple periodic table, built as a learning project to get started with Vue! Visit the <a href="https://github.com/alex-c/periodic-vue" target="_blank">Github repository</a>.</div>
+                <div id="project-description">A simple webpage to showcase Harry Potter Cards. Based on <a href="https://github.com/alex-c/periodic-vue" target="_blank">Github repository</a>.</div>
                 <div>Built with:
                     <a href="https://www.vuejs.org" target="_blank">
                         <div class="sidebar-link">

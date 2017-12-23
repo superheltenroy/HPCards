@@ -28,12 +28,12 @@
 </template>
 
 <script>
-import CardToken from './CardToken.vue';
+import CardDetails from './CardDetails.vue';
 import CardModal from './CardModal.vue';
 export default {
     name: 'card-table',
     props: ['cardsData'],
-    components: {CardToken, CardModal},
+    components: {CardDetails, CardModal},
     data () {
         return ({
             highlightedCardGroup: '',
@@ -78,7 +78,7 @@ export default {
     text-align: left;
 }
 
-#cards-table {
+#card-table {
     height: 100%;
     background-color: #2C2C2C;
     background-image: url('./assets/bg.png');
@@ -95,23 +95,13 @@ export default {
 }
 
 /* Buttons */
-//.b-rare {background-color: $eg-rare;}
-//.b-uncommon {background-color: $eg-uncommon;}
-//.b-common {background-color: $eg-common;}
 .b-spell {background-color: $eg-spell;}
 .b-character {background-color: $eg-character}
 .b-location {background-color: $eg-location}
 .b-item {background-color: $eg-item}
-.b-adventure {background-color: $eg-transition-adventure}
+.b-adventure {background-color: $eg-adventure}
 .b-match {background-color: $eg-match}
 .b-creature {background-color: $eg-creature}
-//.b-unique {background-color: $eg-unique}
-//.b-healing {background-color: $eg-healing}
-//.b-potions {background-color: $eg-potions}
-//.b-transfiguration {background-color: $eg-transfiguration}
-//.b-charms {background-color: $eg-charms}
-//.b-care-of-magical-creatures {background-color: $eg-care-of-magical-creatures}
-//.b-quidditch {background-color: $eg-quidditch}
 .button {
     border: none;
 }

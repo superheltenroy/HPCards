@@ -38,7 +38,7 @@ export default [{
 }, {
     "set": "Quidditch Cup",
     "number": "5",
-    "name": "Fred &amp; George Weasley",
+    "name": "Fred & George Weasley",
     "rarity": "Rare/Holo",
     "type": "Character",
     "groupBlock": "character",
@@ -707,5 +707,5 @@ export default [{
     "rarity": "Common",
     "type": "Lesson",
     "groupBlock": "lesson",
-    "text": "Provides: 1T</div>"
+    "text": "Provides: 1T"
 }]

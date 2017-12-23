@@ -181,7 +181,7 @@ export default {
 .e-character {background-color: $eg-character}
 .e-location {background-color: $eg-location}
 .e-item {background-color: $eg-item}
-.e-adventure {background-color: $eg-transition-adventure}
+.e-adventure {background-color: $eg-adventure}
 .e-match {background-color: $eg-match}
 .e-creature {background-color: $eg-creature}
 
