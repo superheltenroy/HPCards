@@ -59,4 +59,5 @@ export default {
 .e-adventure {background-color: $eg-adventure}
 .e-match {background-color: $eg-match}
 .e-creature {background-color: $eg-creature}
+.e-lesson {background-color: $eg-lesson}
 </style>

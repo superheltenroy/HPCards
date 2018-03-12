@@ -3,17 +3,18 @@
         <div id="table-container">
             <div id="toolbar">
                 Highlight:
-                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Spell" class="button is-small b-spell">Spell</div>
-                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Character" class="button is-small b-character">Character</div>
-                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Adventure" class="button is-small b-adventure">Adventure</div>
-                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Location" class="button is-small b-location">Location</div>
-                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Item" class="button is-small b-item">Item</div>
-                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Creature" class="button is-small b-creature">Creature</div>
-                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="Match" class="button is-small b-match">Match</div>
+                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="spell" class="button is-small b-spell">Spell</div>
+                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="character" class="button is-small b-character">Character</div>
+                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="adventure" class="button is-small b-adventure">Adventure</div>
+                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="location" class="button is-small b-location">Location</div>
+                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="item" class="button is-small b-item">Item</div>
+                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="creature" class="button is-small b-creature">Creature</div>
+                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="match" class="button is-small b-match">Match</div>
+                <div @mouseenter="highlight" @mouseleave="reset" data-card-group="lesson" class="button is-small b-lesson">Lesson</div>
             </div>
             <container width="100%">
                 <grid>
-                    <grid-item size="1/8" v-for="card in cardsData" :key="card.number">
+                    <grid-item size="1/16" v-for="card in cardsData" :key="card.id">
                         <card-details   :card="card"
                                             :highlightedCardGroup="highlightedCardGroup"
                                             :class="buildCardClasses(card)"
@@ -43,6 +44,7 @@ export default {
     },
     methods: {
         highlight: function(event) {
+            console.log(JSON.stringify(event.target.dataset));
             this.highlightedCardGroup = event.target.dataset.cardGroup;
         },
         reset: function(event) {
@@ -102,6 +104,7 @@ export default {
 .b-adventure {background-color: $eg-adventure}
 .b-match {background-color: $eg-match}
 .b-creature {background-color: $eg-creature}
+.b-lesson {background-color: $eg-lesson}
 .button {
     border: none;
 }
