@@ -1685,7 +1685,7 @@ export default [{
     "type": "Spell",
     "groupBlock": "spell",
     "cost": "7Q",
-    "text": "Do 4 damage to your opponent. Then, if your opponent has anycards in play,he or she chooses 1 of them and discards it.",
+    "text": "Do 4 damage to your opponent. Then, if your opponent has any cards in play,he or she chooses 1 of them and discards it.",
     "id": 169
 }, {
     "set": "Quidditch Cup",
@@ -1775,7 +1775,7 @@ export default [{
     "type": "Spell",
     "groupBlock": "spell",
     "cost": "5Q",
-    "text": "Do 5 damage to your opponent. Then, if your opponent has anycards in his or her hand, he or she chooses 1 of them and discards it.",
+    "text": "Do 5 damage to your opponent. Then, if your opponent has any cards in his or her hand, he or she chooses 1 of them and discards it.",
     "id": 178
 }, {
     "set": "Quidditch Cup",
@@ -1969,7 +1969,7 @@ export default [{
     "rarity": "Rare/Foil",
     "type": "Item",
     "cost": "4T",
-    "text": "You may use an action to count the cards in your hand. Putthem all on the bottom of your deck (in any order), and then draw that manycards.",
+    "text": "You may use an action to count the cards in your hand. Putthem all on the bottom of your deck (in any order), and then draw that many cards.",
     "id": 198,
     "groupBlock": "item"
 }, {
@@ -3043,7 +3043,7 @@ export default [{
     "rarity": "Uncommon",
     "type": "Spell",
     "cost": "6Q",
-    "text": "Your opponent chooses 1 of his or her cards in play (otherthan his or her starting Character) and discards it. Then, if he or she has anycards in his or her hand, he or she chooses 1 of them and discards it.",
+    "text": "Your opponent chooses 1 of his or her cards in play (otherthan his or her starting Character) and discards it. Then, if he or she has any cards in his or her hand, he or she chooses 1 of them and discards it.",
     "id": 307,
     "groupBlock": "spell"
 }, {
@@ -3159,7 +3159,7 @@ export default [{
     "rarity": "Common",
     "type": "Spell",
     "cost": "7Q",
-    "text": "Do 3 damage to your opponent. Then, if your opponent has anycards in his or her hand, he or she chooses 2 of them and discards them (1 ifhe or she only has 1).",
+    "text": "Do 3 damage to your opponent. Then, if your opponent has any cards in his or her hand, he or she chooses 2 of them and discards them (1 ifhe or she only has 1).",
     "id": 319,
     "groupBlock": "spell"
 }, {
@@ -3239,7 +3239,7 @@ export default [{
     "groupBlock": "lesson"
 }, {
     "text": "Before each of your turns, if there is a Match in play, you get 1 more Action that turn.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "1",
     "name": "Angelina Johnson",
     "rarity": "Rare",
@@ -3249,7 +3249,7 @@ export default [{
     "id": 328
 }, {
     "text": "Once per turn, you may use an Action to choose 1 of your Items in play and do damage to your opponent equal to its printed Power cost.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "2",
     "name": "Arthur Weasley",
     "rarity": "Rare",
@@ -3259,7 +3259,7 @@ export default [{
     "id": 329
 }, {
     "text": "Do 8 damage to your opponent. Then, if your opponent has any cards in play (other than his or her starting Character), he or she chooses 1 of them and discards it.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "3",
     "name": "Blagging",
     "rarity": "Rare",
@@ -3269,7 +3269,7 @@ export default [{
     "id": 330
 }, {
     "text": "Do 8 damage to your opponent. Then your opponent may choose a Lesson card from his or her hand and discard it. If he or she does, you take 8 damage.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "4",
     "name": "Body Blow",
     "rarity": "Rare",
@@ -3279,7 +3279,7 @@ export default [{
     "id": 331
 }, {
     "text": "You may use an Action to reveal the top card of your deck. If it's a Lesson card, put it into play. If it isn't a Lesson card, discard it. If you play this card, and you already have a Wand in play, discard the old one. Provide:",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "5",
     "name": "Broken Wand",
     "rarity": "Rare",
@@ -3291,7 +3291,7 @@ export default [{
     "id": 332
 }, {
     "text": "When you play this card, discard any other Location from play (yours or your opponent's). Before each player's turn, if that player has fewer than 4 cards in his or her hand, that player draws cards until he or she has 4.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "6",
     "name": "The Burrow",
     "rarity": "Rare",
@@ -3302,7 +3302,7 @@ export default [{
     "id": 333
 }, {
     "text": "Once per turn, you may use an Action to draw 3 cards and then make your opponent draw 3 cards.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "7",
     "name": "Colin Creevey",
     "rarity": "Rare",
@@ -3312,7 +3312,7 @@ export default [{
     "id": 334
 }, {
     "text": "When you play this card, draw a card.Damage: 3 Health: 3",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "8",
     "name": "Crazed Capybara",
     "rarity": "Rare",
@@ -3323,7 +3323,7 @@ export default [{
     "id": 335
 }, {
     "text": "Play this card only if you have at least 5 Lessons in play. Effect: At the end of each of your opponent's turns, if he or she has any cards in his or her hand, he or she chooses 1 of them and discards it. To Solve: Your opponent discards 5 cards in this way. Opponent's Reward: Your opponent may draw a card.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "9",
     "name": "De-Gnoming the Garden",
     "rarity": "Rare",
@@ -3332,7 +3332,7 @@ export default [{
     "id": 336
 }, {
     "text": "Choose 1 of your opponent's cards in play (other than his or her starting Character) and return it to his or her hand. You get 1 more Action this turn.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "10",
     "name": "Dobby's Disappearance",
     "rarity": "Rare",
@@ -3342,7 +3342,7 @@ export default [{
     "id": 337
 }, {
     "text": "Your opponent draws 10 cards.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "11",
     "name": "Dobby's Help",
     "rarity": "Rare",
@@ -3352,7 +3352,7 @@ export default [{
     "id": 338
 }, {
     "text": "To play this card, discard 2 other cards from your hand. Do 5 damage to your opponent. Then, if your opponent has any cards in his or her hand, he or she chooses 2 of them and discards them (1 if he or she has only 1).",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "12",
     "name": "Double-Beater Defence",
     "rarity": "Rare",
@@ -3362,7 +3362,7 @@ export default [{
     "id": 339
 }, {
     "text": "If your opponent has any cards in his or her hand, you may use an Action to make him or her choose 1 of them and discard it.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "13",
     "name": "Draco the Seeker",
     "rarity": "Rare",
@@ -3372,7 +3372,7 @@ export default [{
     "id": 340
 }, {
     "text": "To play this card, return 2 of you: Lessons from play to your hand. Do 10 damage to your opponent or to a Creature of your choice.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "14",
     "name": "Dragon Poison",
     "rarity": "Rare",
@@ -3382,7 +3382,7 @@ export default [{
     "id": 341
 }, {
     "text": "When you play this card, discard any other Location from play (yours or your opponent's). All Item cards (yours and your opponent's) need 3 less Power to play. (You still need at least 1 Power that matches.)",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "15",
     "name": "Dumbledore's Office",
     "rarity": "Rare",
@@ -3393,7 +3393,7 @@ export default [{
     "id": 342
 }, {
     "text": "Search your deck. You may take a Character card from your deck, show it to your opponent and put it into your hand. Then shuffle your deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "16",
     "name": "Entrancing Enchantments",
     "rarity": "Rare",
@@ -3403,7 +3403,7 @@ export default [{
     "id": 343
 }, {
     "text": "When you play this card, reveal the top card of your deck. If it's a Lesson card, put it into play. If it isn't, put it back on top of your deck.Damage: 1 Health: 1",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "17",
     "name": "Errol",
     "rarity": "Rare",
@@ -3414,7 +3414,7 @@ export default [{
     "id": 344
 }, {
     "text": "Effect: Your opponent can't use Actions to play non-Lesson cards. To Solve: Your opponent discards his or her hand. Opponent's Reward: Your opponent searches his or her deck for any card, puts it into his or her hand and then shuffles his or her deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "18",
     "name": "Escaping the Dursleys",
     "rarity": "Rare",
@@ -3423,7 +3423,7 @@ export default [{
     "id": 345
 }, {
     "text": "Once per game, you may draw 2 cards, then do 2 damage to your opponent and then put up to 2 non-Healing cards from your discard pile on the bottom of your deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "19",
     "name": "Fat Friar",
     "rarity": "Rare",
@@ -3433,7 +3433,7 @@ export default [{
     "id": 346
 }, {
     "text": "Each turn, you may prevent 4 damage done to you. If Fawkes is discarded from play, put it into your hand.Damage: 0 Health: 4",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "20",
     "name": "Fawkes",
     "rarity": "Rare",
@@ -3444,7 +3444,7 @@ export default [{
     "id": 347
 }, {
     "text": "Play this card only if you have at least 7 Lessons in play. Effect: Before each of your turns, your opponent takes 5 damage. To Solve: Your opponent chooses 4 of his or her cards in play (other than his or her starting Character) and discards them. Opponent's Reward: You take 5 damage.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "21",
     "name": "Fighting the Basilisk",
     "rarity": "Rare",
@@ -3453,7 +3453,7 @@ export default [{
     "id": 348
 }, {
     "text": "You may use an Action to choose an Adventure or a Location in play and discard it. (If you discard an Adventure, you don't get the reward.)",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "22",
     "name": "Flying Car",
     "rarity": "Rare",
@@ -3463,7 +3463,7 @@ export default [{
     "id": 349
 }, {
     "text": "Count the number of Lessons you have in play. Do that much damage to your opponent. Then draw that many cards.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "23",
     "name": "Flying Laps",
     "rarity": "Rare",
@@ -3473,7 +3473,7 @@ export default [{
     "id": 350
 }, {
     "text": "Effect: Before each of your turns, your opponent takes 2 damage. To Solve: Your opponent skips a total of 5 Actions. (They don't need to be one right after the other.) Opponent's Reward: Your opponent may look at your hand, choose 1 of those cards and discard it.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "24",
     "name": "Flying to Hogwarts",
     "rarity": "Rare",
@@ -3482,7 +3482,7 @@ export default [{
     "id": 351
 }, {
     "text": "Before each of your turns, count the number of other Characters you have in play. You may draw that many cards.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "25",
     "name": "Ginny Weasley",
     "rarity": "Rare",
@@ -3492,7 +3492,7 @@ export default [{
     "id": 352
 }, {
     "text": "When you play this card, discard any other Location from play (yours or your opponent's). Once during each player's turn, when he or she uses an Action to play a Plant card, he or she gets 1 more Action that turn.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "26",
     "name": "Greenhouse Three",
     "rarity": "Rare",
@@ -3503,7 +3503,7 @@ export default [{
     "id": 353
 }, {
     "text": "When you play this card, discard any other Location from play (yours or your opponent's). Before each player's turn, he or she counts the number of Gryffindor cards he or she has in play and may draw that many cards.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "27",
     "name": "Gryffindor Common Room",
     "rarity": "Rare",
@@ -3514,7 +3514,7 @@ export default [{
     "id": 354
 }, {
     "text": "At the start of the game, if Harry, Second Year is your starting Character, secretly write down the name of a Creature, Item or Spell card. If your opponent plays that card, you may reveal what you wrote down. If you do, at the end of that turn, you may shuffle up to 20 non-Healing cards from your discard pile into your deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "28",
     "name": "Harry, Second Year",
     "rarity": "Rare",
@@ -3524,7 +3524,7 @@ export default [{
     "id": 355
 }, {
     "text": "You may use an Action to put up to 2 Lesson cards of different types from your hand into play.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "29",
     "name": "Hermione, Potion Maker",
     "rarity": "Rare",
@@ -3534,7 +3534,7 @@ export default [{
     "id": 356
 }, {
     "text": "Choose a Character in play (other than a starting Character) and discard it. Then search your deck. You may take a Character card from your deck, show it to your opponent and put it into your hand. Then shuffle your deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "30",
     "name": "Impersonating Goyle",
     "rarity": "Rare",
@@ -3544,7 +3544,7 @@ export default [{
     "id": 357
 }, {
     "text": "Effect: Before each of your turns, you may show your opponent any number of Creature cards from your hand. Your opponent takes that much damage. To Solve: Your opponent takes 10 damage. Opponent's Reward: If you have any cards in your hand, you choose 1 of them and discard it.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "31",
     "name": "In the Spider's Lair",
     "rarity": "Rare",
@@ -3553,7 +3553,7 @@ export default [{
     "id": 358
 }, {
     "text": "You may use an Action to draw 2 cards and then put 2 cards from your hand on the bottom of your deck (in any order).",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "32",
     "name": "Justin Finch-Fletchley",
     "rarity": "Rare",
@@ -3563,7 +3563,7 @@ export default [{
     "id": 359
 }, {
     "text": "Effect: Whenever you use an Action to play a Spell, your opponent says 'Brilliant!' If your opponent forgets, he or she takes 3 damage at the end of that turn. To Solve: Your opponent lets you have 4 more Actions on your next turn. Opponent's Reward: You take 3 damage.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "33",
     "name": "Lockhart's Lecture",
     "rarity": "Rare",
@@ -3572,7 +3572,7 @@ export default [{
     "id": 360
 }, {
     "text": "You may use an Action and discard Mandrake from play to put a non-Healing Character card from your discard pile into your hand.Damage: 3   Health: 1",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "34",
     "name": "Mandrake",
     "rarity": "Rare",
@@ -3583,7 +3583,7 @@ export default [{
     "id": 361
 }, {
     "text": "Your opponent chooses 1 card in his or her hand and discards the rest.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "35",
     "name": "Memory Charm",
     "rarity": "Rare",
@@ -3593,7 +3593,7 @@ export default [{
     "id": 362
 }, {
     "text": "When you play this card, discard any other Location from play (yours or your opponent's). Before each player's turn, if he or she has at least 2 Characters in play (including his or her starting Character), he or she gets 1 more Action that turn.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "36",
     "name": "Moaning Myrtle's Bathroom",
     "rarity": "Rare",
@@ -3604,7 +3604,7 @@ export default [{
     "id": 363
 }, {
     "text": "You may use an Action to search your deck. You may take a Character card for a Weasley character from your deck, show it to your opponent and put it into your hand. Then shuffle your deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "37",
     "name": "Molly Weasley",
     "rarity": "Rare",
@@ -3614,7 +3614,7 @@ export default [{
     "id": 364
 }, {
     "text": "Whenever one of your Quidditch Spells does damage to your opponent, it does 3 more damage. If you play this card, and you already have a Broom in play, discard the old one.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "38",
     "name": "Nimbus Two Thousand and One",
     "rarity": "Rare",
@@ -3625,7 +3625,7 @@ export default [{
     "id": 365
 }, {
     "text": "Play this card only if there is a Match in play. Discard the top card of your deck. If that card is a Lesson card, you win the current Match (you get the prize). Otherwise, you take 3 damage.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "39",
     "name": "No Hands",
     "rarity": "Rare",
@@ -3635,7 +3635,7 @@ export default [{
     "id": 366
 }, {
     "text": "To play this card, return 2 of you: Lessons from play to your hand. <p>Damage: 7   Health: 5</p>",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "40",
     "name": "Norwegian Ridgeback",
     "rarity": "Rare",
@@ -3646,7 +3646,7 @@ export default [{
     "id": 367
 }, {
     "text": "At the end of each of your opponent's turns, if he or she played a non-Lesson card that turn, he or she takes 1 damage.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "41",
     "name": "Percy Weasley",
     "rarity": "Rare",
@@ -3656,7 +3656,7 @@ export default [{
     "id": 368
 }, {
     "text": "Choose 1 of your opponent's Creatures or Characters in play (other than his or her starting Character) and put it on the bottom of his or her deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "42",
     "name": "Petrified",
     "rarity": "Rare",
@@ -3666,7 +3666,7 @@ export default [{
     "id": 369
 }, {
     "text": "To play this card, return 4 of you:  Lessons from play to your hand. Shuffle up to 16 non-Healing cards from your discard pile into your deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "43",
     "name": "Phoenix Tears",
     "rarity": "Rare",
@@ -3677,7 +3677,7 @@ export default [{
     "id": 370
 }, {
     "text": "Your opponent takes damage until he or she discards a total of 3 Lesson cards from his or her deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "44",
     "name": "Potions Test",
     "rarity": "Rare",
@@ -3687,7 +3687,7 @@ export default [{
     "id": 371
 }, {
     "text": "Each of your Plants has 2 more Health. Provide:",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "45",
     "name": "Professor Pomona Sprout",
     "rarity": "Rare",
@@ -3697,7 +3697,7 @@ export default [{
     "id": 372
 }, {
     "text": "Put a non-Healing card from your discard pile into your hand.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "46",
     "name": "Reparo",
     "rarity": "Rare",
@@ -3707,7 +3707,7 @@ export default [{
     "id": 373
 }, {
     "text": "Before each of your turns, your opponent takes 3 damage.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "47",
     "name": "Rogue Bludger",
     "rarity": "Rare",
@@ -3717,7 +3717,7 @@ export default [{
     "id": 374
 }, {
     "text": "If you have no cards in your hand, you may use an Action to draw 5 cards.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "48",
     "name": "Ron, Youngest Brother",
     "rarity": "Rare",
@@ -3727,7 +3727,7 @@ export default [{
     "id": 375
 }, {
     "text": "Search your deck. You may take up to 2 Creature cards from your deck, show them to your opponent and put them into your hand. Then shuffle your deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "49",
     "name": "Serpensortia",
     "rarity": "Rare",
@@ -3737,7 +3737,7 @@ export default [{
     "id": 376
 }, {
     "text": "When you play this card, discard any other Location from play (yours or your opponent's). Before each player's turn, he or she counts the number of Slytherin cards he or she has in play and does that much damage to his or her opponent",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "50",
     "name": "Slytherin Common Room",
     "rarity": "Rare",
@@ -3748,7 +3748,7 @@ export default [{
     "id": 377
 }, {
     "text": "Return all Creatures in play (yours and your opponent's) to their owners' hands.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "51",
     "name": "Spiders' Exodus",
     "rarity": "Rare",
@@ -3758,7 +3758,7 @@ export default [{
     "id": 378
 }, {
     "text": "Count the number of cards in your opponent's hand. He or she draws twice that many cards.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "52",
     "name": "Venomous Tentacular Juice",
     "rarity": "Rare",
@@ -3768,7 +3768,7 @@ export default [{
     "id": 379
 }, {
     "text": "Before each of your turns, if you have an Adventure in play, your opponent takes 2 damage.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "53",
     "name": "The Weasley Twins",
     "rarity": "Rare",
@@ -3778,7 +3778,7 @@ export default [{
     "id": 380
 }, {
     "text": "To play this card, return 3 of you: Lessons from play to your hand. Before each of your turns, if your opponent has any Items in play, choose 1 of them and discard it. Damage: 8  Health: 12",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "54",
     "name": "Whomping Willow",
     "rarity": "Rare",
@@ -3789,7 +3789,7 @@ export default [{
     "id": 381
 }, {
     "text": "You may use an Action and discard 1 of your Lessons from play to do 2 damage to your opponent.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "55",
     "name": "Wizards Chess",
     "rarity": "Rare",
@@ -3799,7 +3799,7 @@ export default [{
     "id": 382
 }, {
     "text": "To play this card, return 2 of: Lessons from play to your hand. Do 7 damage to your opponent or to a Creature of your choice.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "56",
     "name": "Angel's Trumpet Draught",
     "rarity": "Uncommon",
@@ -3809,7 +3809,7 @@ export default [{
     "id": 383
 }, {
     "text": "Draw 4 cards. Then your opponent may choose a Lesson card from his or her hand and discard it. If he or she does, you choose 3 cards in your hand and discard them.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "57",
     "name": "Blocked!",
     "rarity": "Uncommon",
@@ -3819,7 +3819,7 @@ export default [{
     "id": 384
 }, {
     "text": "Effect: Your opponent can't use Actions to play Location cards. To Solve: Your opponent chooses 2 Location cards in his or her hand and discards them. Opponent's Reward: Once during this turn, when your opponent uses an Action to play a Location card, he or she gets 2 more Actions this turn.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "58",
     "name": "Blocked Barrier",
     "rarity": "Uncommon",
@@ -3828,7 +3828,7 @@ export default [{
     "id": 385
 }, {
     "text": "Your opponent chooses 1 of his or her Creatures or Items in play and discards it. Then he or she takes damage equal to that card's printed Power cost.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "59",
     "name": "Bundimun Ooze",
     "rarity": "Uncommon",
@@ -3838,7 +3838,7 @@ export default [{
     "id": 386
 }, {
     "text": "Choose 1 of your opponent's cards in play (other than his or her starting Character) and discard it. Your opponent may prevent this by choosing 4 cards in his or her hand and discarding them.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "60",
     "name": "Caught!",
     "rarity": "Uncommon",
@@ -3848,7 +3848,7 @@ export default [{
     "id": 387
 }, {
     "text": "Effect: Your opponent can't use Actions to play any cards except Lesson cards. To Solve: Your opponent uses Actions to play Lesson cards 3 times. (Those Actions don't need to be one right after the other.) Opponent's Reward: Your opponent may put any number of Lesson cards from his or her hand into play.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "61",
     "name": "Caught by Snape",
     "rarity": "Uncommon",
@@ -3857,7 +3857,7 @@ export default [{
     "id": 388
 }, {
     "text": "Do 4 damage to your opponent. Then your opponent may choose a Lesson card in his or her hand and discard it. If he or she does, you take 4 damage.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "62",
     "name": "Checked!",
     "rarity": "Uncommon",
@@ -3867,7 +3867,7 @@ export default [{
     "id": 389
 }, {
     "text": "When you play this card, look at the top 2 cards of your deck (1 if there is only 1) and put both of them on the bottom or back on the top of your deck in any order. If you play this card, and you already have a Broom in play, discard the old one.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "63",
     "name": "Cleansweep Five",
     "rarity": "Uncommon",
@@ -3878,7 +3878,7 @@ export default [{
     "id": 390
 }, {
     "text": "Choose 1 of your opponent's Creatures in play and put it on the bottom of his or her deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "64",
     "name": "Counter Curse",
     "rarity": "Uncommon",
@@ -3888,7 +3888,7 @@ export default [{
     "id": 391
 }, {
     "text": "Before each of your turns, count the number of Plants you have in play. Do that much damage to your opponent.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "65",
     "name": "Dragon-Dung Compost",
     "rarity": "Uncommon",
@@ -3898,7 +3898,7 @@ export default [{
     "id": 392
 }, {
     "text": "Once during each of your turns, you may choose 1 of your opponent's Creatures in play. Prevent up to 3 damage from that Creature on your opponent's next turn.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "66",
     "name": "Earmuffs",
     "rarity": "Uncommon",
@@ -3908,7 +3908,7 @@ export default [{
     "id": 393
 }, {
     "text": "Play this card only if you have fewer than 7 other cards in your hand. Draw cards until you have 7 cards in your hand.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "67",
     "name": "Endless Sandwiches",
     "rarity": "Uncommon",
@@ -3918,7 +3918,7 @@ export default [{
     "id": 394
 }, {
     "text": "Search your deck. You may take a Location card from your deck, show it to your opponent and put it into your hand. Then shuffle your deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "68",
     "name": "Floo Powder",
     "rarity": "Uncommon",
@@ -3928,7 +3928,7 @@ export default [{
     "id": 395
 }, {
     "text": "During your opponent's next turn, he or she can't use Actions to play Lesson cards.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "69",
     "name": "Forgotten Password",
     "rarity": "Uncommon",
@@ -3938,7 +3938,7 @@ export default [{
     "id": 396
 }, {
     "text": "Choose 1 of your opponent's cards in play (other than his or her starting Character) and discard it. Then he or she chooses 1 of your cards in play (other than your starting Character) and discards it.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "70",
     "name": "Invisibility Section",
     "rarity": "Uncommon",
@@ -3948,7 +3948,7 @@ export default [{
     "id": 397
 }, {
     "text": "Effect: Your opponent discards the card drawn at the start of each of his or her turns. To Solve: Your opponent takes 8 damage. Opponent's Reward: You take 2 damage.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "71",
     "name": "Keeping Dobby Quiet",
     "rarity": "Uncommon",
@@ -3957,7 +3957,7 @@ export default [{
     "id": 398
 }, {
     "text": "Effect: Your opponent gets 1 fewer Action on each of his or her turns (even the turn this Adventure is solved). (If this would mean your opponent has fewer than 1 Action, he or she still gets 1 Action.) To Solve: Your opponent chooses 4 cards in his or her hand and discards them. Opponent's Reward: Your opponent may draw 2 cards.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "72",
     "name": "Locked In",
     "rarity": "Uncommon",
@@ -3966,7 +3966,7 @@ export default [{
     "id": 399
 }, {
     "text": "Whenever you play a Character card, you use up 1 Action to play it instead of 2.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "73",
     "name": "Lockhart's Hair-Care Potions",
     "rarity": "Uncommon",
@@ -3976,7 +3976,7 @@ export default [{
     "id": 400
 }, {
     "text": "Choose any number of your cards in play (other than your starting Character) and discard them.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "74",
     "name": "Magical Mess Remover",
     "rarity": "Uncommon",
@@ -3986,7 +3986,7 @@ export default [{
     "id": 401
 }, {
     "text": "Damage: 2   Health: 4",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "75",
     "name": "Manticore",
     "rarity": "Uncommon",
@@ -3997,7 +3997,7 @@ export default [{
     "id": 402
 }, {
     "text": "Your opponent takes damage until he or she discards a total of 2 Lesson cards from his or her deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "76",
     "name": "Potions Project",
     "rarity": "Uncommon",
@@ -4007,7 +4007,7 @@ export default [{
     "id": 403
 }, {
     "text": "When you play this card, draw a card. Damage: 2   Health: 2",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "77",
     "name": "Prickly Porcupine",
     "rarity": "Uncommon",
@@ -4018,7 +4018,7 @@ export default [{
     "id": 404
 }, {
     "text": "When you play this card, play it face down and tell your opponent to guess 'Pure-Blood', 'Sherbet Lemon' or 'Wattlebird'. If he or she guesses 'Pure-Blood', nothing happens. Otherwise, do 8 damage to your opponent.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "78",
     "name": "Pure-Blood",
     "rarity": "Uncommon",
@@ -4029,7 +4029,7 @@ export default [{
     "id": 405
 }, {
     "text": "Choose up to 2 Creatures in play and discard them.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "79",
     "name": "Rabbit Slippers",
     "rarity": "Uncommon",
@@ -4039,7 +4039,7 @@ export default [{
     "id": 406
 }, {
     "text": "To Win: Do 9 damage to your opponent. (That damage doesn't have to be done all at once.) Prize: Winner shuffles up to 6 non-Healing cards from his or her discard pile into his or her deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "80",
     "name": "Rainy-Day Match",
     "rarity": "Uncommon",
@@ -4049,7 +4049,7 @@ export default [{
     "id": 407
 }, {
     "text": "When you play this card, discard any other Location from play (yours or your opponent's). Whenever a Spell card (yours or your opponent's) does damage to a player, it does 1 less damage to that player.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "81",
     "name": "Second-Hand Robe Shop",
     "rarity": "Uncommon",
@@ -4059,7 +4059,7 @@ export default [{
     "id": 408
 }, {
     "text": "You may use an Action to have both players shuffle their decks.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "82",
     "name": "Self-Shuffling Cards",
     "rarity": "Uncommon",
@@ -4069,7 +4069,7 @@ export default [{
     "id": 409
 }, {
     "text": "When you play this card, play it face down and tell your opponent to guess 'Pure-Blood', 'Sherbet Lemon' or 'Wattlebird'. If he or she guesses 'Sherbet Lemon', nothing happens. Otherwise, do 8 damage to your opponent.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "83",
     "name": "Sherbet Lemon",
     "rarity": "Uncommon",
@@ -4080,7 +4080,7 @@ export default [{
     "id": 410
 }, {
     "text": "Do 8 damage to your opponent. He or she can prevent this by choosing 3 cards in his or her hand and discarding them.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "84",
     "name": "Swelling Solution",
     "rarity": "Uncommon",
@@ -4090,7 +4090,7 @@ export default [{
     "id": 411
 }, {
     "text": "Effect: Before each of your opponent's turns, he or she draws 3 cards and then chooses 3 cards in his or her hand and discards them. To Solve: Your opponent chooses 1 of his or her Locations in play or 4 of his or her Lessons in play and discards them. Opponent's Reward: You take 3 damage.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "85",
     "name": "Through the Floo",
     "rarity": "Uncommon",
@@ -4099,7 +4099,7 @@ export default [{
     "id": 412
 }, {
     "text": "Do 5 damage to your opponent. Then, if he or she has any cards in play other than Lessons (or his or her starting Character), he or she chooses 1 of those cards and returns it to his or her hand.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "86",
     "name": "Twirl",
     "rarity": "Uncommon",
@@ -4109,7 +4109,7 @@ export default [{
     "id": 413
 }, {
     "text": "Once per turn, you may let Umbrella Flowers take 1 damage that you were going to take. Damage: 0  Health: 6",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "87",
     "name": "Umbrella Flowers",
     "rarity": "Uncommon",
@@ -4120,7 +4120,7 @@ export default [{
     "id": 414
 }, {
     "text": "You may use an Action and discard Venomous Tentacula from play to put: Lesson from your discard pile into play.<p>Damage: 2  Health: 1</p>",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "88",
     "name": "Venomous Tentacula",
     "rarity": "Uncommon",
@@ -4131,7 +4131,7 @@ export default [{
     "id": 415
 }, {
     "text": "When you play this card, play it face down and tell your opponent to guess 'Pure-Blood', 'Sherbet Lemon' or 'Wattlebird'. If he or she guesses 'Wattlebird', nothing happens. Otherwise, do 8 damage to your opponent.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "89",
     "name": "Wattlebird",
     "rarity": "Uncommon",
@@ -4142,7 +4142,7 @@ export default [{
     "id": 416
 }, {
     "text": "To Win: Use Actions to play Spell cards 2 times while this card is in play. Prize: Loser takes 6 damage.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "90",
     "name": "Windy-Day Match",
     "rarity": "Uncommon",
@@ -4152,7 +4152,7 @@ export default [{
     "id": 417
 }, {
     "text": "Show your hand to your opponent. Put all Lesson cards there into play.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "91",
     "name": "Aparecium",
     "rarity": "Common",
@@ -4162,7 +4162,7 @@ export default [{
     "id": 418
 }, {
     "text": "Do 5 damage to your opponent.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "92",
     "name": "Backfire!",
     "rarity": "Common",
@@ -4172,7 +4172,7 @@ export default [{
     "id": 419
 }, {
     "text": "Search your deck. You may take a Creature card from your deck, show it to your opponent and put it into your hand. Then shuffle your deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "93",
     "name": "Badgered Boy",
     "rarity": "Common",
@@ -4182,7 +4182,7 @@ export default [{
     "id": 420
 }, {
     "text": "You may use an Action and discard a card from your hand to do 2 damage to your opponent.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "94",
     "name": "Beater's Bat",
     "rarity": "Common",
@@ -4192,7 +4192,7 @@ export default [{
     "id": 421
 }, {
     "text": "Choose 1 of your opponent's Creatures in play and discard it.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "95",
     "name": "Beetle Buttons",
     "rarity": "Common",
@@ -4202,7 +4202,7 @@ export default [{
     "id": 422
 }, {
     "text": "Do 3 damage to your opponent. Then, if your opponent has any cards in play (other than his or her starting Character), he or she chooses 1 of them and returns it to his or her hand.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "96",
     "name": "Catching Apples",
     "rarity": "Common",
@@ -4212,7 +4212,7 @@ export default [{
     "id": 423
 }, {
     "text": "You may use an Action to put up to 2 cards from your hand on the bottom of your deck (in any order).",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "97",
     "name": "Chudley Cannons Robes",
     "rarity": "Common",
@@ -4222,7 +4222,7 @@ export default [{
     "id": 424
 }, {
     "text": "To play this card, return 1 of you: Lessons from play to your hand.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "98",
     "name": "Copper Cauldron",
     "rarity": "Common",
@@ -4233,7 +4233,7 @@ export default [{
     "id": 425
 }, {
     "text": "To play this card, return 1 of: 'Lessons from play to your hand. Do 6 damage to your opponent or to a Creature of your choice.'",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "99",
     "name": "Death Cap Draught",
     "rarity": "Common",
@@ -4243,7 +4243,7 @@ export default [{
     "id": 426
 }, {
     "text": "During your opponent's next turn, he or she can't use Actions to play cards.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "100",
     "name": "Deboning",
     "rarity": "Common",
@@ -4253,7 +4253,7 @@ export default [{
     "id": 427
 }, {
     "text": "Do 4 damage to your opponent. During your opponent's next turn, he or she can't use Actions to play Quidditch cards.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "101",
     "name": "Dizziness Draught",
     "rarity": "Common",
@@ -4263,7 +4263,7 @@ export default [{
     "id": 428
 }, {
     "text": "Remove all damage counters from all of your Creatures in play.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "102",
     "name": "Engorgement Charm",
     "rarity": "Common",
@@ -4273,7 +4273,7 @@ export default [{
     "id": 429
 }, {
     "text": "Choose a Creature or Lesson in play and discard it.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "103",
     "name": "Evanesce",
     "rarity": "Common",
@@ -4283,7 +4283,7 @@ export default [{
     "id": 430
 }, {
     "text": "To play this card, return 1 of your Creatures in play to your hand.Damage: 2 Health: 2",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "104",
     "name": "Family Ghoul",
     "rarity": "Common",
@@ -4294,7 +4294,7 @@ export default [{
     "id": 431
 }, {
     "text": "To play this card, return 1 of you: Lessons from play to your hand. Do 9 damage to your opponent or to a Creature of your choice.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "105",
     "name": "Fatiguing Fusion",
     "rarity": "Common",
@@ -4304,7 +4304,7 @@ export default [{
     "id": 432
 }, {
     "text": "Do 2 damage to your opponent. Then, if your opponent has any cards in his or her hand, he or she chooses 1 of them and discards it.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "106",
     "name": "Flacking",
     "rarity": "Common",
@@ -4314,7 +4314,7 @@ export default [{
     "id": 433
 }, {
     "text": "Do 4 damage to your opponent or to a Creature of your choice.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "107",
     "name": "Freezing Charm",
     "rarity": "Common",
@@ -4324,7 +4324,7 @@ export default [{
     "id": 434
 }, {
     "text": "At the end of each of your opponent's turns, if there are any cards in his or her hand, he or she chooses 1 of them and discards it.Damage: 0 Health: 1",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "108",
     "name": "Garden Gnome",
     "rarity": "Common",
@@ -4335,7 +4335,7 @@ export default [{
     "id": 435
 }, {
     "text": "Damage: 3 Health: 3",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "109",
     "name": "Gryffindor Lion",
     "rarity": "Common",
@@ -4346,7 +4346,7 @@ export default [{
     "id": 436
 }, {
     "text": "You may use an Action and discard this card from play to choose a Creature in play and do 4 damage to it. Provide: ",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "110",
     "name": "Guide to Household Pests",
     "rarity": "Common",
@@ -4357,7 +4357,7 @@ export default [{
     "id": 437
 }, {
     "text": "Do 1 damage to your opponent or to a Creature of your choice.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "111",
     "name": "Hair-Raising Potion",
     "rarity": "Common",
@@ -4367,7 +4367,7 @@ export default [{
     "id": 438
 }, {
     "text": "Do 6 damage to your opponent.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "112",
     "name": "Hawkshead Formation",
     "rarity": "Common",
@@ -4377,7 +4377,7 @@ export default [{
     "id": 439
 }, {
     "text": "Discard the Adventure your opponent has played. You get the reward.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "113",
     "name": "Hermione's Note",
     "rarity": "Common",
@@ -4387,7 +4387,7 @@ export default [{
     "id": 440
 }, {
     "text": "Search your deck. You may take a Lesson card from your deck and put it into play. Then shuffle your deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "114",
     "name": "History of Magic Homework",
     "rarity": "Common",
@@ -4397,7 +4397,7 @@ export default [{
     "id": 441
 }, {
     "text": "Choose 1 of your opponent's cards in play (other than his or her starting Character) and return it to his or her hand.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "115",
     "name": "Hover Charm",
     "rarity": "Common",
@@ -4407,7 +4407,7 @@ export default [{
     "id": 442
 }, {
     "text": "Do 2 damage to your opponent. Then, if your opponent has any cards in his or her hand, look at them. Choose 1 of those cards and put it on top of his or her deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "116",
     "name": "Howler",
     "rarity": "Common",
@@ -4417,7 +4417,7 @@ export default [{
     "id": 443
 }, {
     "text": "Damage:1Health:3",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "117",
     "name": "Hufflepuff Badger",
     "rarity": "Common",
@@ -4428,7 +4428,7 @@ export default [{
     "id": 444
 }, {
     "text": "Choose up to 2 Lessons in play and discard them.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "118",
     "name": "Invisible Ink",
     "rarity": "Common",
@@ -4438,7 +4438,7 @@ export default [{
     "id": 445
 }, {
     "text": "Once per turn, you may let Leaping Toadstools take 1 damage that you were going to take.Damage: 0 Health: 4",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "119",
     "name": "Leaping Toadstools",
     "rarity": "Common",
@@ -4449,7 +4449,7 @@ export default [{
     "id": 446
 }, {
     "text": "Look at your opponent's hand. Count the number of Lesson cards there. Do that much damage to your opponent.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "120",
     "name": "Overdue Homework",
     "rarity": "Common",
@@ -4459,7 +4459,7 @@ export default [{
     "id": 447
 }, {
     "text": "Put up to 4 non-Healing cards from your discard pile on the bottom of your deck (in any order).",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "121",
     "name": "Pepperup Potion",
     "rarity": "Common",
@@ -4470,7 +4470,7 @@ export default [{
     "id": 448
 }, {
     "text": "Your opponent takes damage until he or she discards a Lesson card from his or her deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "122",
     "name": "Potions Homework",
     "rarity": "Common",
@@ -4480,7 +4480,7 @@ export default [{
     "id": 449
 }, {
     "text": "Your opponent chooses 2 cards in his or her hand and discards them (1 if he or she has only 1).",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "123",
     "name": "Ransacked!",
     "rarity": "Common",
@@ -4490,7 +4490,7 @@ export default [{
     "id": 450
 }, {
     "text": "Damage: 2  Health: 2",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "124",
     "name": "Ravenclaw Eagle",
     "rarity": "Common",
@@ -4501,7 +4501,7 @@ export default [{
     "id": 451
 }, {
     "text": "Do 4 damage to your opponent. During your opponent's next turn, he or she can't use Actions to play Transfiguration cards.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "125",
     "name": "Restoration Potion",
     "rarity": "Common",
@@ -4511,7 +4511,7 @@ export default [{
     "id": 452
 }, {
     "text": "You may use an Action to look at your opponent's hand.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "126",
     "name": "Revealer",
     "rarity": "Common",
@@ -4521,7 +4521,7 @@ export default [{
     "id": 453
 }, {
     "text": "Do 2 damage to your opponent or to a Creature of your choice. Then draw a card.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "127",
     "name": "Rose Growth",
     "rarity": "Common",
@@ -4531,7 +4531,7 @@ export default [{
     "id": 454
 }, {
     "text": "You may use an Action and discard a card from your hand to draw 2 cards. If you play this card, and you already have a Broom in play, discard the old one.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "128",
     "name": "Shooting Star",
     "rarity": "Common",
@@ -4542,7 +4542,7 @@ export default [{
     "id": 455
 }, {
     "text": "When you play this card, draw a card.<p>Damage: 1  Health: 1</p>",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "129",
     "name": "Slinking Ferret",
     "rarity": "Common",
@@ -4553,7 +4553,7 @@ export default [{
     "id": 456
 }, {
     "text": "Before each of your turns, your opponent takes 1 damage.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "130",
     "name": "Slow-Acting Venom",
     "rarity": "Common",
@@ -4563,7 +4563,7 @@ export default [{
     "id": 457
 }, {
     "text": "Damage: 3  Health: 1",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "131",
     "name": "Slytherin Serpent",
     "rarity": "Common",
@@ -4574,7 +4574,7 @@ export default [{
     "id": 458
 }, {
     "text": "Do 2 damage to your opponent. Then, if your opponent has any cards in play (other than his or her starting Character), he or she chooses 1 of them and discards it.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "132",
     "name": "Slytherin Steals",
     "rarity": "Common",
@@ -4584,7 +4584,7 @@ export default [{
     "id": 459
 }, {
     "text": "Draw 2 cards. Then you may put up to 2 Lesson cards from your hand into play.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "133",
     "name": "Training Programme",
     "rarity": "Common",
@@ -4594,7 +4594,7 @@ export default [{
     "id": 460
 }, {
     "text": "Choose 1 of your opponent's Items in play and put it on the bottom of his or her deck.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "134",
     "name": "Vanishing Cabinet",
     "rarity": "Common",
@@ -4604,7 +4604,7 @@ export default [{
     "id": 461
 }, {
     "text": "Put a non-Healing Quidditch card from your discard pile into your hand.",
-    "set": "chamberOfSecrets",
+    "set": "Chamber of Secrets",
     "number": "135",
     "name": "Zig-Zag",
     "rarity": "Common",
