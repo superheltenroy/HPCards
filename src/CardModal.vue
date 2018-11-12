@@ -18,8 +18,10 @@
                         <table class="table is-narrow">
                             <tbody>
                                 <tr>
+                                    <td>Set:</td>
+                                    <td>{{card.set}}</td>
                                     <td>Card Number:</td>
-                                    <td>{{card.set}} {{card.number}}</td>
+                                    <td> {{card.number}}</td>
                                     <td>Name:</td>
                                     <td>{{card.name}}</td>
                                 </tr>
