@@ -11,12 +11,12 @@
         <div id="sidebar-inner" v-show="!sidebarToggled">
             <div id="header" v-show="!sidebarToggled">
                 <div id="logo-backdrop">
-                    <icon name="flask" scale="7"></icon>
+                    <icon name="leanpub" scale="7"></icon>
                 </div>
                 <div id="title">HPCards-vue</div>
             </div>
             <div id="sidebar-content">
-                <div id="project-description">A simple webpage to showcase Harry Potter Cards. Based on <a href="https://github.com/alex-c/periodic-vue" target="_blank">Github repository</a>.</div>
+                <div id="project-description">A simple webpage to showcase Harry Potter Cards. Based on <a href="https://github.com/alex-c/periodic-vue" target="_blank">Periodic Vue github repository</a>.</div>
                 <div>Built with:
                     <a href="https://www.vuejs.org" target="_blank">
                         <div class="sidebar-link">
@@ -35,18 +35,40 @@
                     </a>
                 </div>
             </div>
+            <div id="filter?">
+            </div>
+            <div id="deckbuilder">
+                new, load, save, search/name
+                list of deck (can press each?)
+                <div v-for="data in activeDeck">{{data}}</div>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
+import deck from './decks/decktest.json'
 export default {
     name: 'sidebar',
+    props: ['cardsData'],
     data() {
         return({
             sidebarToggled: false,
-            sidebarEnterDone: true
+            sidebarEnterDone: true,
+            activeDeck: deck.Content.Deck
         });
+    },
+    methods: {
+        cardCodeToName: function(cardCode) {
+            setCode = cardCode.substring(0,1);
+            number = cardCode.substring(1);
+            card = findCard(setCode, number);
+            return card.text;
+        }
+        findCard(setCode, number) {
+            i=["BQHDC"]indexOf(setCode);
+            [0, 116];
+        }
     }
 }
 </script>

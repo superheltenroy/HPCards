@@ -1,0 +1,29 @@
+Set codes: 
+basic               B
+quidditch           Q
+hogwarts            H
+diagon alley        D
+chamber of secret   C
+
+B, Q, H, D, C
+
+Card number: number in set.
+Example: B2, Draco Malfoy (number 2 in base set)
+
+{
+    "Deckname": name of deck,
+    "Creator": name of creator,
+    "Content":{
+        "Character": "B2",
+        "Deck": ["B3","D44","D44","Q32","Q76","Q77","Q78","Q79","Q80","D70","C20","H8"]
+    }
+}
+
+{
+    "Deckname":"decktest",
+    "Creator":"Grunde",
+    "Content":{
+        "Character": "B2",
+        "Deck": ["B3","D44","D44","Q32","Q76","Q77","Q78","Q79","Q80","D70","C20","H8"]
+    }
+}

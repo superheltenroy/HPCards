@@ -12,6 +12,7 @@ Vue.use(VueFractionGrid, {
 import Icon from 'vue-awesome/components/Icon.vue';
 import 'vue-awesome/icons/circle';
 import 'vue-awesome/icons/flask';
+import 'vue-awesome/icons/leanpub';
 import 'vue-awesome/icons/times';
 import 'vue-awesome/icons/wikipedia-w';
 import 'vue-awesome/icons/font-awesome';

@@ -1,0 +1,8 @@
+{
+    "Deckname":"decktest",
+    "Creator":"Grunde",
+    "Content":{
+        "Character": "B2",
+        "Deck": ["B3","D44","D44","Q32","Q76","Q77","Q78","Q79","Q80","D70","C20","H8"]
+    }
+}

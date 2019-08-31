@@ -309,13 +309,24 @@ export default [{
     "groupBlock": "item"
 }, {
     "set": "Base Set",
+    "number": "32",
+    "name": "Platform 9 3/4",
+    "rarity": "Rare",
+    "type": "Spell",
+    "cost": "5T",
+    "text": "To play this card, discard 1 of your lessons from play. You get 2 more Actions this turn.",
+    "id": 31,
+    "groupBlock": "spell"
+
+}, {
+    "set": "Base Set",
     "number": "33",
     "name": "Potion Ingredients",
     "rarity": "Rare",
     "type": "Item",
     "cost": "5P",
     "text": "When a Spell card damages you, you may discard this card from play to prevent all of that damage.",
-    "id": 31,
+    "id": 32,
     "groupBlock": "item"
 }, {
     "set": "Base Set",
@@ -325,7 +336,7 @@ export default [{
     "type": "Spell",
     "cost": "1T",
     "text": "If your opponent has 2 or more Creatures in play, choose 1 of them and discard it.",
-    "id": 32,
+    "id": 33,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -335,7 +346,7 @@ export default [{
     "type": "Spell",
     "cost": "8P",
     "text": "During your opponent's next turn, prevent all damage done to you.",
-    "id": 33,
+    "id": 34,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -345,7 +356,7 @@ export default [{
     "type": "Spell",
     "cost": "9C",
     "text": "Do 3 damage to your opponent or to a Creature of your choice. Then your opponent chooses 3 cards in his or her hand and discards them. (If there are fewer than 3 cards in your opponent's hand, he or she discards them all.)",
-    "id": 34,
+    "id": 35,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -355,7 +366,7 @@ export default [{
     "type": "Spell",
     "cost": "10T",
     "text": "Discard all creatures from play (even your own).",
-    "id": 35,
+    "id": 36,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -365,7 +376,7 @@ export default [{
     "type": "Spell",
     "cost": "5T",
     "text": "If your opponent has 2 or more Creatures in play, he or she chooses 1 of them and discards the rest. Then, if you have 2 or more Creatures in play, choose 1 of them and discard the rest.",
-    "id": 36,
+    "id": 37,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -374,7 +385,7 @@ export default [{
     "rarity": "Uncommon",
     "type": "Adventure",
     "text": "Effect: Your opponent can't play Spell cards. To Solve: Your opponent chooses 6 cards in his or her hand and discards them. Opponent's Reward: Your opponent may draw a card.",
-    "id": 37,
+    "id": 38,
     "groupBlock": "adventure"
 }, {
     "set": "Base Set",
@@ -384,7 +395,7 @@ export default [{
     "type": "Spell",
     "cost": "2T",
     "text": "Search your deck. You may take up to 2 Lesson cards from your deck, show them to your opponent, and put them in your hand. Then shuffle your deck.",
-    "id": 38,
+    "id": 39,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -394,7 +405,7 @@ export default [{
     "type": "Spell",
     "cost": "5P",
     "text": "To play this card, discard 2 other cards from your hand. You may take a card that needs P Power from your deck, show it to your opponent and put it into your hand. Then shuffle your deck.",
-    "id": 39,
+    "id": 40,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -404,7 +415,7 @@ export default [{
     "type": "Spell",
     "cost": "1T",
     "text": "Discard the Adventure your opponent has played. You don't get the reward.",
-    "id": 40,
+    "id": 41,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -414,7 +425,7 @@ export default [{
     "type": "Creature",
     "cost": "3F",
     "text": "To play this card, discard 1 of your F Lessons from play. Damage each turn: 3, Health: 2",
-    "id": 41,
+    "id": 42,
     "groupBlock": "creature"
 }, {
     "set": "Base Set",
@@ -424,7 +435,7 @@ export default [{
     "type": "Spell",
     "cost": "7C",
     "text": "Do 4 damage to your opponent or to a Creature of your choice.",
-    "id": 42,
+    "id": 43,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -434,7 +445,7 @@ export default [{
     "type": "Spell",
     "cost": "6P",
     "text": "To play this card, discard 1 of your P Lessons from play. Shuffle up to 10 non-Healing cards from your discard pile into your deck.",
-    "id": 43,
+    "id": 44,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -445,7 +456,7 @@ export default [{
     "cost": "2F",
     "power": "1F",
     "text": "During your turn, you may discard this card from play and use an Action to choose a Creature in play (yours or your opponent's) and return it to it's owner's hand.",
-    "id": 44,
+    "id": 45,
     "groupBlock": "item"
 }, {
     "set": "Base Set",
@@ -455,7 +466,7 @@ export default [{
     "type": "Spell",
     "cost": "5C",
     "text": "Your opponent chooses 2 cards in his or her hand and discards them (1 if he or she only has 1).",
-    "id": 45,
+    "id": 46,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -464,7 +475,7 @@ export default [{
     "rarity": "Uncommon",
     "type": "Adventure",
     "text": "Effect: Your opponent can't use Actions to draw cards. To Solve: Your opponent skips a total of 7 Actions. (Those Actions don't need to be one right after the other.) Opponent's Reward: Your opponent may draw any number of cards.",
-    "id": 46,
+    "id": 47,
     "groupBlock": "adventure"
 }, {
     "set": "Base Set",
@@ -474,7 +485,7 @@ export default [{
     "type": "Spell",
     "cost": "6P",
     "text": "To play this card, discard 1 of your P Lessons from play. Do 8 damage to your opponent or to a Creature of your choice.",
-    "id": 47,
+    "id": 48,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -484,7 +495,7 @@ export default [{
     "type": "Spell",
     "cost": "7T",
     "text": "Discard the Adventure you've played. You get the reward.",
-    "id": 48,
+    "id": 49,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -494,7 +505,7 @@ export default [{
     "type": "Item",
     "cost": "5C",
     "text": "Provides 3C. Play this card only if you have cards in play that provides at least 2 C Power. If you play this card, and you already have a Wand in play, discard the old one.",
-    "id": 49,
+    "id": 50,
     "groupBlock": "item"
 }, {
     "set": "Base Set",
@@ -504,7 +515,7 @@ export default [{
     "type": "Spell",
     "cost": "7C",
     "text": "Do 2 damage to each Creature (even your own).",
-    "id": 50,
+    "id": 51,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -514,7 +525,7 @@ export default [{
     "type": "Creature",
     "cost": "7F",
     "text": "Damage each turn: 3, Health: 5",
-    "id": 51,
+    "id": 52,
     "groupBlock": "creature"
 }, {
     "set": "Base Set",
@@ -523,7 +534,7 @@ export default [{
     "rarity": "Uncommon",
     "type": "Adventure",
     "text": "Effect: Your opponent can't play Item cards. To Solve: Your opponent chooses 4 Item cards in his or her hand and discards them. Opponent's Reward: Your opponent may search his or her deck for any card and put it into his or her hand. Then your opponent shuffles his or her deck.",
-    "id": 52,
+    "id": 53,
     "groupBlock": "adventure"
 }, {
     "set": "Base Set",
@@ -533,7 +544,7 @@ export default [{
     "type": "Creature",
     "cost": "3F",
     "text": "To play this card, discard 1 of your F Lessons from play. Whenever a Spell card damages you, you may let Kelpie take that damage instead. Damage each turn: 1, Health: 5",
-    "id": 53,
+    "id": 54,
     "groupBlock": "creature"
 }, {
     "set": "Base Set",
@@ -543,7 +554,7 @@ export default [{
     "type": "Spell",
     "cost": "6C",
     "text": "Discard the Adventure your opponent has played. You get the reward.",
-    "id": 54,
+    "id": 55,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -553,7 +564,7 @@ export default [{
     "type": "Spell",
     "cost": "4F",
     "text": "Search your deck. You may take a Creature card from your deck, show it to your opponent and put it into your hand. Then shuffle your deck.",
-    "id": 55,
+    "id": 56,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -563,7 +574,7 @@ export default [{
     "type": "Spell",
     "cost": "2F",
     "text": "Remove all damage counters from all of your Creatures.",
-    "id": 56,
+    "id": 57,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -573,7 +584,7 @@ export default [{
     "type": "Spell",
     "cost": "1C",
     "text": "Put an Item card from your discard pile into your hand.",
-    "id": 57,
+    "id": 58,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -582,7 +593,7 @@ export default [{
     "rarity": "Uncommon",
     "type": "Adventure",
     "text": "Effect: Whenever your opponent draws 1 or more cards, he or she then takes 1 damage. To Solve: Your opponent skips a total of 5 Actions. (Those Actions don't need to be one right after the other.) Opponent's Reward: You take 3 damage.",
-    "id": 58,
+    "id": 59,
     "groupBlock": "adventure"
 }, {
     "set": "Base Set",
@@ -592,7 +603,7 @@ export default [{
     "type": "Creature",
     "cost": "2F",
     "text": "Whenever a Spell card damages you, you may let Pet Toad take that damage instead. Health: 1",
-    "id": 59,
+    "id": 60,
     "groupBlock": "creature"
 }, {
     "set": "Base Set",
@@ -602,7 +613,7 @@ export default [{
     "type": "Spell",
     "cost": "3P",
     "text": "Put up to 3 non-Healing cards from your discard pile on the bottom of your deck (in any order). Then draw a card.",
-    "id": 60,
+    "id": 61,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -612,7 +623,7 @@ export default [{
     "type": "Spell",
     "cost": "10P",
     "text": "Your opponent chooses 3 of his or her cards in play and discards them (if your opponent has fewer than 3 cards in play he or she discards them all). Your opponent may prevent this by discarding 1 of his orher P Lessons in play and discarding it.",
-    "id": 61,
+    "id": 62,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -621,7 +632,7 @@ export default [{
     "rarity": "Uncommon",
     "type": "Adventure",
     "text": "Effect: Your opponent can't use more than 1 Action to play Lesson cards during each of his or her turns. To Solve: Your opponent chooses 4 of his or her Lessons in play and discards them. Opponent's Reward: Your opponent may draw a card.",
-    "id": 62,
+    "id": 63,
     "groupBlock": "adventure"
 }, {
     "set": "Base Set",
@@ -632,7 +643,7 @@ export default [{
     "cost": "8P",
     "power": "5P",
     "text": "To play this card, discard 2 of your P Lessons from play.",
-    "id": 63,
+    "id": 64,
     "groupBlock": "item"
 }, {
     "set": "Base Set",
@@ -642,7 +653,7 @@ export default [{
     "type": "Spell",
     "cost": "4P",
     "text": "Next turn, whenever your opponent draws a card, he or she discards it instead of putting it into his or her hand.",
-    "id": 64,
+    "id": 65,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -652,7 +663,7 @@ export default [{
     "type": "Spell",
     "cost": "6C",
     "text": "Do 5 damage to your opponent.",
-    "id": 65,
+    "id": 66,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -662,7 +673,7 @@ export default [{
     "type": "Spell",
     "cost": "5T",
     "text": "Your opponent chooses 1 of his or her Creatures in play and discards it.",
-    "id": 66,
+    "id": 67,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -672,7 +683,7 @@ export default [{
     "type": "Spell",
     "cost": "2T",
     "text": "To play this card, discard 1 of your Creatures from play. Search your deck. You may take a Creature card from your deck, show it to your opponent and put it in your hand. Then shuffle your deck.",
-    "id": 67,
+    "id": 68,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -681,7 +692,7 @@ export default [{
     "rarity": "Uncommon",
     "type": "Adventure",
     "text": "Play this card only if your opponent has any Creatures in play. Effect: Before each of your turns, your opponent takes 4 damage. To Solve: Your opponent chooses 2 of his or her Creatures in play and discards them. Opponent's Reward: Your opponent may draw a card.",
-    "id": 68,
+    "id": 69,
     "groupBlock": "adventure"
 }, {
     "set": "Base Set",
@@ -691,7 +702,7 @@ export default [{
     "type": "Spell",
     "cost": "9T",
     "text": "Play this card only if your opponent has any Lessons in play. Choose 1 of those Lessons and discard it. Search your deck. You may takea Creature card from your deck, show it to your opponent and put it in your hand. Then shuffle your deck.",
-    "id": 69,
+    "id": 70,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -701,7 +712,7 @@ export default [{
     "type": "Item",
     "cost": "10T",
     "text": "Once during each of your turns, you may choose 1 of your opponent's Creatures in play. Prevent all damage done by that creature until the end of your opponent's next turn.",
-    "id": 70,
+    "id": 71,
     "groupBlock": "item"
 }, {
     "set": "Base Set",
@@ -711,7 +722,7 @@ export default [{
     "type": "Spell",
     "cost": "2C",
     "text": "Put up to 2 Lesson cards from your discard pile into your hand.",
-    "id": 71,
+    "id": 72,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -721,7 +732,7 @@ export default [{
     "type": "Spell",
     "cost": "2T",
     "text": "Choose 1 of your opponent's F Lessons in play and discard it.",
-    "id": 72,
+    "id": 73,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -731,7 +742,7 @@ export default [{
     "type": "Spell",
     "cost": "2C",
     "text": "Do 1 damage to your opponent or to a Creature of your choice. Then draw a card.",
-    "id": 73,
+    "id": 74,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -741,7 +752,7 @@ export default [{
     "type": "Creature",
     "cost": "4F",
     "text": "Damage each turn: 2, Health: 2",
-    "id": 74,
+    "id": 75,
     "groupBlock": "creature"
 }, {
     "set": "Base Set",
@@ -751,7 +762,7 @@ export default [{
     "type": "Spell",
     "cost": "1P",
     "text": "Put up to 4 non-Healing cards from your discard pile on the bottom of your deck (in any order).",
-    "id": 75,
+    "id": 76,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -762,7 +773,7 @@ export default [{
     "cost": "3C",
     "power": "2C",
     "text": "If you play this card, and you already have a Wand in play, discard the old one.",
-    "id": 76,
+    "id": 77,
     "groupBlock": "item"
 }, {
     "set": "Base Set",
@@ -772,7 +783,7 @@ export default [{
     "type": "Spell",
     "cost": "2T",
     "text": "Choose 1 of your opponent's P Lessons in play and discard it.",
-    "id": 77,
+    "id": 78,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -782,7 +793,7 @@ export default [{
     "type": "Creature",
     "cost": "2F",
     "text": "Damage each turn: 1, Health: 1",
-    "id": 78,
+    "id": 79,
     "groupBlock": "creature"
 }, {
     "set": "Base Set",
@@ -792,7 +803,7 @@ export default [{
     "type": "Spell",
     "cost": "2P",
     "text": "During your opponent's next turn, prevent all damage done to you by your opponent's Adventures and Creatures.",
-    "id": 79,
+    "id": 80,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -802,7 +813,7 @@ export default [{
     "type": "Spell",
     "cost": "2T",
     "text": "Choose 1 of your opponent's C Lessons in play and discard it.",
-    "id": 80,
+    "id": 81,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -812,7 +823,7 @@ export default [{
     "type": "Spell",
     "cost": "3P",
     "text": "Do 1 damage to your opponent or to a creature of your choice.",
-    "id": 81,
+    "id": 82,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -822,7 +833,7 @@ export default [{
     "type": "Spell",
     "cost": "3F",
     "text": "Choose a Creature in play and return it to its owner's hand.",
-    "id": 82,
+    "id": 83,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -832,7 +843,7 @@ export default [{
     "type": "Creature",
     "cost": "2F",
     "text": "To play this card, discard 1 of your F Lessons from play. Damage each turn: 2, Health: 3",
-    "id": 83,
+    "id": 84,
     "groupBlock": "creature"
 }, {
     "set": "Base Set",
@@ -842,7 +853,7 @@ export default [{
     "type": "Spell",
     "cost": "7P",
     "text": "To play this card, discard 1 of your P Lessons from play.During your opponent's next turn, he or she can't play cards.",
-    "id": 84,
+    "id": 85,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -852,7 +863,7 @@ export default [{
     "type": "Spell",
     "cost": "5P",
     "text": "Do 2 damage to your opponent or to a Creature of your choice.",
-    "id": 85,
+    "id": 86,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -862,7 +873,7 @@ export default [{
     "type": "Creature",
     "cost": "1F",
     "text": "To play this card, discard 1 of your F Lessons from play. Damage each turn: 2, Health: 1",
-    "id": 86,
+    "id": 87,
     "groupBlock": "creature"
 }, {
     "set": "Base Set",
@@ -872,7 +883,7 @@ export default [{
     "type": "Spell",
     "cost": "4F",
     "text": "Put a Creature card from your discard pile into your hand.",
-    "id": 87,
+    "id": 88,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -882,7 +893,7 @@ export default [{
     "type": "Spell",
     "cost": "2T",
     "text": "Put up to 2 Lesson cards from your hand into play.",
-    "id": 88,
+    "id": 89,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -892,7 +903,7 @@ export default [{
     "type": "Spell",
     "cost": "4P",
     "text": "To play this card, discard 1 of your P Lessons from play.Shuffle up to 8 non-Healing cards from your discard pile into your deck.",
-    "id": 89,
+    "id": 90,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -902,7 +913,7 @@ export default [{
     "type": "Spell",
     "cost": "5C",
     "text": "Look at your opponent's hand. Choose 1 of those cards anddiscard it.",
-    "id": 90,
+    "id": 91,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -912,7 +923,7 @@ export default [{
     "type": "Spell",
     "cost": "6T",
     "text": "Choose 1 of your opponent's Creatures in play and discard it.",
-    "id": 91,
+    "id": 92,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -922,7 +933,7 @@ export default [{
     "type": "Spell",
     "cost": "5T",
     "text": "Choose 1 of your opponent's Items or Lessons in play anddiscard it.",
-    "id": 92,
+    "id": 93,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -932,7 +943,7 @@ export default [{
     "type": "Spell",
     "cost": "2C",
     "text": "Do 3 damage to your opponent.",
-    "id": 93,
+    "id": 94,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -942,7 +953,7 @@ export default [{
     "type": "Spell",
     "cost": "3P",
     "text": "To play this card, discard 1 of your P Lessons from play. Do5 damage to your opponent or to a Creature of your choice.",
-    "id": 94,
+    "id": 95,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -952,7 +963,7 @@ export default [{
     "type": "Spell",
     "cost": "5C",
     "text": "Look at your opponent's hand. Discard all Creature cards from it.",
-    "id": 95,
+    "id": 96,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -962,7 +973,7 @@ export default [{
     "type": "Creature",
     "cost": "1F",
     "text": "To play this card, discard 1 of your F Lessons from play. Damage each turn: 1, Health: 4",
-    "id": 96,
+    "id": 97,
     "groupBlock": "creature"
 }, {
     "set": "Base Set",
@@ -972,7 +983,7 @@ export default [{
     "type": "Item",
     "cost": "5P",
     "text": "Provides 3PTo play this card, discard 1 of your P Lessons from play.",
-    "id": 97,
+    "id": 98,
     "groupBlock": "item"
 }, {
     "set": "Base Set",
@@ -982,7 +993,7 @@ export default [{
     "type": "Spell",
     "cost": "6P",
     "text": "To play this card, discard 3 of your P Lessons from play.Choose 1 of your opponent's Creatures or Items in play and discard it.",
-    "id": 98,
+    "id": 99,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -992,7 +1003,7 @@ export default [{
     "type": "Item",
     "cost": "8T",
     "text": "During your turn, you may use an Action to put a Lesson card from your discard pile into play.",
-    "id": 99,
+    "id": 100,
     "groupBlock": "item"
 }, {
     "set": "Base Set",
@@ -1002,7 +1013,7 @@ export default [{
     "type": "Spell",
     "cost": "2T",
     "text": "Choose 1 of your opponent's T Lessons in play and discard it.",
-    "id": 100,
+    "id": 101,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -1012,7 +1023,7 @@ export default [{
     "type": "Creature",
     "cost": "4F",
     "text": "Damage each turn: 1, Health: 5",
-    "id": 101,
+    "id": 102,
     "groupBlock": "creature"
 }, {
     "set": "Base Set",
@@ -1022,7 +1033,7 @@ export default [{
     "type": "Spell",
     "cost": "3P",
     "text": "Do 4 damage to your opponent. Your opponent may prevent thisdamage by showing you a P Lesson from his or her hand.",
-    "id": 102,
+    "id": 103,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -1032,7 +1043,7 @@ export default [{
     "type": "Spell",
     "cost": "2T",
     "text": "Choose 1 of your opponent's Items in play and discard it.",
-    "id": 103,
+    "id": 104,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -1042,7 +1053,7 @@ export default [{
     "type": "Spell",
     "cost": "4T",
     "text": "All your creatures do damage to your opponent.",
-    "id": 104,
+    "id": 105,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -1052,7 +1063,7 @@ export default [{
     "type": "Creature",
     "cost": "3F",
     "text": "Damage each turn: 1, Health: 3",
-    "id": 105,
+    "id": 106,
     "groupBlock": "creature"
 }, {
     "set": "Base Set",
@@ -1062,7 +1073,7 @@ export default [{
     "type": "Spell",
     "cost": "3C",
     "text": "Do 2 damage to your opponent. You may also choose a Creatureand do 2 damage to it.",
-    "id": 106,
+    "id": 107,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -1072,7 +1083,7 @@ export default [{
     "type": "Spell",
     "cost": "4C",
     "text": "Do 3 damage to your opponent or to a Creature of your choice.",
-    "id": 107,
+    "id": 108,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -1082,7 +1093,7 @@ export default [{
     "type": "Creature",
     "cost": "6F",
     "text": "Damage each turn: 3, Health: 3",
-    "id": 108,
+    "id": 109,
     "groupBlock": "creature"
 }, {
     "set": "Base Set",
@@ -1092,7 +1103,7 @@ export default [{
     "type": "Spell",
     "cost": "1C",
     "text": "During your opponent's next turn, prevent all damage done to you by your opponent's Creatures.",
-    "id": 109,
+    "id": 110,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -1102,7 +1113,7 @@ export default [{
     "type": "Spell",
     "cost": "1C",
     "text": "Reveal the top card of your deck. If it's a Lesson card, putit into play. If it isn't, put the card in your hand.",
-    "id": 110,
+    "id": 111,
     "groupBlock": "spell"
 }, {
     "set": "Base Set",
@@ -1111,7 +1122,7 @@ export default [{
     "rarity": "Common",
     "type": "Lesson",
     "text": "Provides 1F",
-    "id": 111,
+    "id": 112,
     "groupBlock": "lesson"
 }, {
     "set": "Base Set",
@@ -1120,7 +1131,7 @@ export default [{
     "rarity": "Common",
     "type": "Lesson",
     "text": "Provides 1C",
-    "id": 112,
+    "id": 113,
     "groupBlock": "lesson"
 }, {
     "set": "Base Set",
@@ -1129,7 +1140,7 @@ export default [{
     "rarity": "Common",
     "type": "Lesson",
     "text": "Provides 1P",
-    "id": 113,
+    "id": 114,
     "groupBlock": "lesson"
 }, {
     "set": "Base Set",
@@ -1138,7 +1149,7 @@ export default [{
     "rarity": "Common",
     "type": "Lesson",
     "text": "Provides 1T",
-    "id": 114,
+    "id": 115,
     "groupBlock": "lesson"
 }, {
     "set": "Quidditch Cup",
@@ -1149,7 +1160,7 @@ export default [{
     "groupBlock": "item",
     "cost": "4Q",
     "text": "Before each of your turns, Bludger does 3 damage to your opponent if a match is in play. (If no match, Bludger does no damage).",
-    "id": 115
+    "id": 116
 }, {
     "set": "Quidditch Cup",
     "number": "2",
