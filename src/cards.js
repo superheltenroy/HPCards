@@ -1,34 +1,50 @@
-export default [{
+[
+  {
     "set": "Base Set",
     "number": "1",
     "name": "Dean Thomas",
     "rarity": "Holo",
     "type": "Character",
-    "descriptors": ["Wizard", "Gryffindor", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Gryffindor",
+      "Unique"
+    ],
     "text": "Once per game, draw 3 cards.",
     "id": 0,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "2",
     "name": "Draco Malfoy",
     "rarity": "Holo",
     "type": "Character",
-    "descriptors": ["Wizard", "Slytherin", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Slytherin",
+      "Unique"
+    ],
     "text": "During your turn, you may use an action and discard a card from your hand to look at your opponent's hand. You may then choose one card in his or her hand and discard it.",
     "id": 1,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "3",
     "name": "Draco Malfoy",
     "rarity": "Foil",
     "type": "Character",
-    "descriptors": ["Wizard", "Slytherin", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Slytherin",
+      "Unique"
+    ],
     "text": "During your turn, you may use an action and discard a card from your hand to look at your opponent's hand. You may then choose one card in his or her hand and discard it.",
     "id": 2,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "4",
     "name": "Dragon's Escape",
@@ -37,7 +53,8 @@ export default [{
     "text": "Effect: Before each of your turns, your opponent takes 1 damage. To Solve: Your opponent chooses 3 of his or her Lessons in play and discard them. Opponent's Reward: Your opponent draws 3 cards or does 3 damage to you.",
     "id": 3,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "5",
     "name": "Elixir of Life",
@@ -47,7 +64,8 @@ export default [{
     "text": "To play this card, discard 2 of your P Lessons from play. Shuffle up to 16 Non-Healing cards from your discard pile into your deck.",
     "id": 4,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "6",
     "name": "Gringotts' Cart Ride",
@@ -56,47 +74,68 @@ export default [{
     "text": "Effect: Before each of your opponent's turns, he or she chooses a card in his or her hand (if any) and discards it. To Solve: Your opponent skips a total of 5 Actions. (Those Actions don't have to be one right after the other.) Opponent's Reward: Your opponent may draw 5 cards.",
     "id": 5,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "7",
     "name": "Hannah Abbott",
     "rarity": "Holo",
     "type": "Character",
-    "descriptors": ["Witch", "Hufflepuff", "Unique"],
+    "descriptors": [
+      "Witch",
+      "Hufflepuff",
+      "Unique"
+    ],
     "text": "Once per game, you may trade 2 cards in your hand for 2 non-Healing cards in your discard pile.",
     "id": 6,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "8",
     "name": "Harry Potter",
     "rarity": "Holo",
     "type": "Character",
-    "descriptors": ["Wizard", "Gryffindor", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Gryffindor",
+      "Unique"
+    ],
     "text": "Whenever you use an Action to draw a card, you may draw 2 cards instead of 1.",
     "id": 7,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "9",
     "name": "Hermione Granger",
     "rarity": "Holo",
     "type": "Character",
-    "descriptors": ["Witch", "Gryffindor", "Unique"],
+    "descriptors": [
+      "Witch",
+      "Gryffindor",
+      "Unique"
+    ],
     "text": "If you already have 2 or more lessons in play, then whenever you use an action to play a lesson card, you may play 2 lesson cards instead of one.",
     "id": 8,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "10",
     "name": "Hermione Granger",
     "rarity": "Foil",
     "type": "Character",
-    "descriptors": ["Witch", "Gryffindor", "Unique"],
+    "descriptors": [
+      "Witch",
+      "Gryffindor",
+      "Unique"
+    ],
     "text": "If you already have 2 or more lessons in play, then whenever you use an action to play a lesson card, you may play 2 lesson cards instead of one.",
     "id": 9,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "11",
     "name": "Human Chess Game",
@@ -105,7 +144,8 @@ export default [{
     "text": "Effect: During each of your opponent's turns, he or she can play cards only if you played 1 or more cards on your previous turn. To Solve: Your opponent chooses and discards 1 of his or her Characters in play (other than his or her starting character) or 8 cards from their hand. Opponent's Reward: Your opponent may draw 3 cards.",
     "id": 10,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "12",
     "name": "Invisibility Cloak",
@@ -116,17 +156,22 @@ export default [{
     "text": "Once during each of your opponent's turns, you may prevent all damage done by a spell card.",
     "id": 11,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "13",
     "name": "Nearly Headless Nick",
     "rarity": "Holo",
     "type": "Character",
-    "descriptors": ["Gryffindor", "Unique"],
+    "descriptors": [
+      "Gryffindor",
+      "Unique"
+    ],
     "text": "Once per game, you may search your deck. When you do, you may take up to 2 Item cards from your deck, show them to your opponent, and put them into your hand. Then shuffle your deck.",
     "id": 12,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "14",
     "name": "Obliviate",
@@ -136,49 +181,69 @@ export default [{
     "text": "Your opponent discards his or her hand.",
     "id": 13,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "15",
     "name": "Professor Filius Flitwick",
     "rarity": "Holo",
     "type": "Character",
-    "descriptors": ["Wizard", "Ravenclaw", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Ravenclaw",
+      "Unique"
+    ],
     "power": "1C",
     "text": "Once per game, you may trade 2 cards in your hand for 1 card in your discard pile that needs C power.",
     "id": 14,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "16",
     "name": "Professor Severus Snape",
     "rarity": "Holo",
     "type": "Character",
-    "descriptors": ["Healing", "Wizard", "Slytherin", "Unique"],
+    "descriptors": [
+      "Healing",
+      "Wizard",
+      "Slytherin",
+      "Unique"
+    ],
     "power": "1P",
     "text": "Once per game, you may shuffle up to 7 non-Healing cards from your discard pile into your deck.",
     "id": 15,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "17",
     "name": "Ron Weasley",
     "rarity": "Holo",
     "type": "Character",
-    "descriptors": ["Wizard", "Gryffindor", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Gryffindor",
+      "Unique"
+    ],
     "text": "Whenever you play a Character card, you use up 1 Action to play it instead of 2.",
     "id": 16,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "18",
     "name": "Rubeus Hagrid",
     "rarity": "Holo",
     "type": "Character",
-    "descriptors": ["Unique"],
+    "descriptors": [
+      "Unique"
+    ],
     "text": "Whenever 1 of your creatures does 3 or more damage to your opponent, it does 2 more damage than it usually would.",
     "id": 17,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "19",
     "name": "Troll in the Bathroom",
@@ -187,7 +252,8 @@ export default [{
     "text": "Effect: Before each of your turns, your opponent takes 2 damage. To Solve: Your opponent chooses 7 cards in his or her hand and discards them. Opponent's Reward: You take 4 damage.",
     "id": 18,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "20",
     "name": "Unicorn",
@@ -197,7 +263,8 @@ export default [{
     "text": "To play this card, discard 1 of your F lessons from play. You get 1 more Action on each of your turns (including the turn you play Unicorn). Health: 6",
     "id": 19,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "21",
     "name": "Delivery Owl",
@@ -207,7 +274,8 @@ export default [{
     "text": "To play this card, discard 1 of your F lessons from play.Before each of your turns, draw a card. Health: 1",
     "id": 20,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "22",
     "name": "Draught of Living Death",
@@ -217,7 +285,8 @@ export default [{
     "text": "To play this card, discard 2 of your P Lessons from play. Do 12 damage to your opponent or to a creature of your choice.",
     "id": 21,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "23",
     "name": "Harry Hunting",
@@ -226,7 +295,8 @@ export default [{
     "text": "Effect: Your opponent's Creature and Spell cards need 2 more Power to play. To Solve: Your opponent chooses 7 cards in his or her hand and discards them. Opponent's Reward: Your opponent may put a lesson card from his or her discard pile into play.",
     "id": 22,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "24",
     "name": "History of Magic",
@@ -236,7 +306,8 @@ export default [{
     "text": "Look at your opponent's hand. Discard all Adventure cards from it.",
     "id": 23,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "25",
     "name": "Incendio",
@@ -246,7 +317,8 @@ export default [{
     "text": "Count the number of C lessons you have in play, Do that much damage to a creature of your choice.",
     "id": 24,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "26",
     "name": "Malevolent Mixture",
@@ -256,7 +328,8 @@ export default [{
     "text": "To play this card, discard 2 of your P lessons from play. Do10 damage to your opponent or to a Creature of your choice.",
     "id": 25,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "27",
     "name": "Meet the Centaurs",
@@ -265,7 +338,8 @@ export default [{
     "text": "Effect: Your opponent plays with his or her hand face up. To Solve: Your opponent discards his or her hand. (Your opponent may do this even if his or her hand is empty.) Opponent's Reward: You play with your hand face up for therest of the game.",
     "id": 26,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "28",
     "name": "Mountain Troll",
@@ -275,7 +349,8 @@ export default [{
     "text": "Damage each turn: 4, Health: 4",
     "id": 27,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "29",
     "name": "Mrs. Norris",
@@ -285,7 +360,8 @@ export default [{
     "text": "2FYour opponent plays with his or her hand face up. Health: 1",
     "id": 28,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "30",
     "name": "Norbert",
@@ -296,7 +372,8 @@ export default [{
     "text": "To play this card, discard 2 of your F Lessons from play. Damage each turn: 5, Health: 3",
     "id": 29,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "31",
     "name": "Phoenix Feather Wand",
@@ -307,7 +384,8 @@ export default [{
     "text": "Play this card only is you have cards in play that provide at least 3C Power. If you play this card, and you already have a Wand in play, discard the old one.",
     "id": 30,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "32",
     "name": "Platform 9 3/4",
@@ -317,8 +395,8 @@ export default [{
     "text": "To play this card, discard 1 of your lessons from play. You get 2 more Actions this turn.",
     "id": 31,
     "groupBlock": "spell"
-
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "33",
     "name": "Potion Ingredients",
@@ -328,7 +406,8 @@ export default [{
     "text": "When a Spell card damages you, you may discard this card from play to prevent all of that damage.",
     "id": 32,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "34",
     "name": "Raven to Writing Desk",
@@ -338,7 +417,8 @@ export default [{
     "text": "If your opponent has 2 or more Creatures in play, choose 1 of them and discard it.",
     "id": 33,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "35",
     "name": "Shrinking Potion",
@@ -348,7 +428,8 @@ export default [{
     "text": "During your opponent's next turn, prevent all damage done to you.",
     "id": 34,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "36",
     "name": "Titillando",
@@ -358,7 +439,8 @@ export default [{
     "text": "Do 3 damage to your opponent or to a Creature of your choice. Then your opponent chooses 3 cards in his or her hand and discards them. (If there are fewer than 3 cards in your opponent's hand, he or she discards them all.)",
     "id": 35,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "37",
     "name": "Transfiguration Exam",
@@ -368,7 +450,8 @@ export default [{
     "text": "Discard all creatures from play (even your own).",
     "id": 36,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "38",
     "name": "Transfiguration Test",
@@ -378,7 +461,8 @@ export default [{
     "text": "If your opponent has 2 or more Creatures in play, he or she chooses 1 of them and discards the rest. Then, if you have 2 or more Creatures in play, choose 1 of them and discard the rest.",
     "id": 37,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "39",
     "name": "4 Privet Drive",
@@ -387,7 +471,8 @@ export default [{
     "text": "Effect: Your opponent can't play Spell cards. To Solve: Your opponent chooses 6 cards in his or her hand and discards them. Opponent's Reward: Your opponent may draw a card.",
     "id": 38,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "40",
     "name": "Alchemy",
@@ -397,7 +482,8 @@ export default [{
     "text": "Search your deck. You may take up to 2 Lesson cards from your deck, show them to your opponent, and put them in your hand. Then shuffle your deck.",
     "id": 39,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "41",
     "name": "Apothecary",
@@ -407,7 +493,8 @@ export default [{
     "text": "To play this card, discard 2 other cards from your hand. You may take a card that needs P Power from your deck, show it to your opponent and put it into your hand. Then shuffle your deck.",
     "id": 40,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "42",
     "name": "Apparate",
@@ -417,7 +504,8 @@ export default [{
     "text": "Discard the Adventure your opponent has played. You don't get the reward.",
     "id": 41,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "43",
     "name": "Baby Dragon",
@@ -427,7 +515,8 @@ export default [{
     "text": "To play this card, discard 1 of your F Lessons from play. Damage each turn: 3, Health: 2",
     "id": 42,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "44",
     "name": "Bluebell Flames",
@@ -437,7 +526,8 @@ export default [{
     "text": "Do 4 damage to your opponent or to a Creature of your choice.",
     "id": 43,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "45",
     "name": "Burning Bitterroot Balm",
@@ -447,7 +537,8 @@ export default [{
     "text": "To play this card, discard 1 of your P Lessons from play. Shuffle up to 10 non-Healing cards from your discard pile into your deck.",
     "id": 44,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "46",
     "name": "Cage",
@@ -458,7 +549,8 @@ export default [{
     "text": "During your turn, you may discard this card from play and use an Action to choose a Creature in play (yours or your opponent's) and return it to it's owner's hand.",
     "id": 45,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "47",
     "name": "Confundus",
@@ -468,7 +560,8 @@ export default [{
     "text": "Your opponent chooses 2 cards in his or her hand and discards them (1 if he or she only has 1).",
     "id": 46,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "48",
     "name": "Diagon Alley",
@@ -477,7 +570,8 @@ export default [{
     "text": "Effect: Your opponent can't use Actions to draw cards. To Solve: Your opponent skips a total of 7 Actions. (Those Actions don't need to be one right after the other.) Opponent's Reward: Your opponent may draw any number of cards.",
     "id": 47,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "49",
     "name": "Dogbreath Potion",
@@ -487,7 +581,8 @@ export default [{
     "text": "To play this card, discard 1 of your P Lessons from play. Do 8 damage to your opponent or to a Creature of your choice.",
     "id": 48,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "50",
     "name": "Draco's Trick",
@@ -497,7 +592,8 @@ export default [{
     "text": "Discard the Adventure you've played. You get the reward.",
     "id": 49,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "51",
     "name": "Dragon Heart Wand",
@@ -507,7 +603,8 @@ export default [{
     "text": "Provides 3C. Play this card only if you have cards in play that provides at least 2 C Power. If you play this card, and you already have a Wand in play, discard the old one.",
     "id": 50,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "52",
     "name": "Fumos",
@@ -517,7 +614,8 @@ export default [{
     "text": "Do 2 damage to each Creature (even your own).",
     "id": 51,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "53",
     "name": "Guard Dog",
@@ -527,7 +625,8 @@ export default [{
     "text": "Damage each turn: 3, Health: 5",
     "id": 52,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "54",
     "name": "Hiding From Snape",
@@ -536,7 +635,8 @@ export default [{
     "text": "Effect: Your opponent can't play Item cards. To Solve: Your opponent chooses 4 Item cards in his or her hand and discards them. Opponent's Reward: Your opponent may search his or her deck for any card and put it into his or her hand. Then your opponent shuffles his or her deck.",
     "id": 53,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "55",
     "name": "Kelpie",
@@ -546,7 +646,8 @@ export default [{
     "text": "To play this card, discard 1 of your F Lessons from play. Whenever a Spell card damages you, you may let Kelpie take that damage instead. Damage each turn: 1, Health: 5",
     "id": 54,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "56",
     "name": "Logic Puzzle",
@@ -556,7 +657,8 @@ export default [{
     "text": "Discard the Adventure your opponent has played. You get the reward.",
     "id": 55,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "57",
     "name": "Mysterious Egg",
@@ -566,7 +668,8 @@ export default [{
     "text": "Search your deck. You may take a Creature card from your deck, show it to your opponent and put it into your hand. Then shuffle your deck.",
     "id": 56,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "58",
     "name": "Nurture",
@@ -576,7 +679,8 @@ export default [{
     "text": "Remove all damage counters from all of your Creatures.",
     "id": 57,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "59",
     "name": "Ollivanders",
@@ -586,7 +690,8 @@ export default [{
     "text": "Put an Item card from your discard pile into your hand.",
     "id": 58,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "60",
     "name": "Peeves Causes Trouble",
@@ -595,7 +700,8 @@ export default [{
     "text": "Effect: Whenever your opponent draws 1 or more cards, he or she then takes 1 damage. To Solve: Your opponent skips a total of 5 Actions. (Those Actions don't need to be one right after the other.) Opponent's Reward: You take 3 damage.",
     "id": 59,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "61",
     "name": "Pet Toad",
@@ -605,7 +711,8 @@ export default [{
     "text": "Whenever a Spell card damages you, you may let Pet Toad take that damage instead. Health: 1",
     "id": 60,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "62",
     "name": "Pomfrey's Pick-Me-Up",
@@ -615,7 +722,8 @@ export default [{
     "text": "Put up to 3 non-Healing cards from your discard pile on the bottom of your deck (in any order). Then draw a card.",
     "id": 61,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "63",
     "name": "Potions Exam",
@@ -625,7 +733,8 @@ export default [{
     "text": "Your opponent chooses 3 of his or her cards in play and discards them (if your opponent has fewer than 3 cards in play he or she discards them all). Your opponent may prevent this by discarding 1 of his orher P Lessons in play and discarding it.",
     "id": 62,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "64",
     "name": "Reptile House",
@@ -634,7 +743,8 @@ export default [{
     "text": "Effect: Your opponent can't use more than 1 Action to play Lesson cards during each of his or her turns. To Solve: Your opponent chooses 4 of his or her Lessons in play and discards them. Opponent's Reward: Your opponent may draw a card.",
     "id": 63,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "65",
     "name": "Silver Cauldron",
@@ -645,7 +755,8 @@ export default [{
     "text": "To play this card, discard 2 of your P Lessons from play.",
     "id": 64,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "66",
     "name": "Snuffling Potion",
@@ -655,7 +766,8 @@ export default [{
     "text": "Next turn, whenever your opponent draws a card, he or she discards it instead of putting it into his or her hand.",
     "id": 65,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "67",
     "name": "Stupefy",
@@ -665,7 +777,8 @@ export default [{
     "text": "Do 5 damage to your opponent.",
     "id": 66,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "68",
     "name": "Take Root",
@@ -675,7 +788,8 @@ export default [{
     "text": "Your opponent chooses 1 of his or her Creatures in play and discards it.",
     "id": 67,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "69",
     "name": "Transmogrify",
@@ -685,7 +799,8 @@ export default [{
     "text": "To play this card, discard 1 of your Creatures from play. Search your deck. You may take a Creature card from your deck, show it to your opponent and put it in your hand. Then shuffle your deck.",
     "id": 68,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "70",
     "name": "Unusual Pets",
@@ -694,7 +809,8 @@ export default [{
     "text": "Play this card only if your opponent has any Creatures in play. Effect: Before each of your turns, your opponent takes 4 damage. To Solve: Your opponent chooses 2 of his or her Creatures in play and discards them. Opponent's Reward: Your opponent may draw a card.",
     "id": 69,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "71",
     "name": "Vanishing Glass",
@@ -704,7 +820,8 @@ export default [{
     "text": "Play this card only if your opponent has any Lessons in play. Choose 1 of those Lessons and discard it. Search your deck. You may takea Creature card from your deck, show it to your opponent and put it in your hand. Then shuffle your deck.",
     "id": 70,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "72",
     "name": "Winged Keys",
@@ -714,7 +831,8 @@ export default [{
     "text": "Once during each of your turns, you may choose 1 of your opponent's Creatures in play. Prevent all damage done by that creature until the end of your opponent's next turn.",
     "id": 71,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "73",
     "name": "Accio",
@@ -724,7 +842,8 @@ export default [{
     "text": "Put up to 2 Lesson cards from your discard pile into your hand.",
     "id": 72,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "74",
     "name": "Avifors",
@@ -734,7 +853,8 @@ export default [{
     "text": "Choose 1 of your opponent's F Lessons in play and discard it.",
     "id": 73,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "75",
     "name": "Baubillious",
@@ -744,7 +864,8 @@ export default [{
     "text": "Do 1 damage to your opponent or to a Creature of your choice. Then draw a card.",
     "id": 74,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "76",
     "name": "Boa Constrictor",
@@ -754,7 +875,8 @@ export default [{
     "text": "Damage each turn: 2, Health: 2",
     "id": 75,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "77",
     "name": "Boil Cure",
@@ -764,7 +886,8 @@ export default [{
     "text": "Put up to 4 non-Healing cards from your discard pile on the bottom of your deck (in any order).",
     "id": 76,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "78",
     "name": "Borrowed Wand",
@@ -775,7 +898,8 @@ export default [{
     "text": "If you play this card, and you already have a Wand in play, discard the old one.",
     "id": 77,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "79",
     "name": "Cauldron to Sieve",
@@ -785,7 +909,8 @@ export default [{
     "text": "Choose 1 of your opponent's P Lessons in play and discard it.",
     "id": 78,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "80",
     "name": "Curious Raven",
@@ -795,7 +920,8 @@ export default [{
     "text": "Damage each turn: 1, Health: 1",
     "id": 79,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "81",
     "name": "Dungbomb",
@@ -805,7 +931,8 @@ export default [{
     "text": "During your opponent's next turn, prevent all damage done to you by your opponent's Adventures and Creatures.",
     "id": 80,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "82",
     "name": "Epoximise",
@@ -815,7 +942,8 @@ export default [{
     "text": "Choose 1 of your opponent's C Lessons in play and discard it.",
     "id": 81,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "83",
     "name": "Erumpent Potion",
@@ -825,7 +953,8 @@ export default [{
     "text": "Do 1 damage to your opponent or to a creature of your choice.",
     "id": 82,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "84",
     "name": "Fluffy Falls Asleep",
@@ -835,7 +964,8 @@ export default [{
     "text": "Choose a Creature in play and return it to its owner's hand.",
     "id": 83,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "85",
     "name": "Forest Troll",
@@ -845,7 +975,8 @@ export default [{
     "text": "To play this card, discard 1 of your F Lessons from play. Damage each turn: 2, Health: 3",
     "id": 84,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "86",
     "name": "Forgetfulness Potion",
@@ -855,7 +986,8 @@ export default [{
     "text": "To play this card, discard 1 of your P Lessons from play.During your opponent's next turn, he or she can't play cards.",
     "id": 85,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "87",
     "name": "Foul Brew",
@@ -865,7 +997,8 @@ export default [{
     "text": "Do 2 damage to your opponent or to a Creature of your choice.",
     "id": 86,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "88",
     "name": "Giant Tarantula",
@@ -875,7 +1008,8 @@ export default [{
     "text": "To play this card, discard 1 of your F Lessons from play. Damage each turn: 2, Health: 1",
     "id": 87,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "89",
     "name": "Hagrid and the Stranger",
@@ -885,7 +1019,8 @@ export default [{
     "text": "Put a Creature card from your discard pile into your hand.",
     "id": 88,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "90",
     "name": "Homework",
@@ -895,7 +1030,8 @@ export default [{
     "text": "Put up to 2 Lesson cards from your hand into play.",
     "id": 89,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "91",
     "name": "Hospital Wing",
@@ -905,7 +1041,8 @@ export default [{
     "text": "To play this card, discard 1 of your P Lessons from play.Shuffle up to 8 non-Healing cards from your discard pile into your deck.",
     "id": 90,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "92",
     "name": "Illegibilus",
@@ -915,7 +1052,8 @@ export default [{
     "text": "Look at your opponent's hand. Choose 1 of those cards anddiscard it.",
     "id": 91,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "93",
     "name": "Incarcifors",
@@ -925,7 +1063,8 @@ export default [{
     "text": "Choose 1 of your opponent's Creatures in play and discard it.",
     "id": 92,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "94",
     "name": "Lost Notes",
@@ -935,7 +1074,8 @@ export default [{
     "text": "Choose 1 of your opponent's Items or Lessons in play anddiscard it.",
     "id": 93,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "95",
     "name": "Magical Mishap",
@@ -945,7 +1085,8 @@ export default [{
     "text": "Do 3 damage to your opponent.",
     "id": 94,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "96",
     "name": "Noxious Potion",
@@ -955,7 +1096,8 @@ export default [{
     "text": "To play this card, discard 1 of your P Lessons from play. Do5 damage to your opponent or to a Creature of your choice.",
     "id": 95,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "97",
     "name": "Out of the Woods",
@@ -965,7 +1107,8 @@ export default [{
     "text": "Look at your opponent's hand. Discard all Creature cards from it.",
     "id": 96,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "98",
     "name": "Pet Rat",
@@ -975,7 +1118,8 @@ export default [{
     "text": "To play this card, discard 1 of your F Lessons from play. Damage each turn: 1, Health: 4",
     "id": 97,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "99",
     "name": "Pewter Cauldron",
@@ -985,7 +1129,8 @@ export default [{
     "text": "Provides 3PTo play this card, discard 1 of your P Lessons from play.",
     "id": 98,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "100",
     "name": "Potions Mistake",
@@ -995,7 +1140,8 @@ export default [{
     "text": "To play this card, discard 3 of your P Lessons from play.Choose 1 of your opponent's Creatures or Items in play and discard it.",
     "id": 99,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "101",
     "name": "Remembrall",
@@ -1005,7 +1151,8 @@ export default [{
     "text": "During your turn, you may use an Action to put a Lesson card from your discard pile into play.",
     "id": 100,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "102",
     "name": "Restricted Section",
@@ -1015,7 +1162,8 @@ export default [{
     "text": "Choose 1 of your opponent's T Lessons in play and discard it.",
     "id": 101,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "103",
     "name": "Scottish Stag",
@@ -1025,7 +1173,8 @@ export default [{
     "text": "Damage each turn: 1, Health: 5",
     "id": 102,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "104",
     "name": "Snape's Question",
@@ -1035,7 +1184,8 @@ export default [{
     "text": "Do 4 damage to your opponent. Your opponent may prevent thisdamage by showing you a P Lesson from his or her hand.",
     "id": 103,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "105",
     "name": "Squiggle Quill",
@@ -1045,7 +1195,8 @@ export default [{
     "text": "Choose 1 of your opponent's Items in play and discard it.",
     "id": 104,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "106",
     "name": "Steelclaw",
@@ -1055,7 +1206,8 @@ export default [{
     "text": "All your creatures do damage to your opponent.",
     "id": 105,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "107",
     "name": "Surly Hound",
@@ -1065,7 +1217,8 @@ export default [{
     "text": "Damage each turn: 1, Health: 3",
     "id": 106,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "108",
     "name": "Toe Biter",
@@ -1075,7 +1228,8 @@ export default [{
     "text": "Do 2 damage to your opponent. You may also choose a Creatureand do 2 damage to it.",
     "id": 107,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "109",
     "name": "Vermillious",
@@ -1085,7 +1239,8 @@ export default [{
     "text": "Do 3 damage to your opponent or to a Creature of your choice.",
     "id": 108,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "110",
     "name": "Vicious Wolf",
@@ -1095,7 +1250,8 @@ export default [{
     "text": "Damage each turn: 3, Health: 3",
     "id": 109,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "111",
     "name": "Wingardium Leviosa!",
@@ -1105,7 +1261,8 @@ export default [{
     "text": "During your opponent's next turn, prevent all damage done to you by your opponent's Creatures.",
     "id": 110,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "112",
     "name": "Wizard Crackers",
@@ -1115,7 +1272,8 @@ export default [{
     "text": "Reveal the top card of your deck. If it's a Lesson card, putit into play. If it isn't, put the card in your hand.",
     "id": 111,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "113",
     "name": "Care of Magical Creatures",
@@ -1124,7 +1282,8 @@ export default [{
     "text": "Provides 1F",
     "id": 112,
     "groupBlock": "lesson"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "114",
     "name": "Charms",
@@ -1133,7 +1292,8 @@ export default [{
     "text": "Provides 1C",
     "id": 113,
     "groupBlock": "lesson"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "115",
     "name": "Potions",
@@ -1142,7 +1302,8 @@ export default [{
     "text": "Provides 1P",
     "id": 114,
     "groupBlock": "lesson"
-}, {
+  },
+  {
     "set": "Base Set",
     "number": "116",
     "name": "Transfiguration",
@@ -1151,7 +1312,8 @@ export default [{
     "text": "Provides 1T",
     "id": 115,
     "groupBlock": "lesson"
-}, {
+  },
+  {
     "set": "Quidditch Cup",
     "number": "1",
     "name": "Bludger",
@@ -1161,7 +1323,8 @@ export default [{
     "cost": "4Q",
     "text": "Before each of your turns, Bludger does 3 damage to your opponent if a match is in play. (If no match, Bludger does no damage).",
     "id": 116
-}, {
+  },
+  {
     "set": "Quidditch Cup",
     "number": "2",
     "name": "Catch the Snitch",
@@ -1170,8 +1333,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "7Q",
     "text": "You win the current Match. (You get the Prize.)",
-    "id": 116
-}, {
+    "id": 117
+  },
+  {
     "set": "Quidditch Cup",
     "number": "3",
     "name": "Charms Exam",
@@ -1180,29 +1344,38 @@ export default [{
     "groupBlock": "spell",
     "cost": "7C",
     "text": "Your opponent discards his/her hand. Then he/she may draw any number of cards.",
-    "id": 117
-}, {
+    "id": 118
+  },
+  {
     "set": "Quidditch Cup",
     "number": "4",
     "name": "Fluffy",
     "rarity": "Rare/Foil",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Unique"],
+    "descriptors": [
+      "Unique"
+    ],
     "cost": "10F",
     "text": "To play this card, discard 2 of your F lessons from play. Damage each turn: 12, Health: 21",
-    "id": 118
-}, {
+    "id": 119
+  },
+  {
     "set": "Quidditch Cup",
     "number": "5",
     "name": "Fred & George Weasley",
     "rarity": "Rare/Holo",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Wizards", "Gryffindor", "Unique"],
+    "descriptors": [
+      "Wizards",
+      "Gryffindor",
+      "Unique"
+    ],
     "text": "You may use 1 Action (instead of 2) to put an Adventure card from your hand into play, even if you already have one in play. If you already had one in play, discard the old one. (Nobody gets the reward.)",
-    "id": 119
-}, {
+    "id": 120
+  },
+  {
     "set": "Quidditch Cup",
     "number": "6",
     "name": "Gaze into the Mirror",
@@ -1210,8 +1383,9 @@ export default [{
     "type": "Adventure",
     "groupBlock": "adventure",
     "text": "Effect: During your opponent's turns, prevent all Spells damage done to you by Spell cards. To Solve: Your opponent chooses 5 Spell cards in his or her hand and discards them. Opponent's Reward: Opponent gets 1 more Action (the turn this adventure is solved).",
-    "id": 120
-}, {
+    "id": 121
+  },
+  {
     "set": "Quidditch Cup",
     "number": "7",
     "name": "Golden Cauldron",
@@ -1221,8 +1395,9 @@ export default [{
     "cost": "9P",
     "power": "5P",
     "text": "To play this card, return 2 of your P lessons from play to your hand.",
-    "id": 121
-}, {
+    "id": 122
+  },
+  {
     "set": "Quidditch Cup",
     "number": "8",
     "name": "Golden Snitch",
@@ -1231,8 +1406,9 @@ export default [{
     "groupBlock": "item",
     "cost": "11Q",
     "text": "At the end of your opponent's turn, you win the game unless your opponent has at least 10 more cards in his or her deck than you do. (If he or she does, your opponent wins the game instead.)",
-    "id": 122
-}, {
+    "id": 123
+  },
+  {
     "set": "Quidditch Cup",
     "number": "9",
     "name": "Hagrid Needs Help",
@@ -1240,8 +1416,9 @@ export default [{
     "type": "Adventure",
     "groupBlock": "adventure",
     "text": "Effect: Your opponent gets one fewer Action on each of his or her turns (even the turn this Adventure is solved). (If this would mean your opponent has fewer than 1 Action, he or she still gets one Action.)Solve: You opponent takes 8 damage. Opponent's Reward: Your opponent may draw 3 cards.",
-    "id": 123
-}, {
+    "id": 124
+  },
+  {
     "set": "Quidditch Cup",
     "number": "10",
     "name": "Halloween Feast",
@@ -1250,18 +1427,24 @@ export default [{
     "groupBlock": "spell",
     "cost": "4C",
     "text": "Put up to 4 Creature cards from your discard pile into your hand.",
-    "id": 124
-}, {
+    "id": 125
+  },
+  {
     "set": "Quidditch Cup",
     "number": "11",
     "name": "Harry the Seeker",
     "rarity": "Rare/Holo",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Wizard", "Gryffindor", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Gryffindor",
+      "Unique"
+    ],
     "text": "Once during each of your turns, when you use an Action to play a Q lesson, you may draw a card.",
-    "id": 125
-}, {
+    "id": 126
+  },
+  {
     "set": "Quidditch Cup",
     "number": "12",
     "name": "Hospital bed",
@@ -1270,39 +1453,54 @@ export default [{
     "groupBlock": "item",
     "cost": "9P",
     "text": "You may use an Action to search your deck. You may take a Healing card, show it to your opponent and put it into your hand. Then shuffle your deck.",
-    "id": 126
-}, {
+    "id": 127
+  },
+  {
     "set": "Quidditch Cup",
     "number": "13",
     "name": "Madam Rolanda Hooch",
     "rarity": "Rare/Holo",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Witch", "Unique"],
+    "descriptors": [
+      "Witch",
+      "Unique"
+    ],
     "power": "1Q",
     "text": "Once per game, you may search your deck. When you do, you may take a Broom card from your deck, show it to your opponent and put it into your hand. Then shuffle your deck.",
-    "id": 127
-}, {
+    "id": 128
+  },
+  {
     "set": "Quidditch Cup",
     "number": "14",
     "name": "Marcus Flint",
     "rarity": "Rare/Holo",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Wizard", "Slytherin", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Slytherin",
+      "Unique"
+    ],
     "text": "Once per game, you may make your opponent choose 3 cards in his or her hand and discard them. (If there are fewer than 3 cards in your opponent's hand, he or she discards them all.)",
-    "id": 128
-}, {
+    "id": 129
+  },
+  {
     "set": "Quidditch Cup",
     "number": "15",
     "name": "Neville Longbottom",
     "rarity": "Rare/Holo",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Wizard", "Gryffindor", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Gryffindor",
+      "Unique"
+    ],
     "text": "Your may prevent all but the first 8 damage done to you each turn.",
-    "id": 129
-}, {
+    "id": 130
+  },
+  {
     "set": "Quidditch Cup",
     "number": "16",
     "name": "Nimbus Two Thousand",
@@ -1311,8 +1509,9 @@ export default [{
     "groupBlock": "item",
     "cost": "7Q",
     "text": "Provides: 1QWhenever 1 of your Item or Spell cards that needs Q powerdoes damage, it does 2 more damage. If you play this card, and you already havea Broom in play, discard the old one.",
-    "id": 130
-}, {
+    "id": 131
+  },
+  {
     "set": "Quidditch Cup",
     "number": "17",
     "name": "No time to play",
@@ -1321,18 +1520,24 @@ export default [{
     "groupBlock": "spell",
     "cost": "4T",
     "text": "Discard all Matches and items that need Q Power from play (even your own). (If a match is discarded, no-one gets the prize).",
-    "id": 131
-}, {
+    "id": 132
+  },
+  {
     "set": "Quidditch Cup",
     "number": "18",
     "name": "Oliver Wood",
     "rarity": "Rare/Holo",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Wizard", "Gryffindor", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Gryffindor",
+      "Unique"
+    ],
     "text": "Once per game, when 1 of your Spell cards that needs Q Powerdoes damage, you may have it do 8 more damage.",
-    "id": 132
-}, {
+    "id": 133
+  },
+  {
     "set": "Quidditch Cup",
     "number": "19",
     "name": "Out of Control",
@@ -1341,8 +1546,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "10Q",
     "text": "Do 6 damage to your opponent. Then your opponent chooses 4cards in his or her hand and discards them. (If there are fewer than 4 cards inyour opponent's hand, he or she discards them all.)",
-    "id": 133
-}, {
+    "id": 134
+  },
+  {
     "set": "Quidditch Cup",
     "number": "20",
     "name": "Potions Class Disaster",
@@ -1351,18 +1557,24 @@ export default [{
     "groupBlock": "spell",
     "cost": "12P",
     "text": "Your opponent chooses 5 of his or her cards and discards them. Those cards can come from his or her hand or from play or from both. (Ifthere are fewer than 5 total cards in your opponent's hand and in play, he or she discards them all.)",
-    "id": 134
-}, {
+    "id": 135
+  },
+  {
     "set": "Quidditch Cup",
     "number": "21",
     "name": "Prof. Mivera McGonagall",
     "rarity": "Rare/Holo",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Witch", "Unique", "Gryffindor"],
+    "descriptors": [
+      "Witch",
+      "Unique",
+      "Gryffindor"
+    ],
     "text": "Provides: 1TOnce per game, you may discard the Adventure your opponenthas played. (You don't get the reward.)",
-    "id": 135
-}, {
+    "id": 136
+  },
+  {
     "set": "Quidditch Cup",
     "number": "22",
     "name": "Put-Outer",
@@ -1371,8 +1583,9 @@ export default [{
     "groupBlock": "item",
     "cost": "4T",
     "text": "You may use 2 Actions to choose 1 of your opponent's cardsin play (other than his or her starting Character) and return it to his or her hand.",
-    "id": 136
-}, {
+    "id": 137
+  },
+  {
     "set": "Quidditch Cup",
     "number": "23",
     "name": "Ravenclaw Match",
@@ -1381,29 +1594,38 @@ export default [{
     "groupBlock": "match",
     "cost": "1Q",
     "text": "To Win: Do 10 damage to your opponent while this card is in play. (That damage doesn't have to be done all at once.)Prize: The winner searches his or her deck. He or she maytake up to 2 Lesson cards from his or her deck and put them into play. Thenthat player shuffles his or her deck.",
-    "id": 137
-}, {
+    "id": 138
+  },
+  {
     "set": "Quidditch Cup",
     "number": "24",
     "name": "Scabbers",
     "rarity": "Rare/Foil",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Unique"],
+    "descriptors": [
+      "Unique"
+    ],
     "cost": "4F",
     "text": "If Scabbers is discarded from play during your opponent'sturn, put it into your hand. Damage each turn: 1, Health: 3",
-    "id": 138
-}, {
+    "id": 139
+  },
+  {
     "set": "Quidditch Cup",
     "number": "25",
     "name": "Seamus Finnigan",
     "rarity": "Rare/Holo",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Wizard", "Gryffindor", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Gryffindor",
+      "Unique"
+    ],
     "text": "Once during each of your turns, you may discard 2 cards fromyour hand to get 1 more Action.",
-    "id": 139
-}, {
+    "id": 140
+  },
+  {
     "set": "Quidditch Cup",
     "number": "26",
     "name": "Slytherin Match",
@@ -1412,8 +1634,9 @@ export default [{
     "groupBlock": "match",
     "cost": "1Q",
     "text": "To Win: Do 15 damage to your opponent while this card is in play (That damage doesn't have to be done all at once.)Prize: The winner may shuffle up to 15 non-Healing cards from his or her discard pile into his or her deck.",
-    "id": 140
-}, {
+    "id": 141
+  },
+  {
     "set": "Quidditch Cup",
     "number": "27",
     "name": "Start-of-Term Feast",
@@ -1422,8 +1645,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "4C",
     "text": "Put up to 4 lesson cards from your discard pile into your hand.",
-    "id": 141
-}, {
+    "id": 142
+  },
+  {
     "set": "Quidditch Cup",
     "number": "28",
     "name": "Support Banner",
@@ -1432,8 +1656,9 @@ export default [{
     "groupBlock": "item",
     "cost": "5Q",
     "text": "At the end of your turn, draw a card if you played at least1 Spell card that needs Q Power that turn.",
-    "id": 142
-}, {
+    "id": 143
+  },
+  {
     "set": "Quidditch Cup",
     "number": "29",
     "name": "The Sorting Hat",
@@ -1442,19 +1667,23 @@ export default [{
     "groupBlock": "item",
     "cost": "8T",
     "text": "You may use 2 Actions to search your deck. You may take aCharacter card of a Character that isn't already in play and put it into play.Then shuffle your deck.",
-    "id": 143
-}, {
+    "id": 144
+  },
+  {
     "set": "Quidditch Cup",
     "number": "30",
     "name": "Trevor",
     "rarity": "Rare/Foil",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Unique"],
+    "descriptors": [
+      "Unique"
+    ],
     "cost": "3F",
     "text": "When you play this card, you may put a Lesson card from yourdiscard pile into your hand. Whenever a Spell card damages you, you may letTrevor take that damage instead.Health: 1",
-    "id": 144
-}, {
+    "id": 145
+  },
+  {
     "set": "Quidditch Cup",
     "number": "31",
     "name": "Chocolate Frogs",
@@ -1463,8 +1692,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "1C",
     "text": "Search your deck. You may take a Wizard or a Witch card fromyour deck, show it to your opponent and put it into your hand. Then shuffle your deck.",
-    "id": 145
-}, {
+    "id": 146
+  },
+  {
     "set": "Quidditch Cup",
     "number": "32",
     "name": "Comet Two Sixty",
@@ -1473,8 +1703,9 @@ export default [{
     "groupBlock": "item",
     "cost": "3Q",
     "text": "Provides: 1QOnce during each of your opponent's turns, you may prevent 1damage done to you. If you play this card, and you already have a Broom in play, discard the old one.",
-    "id": 146
-}, {
+    "id": 147
+  },
+  {
     "set": "Quidditch Cup",
     "number": "33",
     "name": "Defence!",
@@ -1483,8 +1714,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "10Q",
     "text": "During your opponent's next turn, prevent all damage done to you.",
-    "id": 147
-}, {
+    "id": 148
+  },
+  {
     "set": "Quidditch Cup",
     "number": "34",
     "name": "Devil's Snare",
@@ -1493,8 +1725,9 @@ export default [{
     "groupBlock": "creature",
     "cost": "4F",
     "text": "To play this card, discard 1 of your F Lessons from play. Atthe end of each of your turns, remove all damage counters from Devil's Snare. Damage each turn: 2, Health: 6",
-    "id": 148
-}, {
+    "id": 149
+  },
+  {
     "set": "Quidditch Cup",
     "number": "35",
     "name": "Diffindo",
@@ -1503,8 +1736,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "8T",
     "text": "Choose 1 of your opponent's cards in play (other than his orher starting Character). Your opponent discards that card.",
-    "id": 149
-}, {
+    "id": 150
+  },
+  {
     "set": "Quidditch Cup",
     "number": "36",
     "name": "Doxy",
@@ -1513,8 +1747,9 @@ export default [{
     "groupBlock": "creature",
     "cost": "6F",
     "text": "When you play this card, you may choose another Creature in play. Do 2 damage to it. Damage each turn: 2, Health: 1",
-    "id": 150
-}, {
+    "id": 151
+  },
+  {
     "set": "Quidditch Cup",
     "number": "37",
     "name": "Hufflepuff Match",
@@ -1523,8 +1758,9 @@ export default [{
     "groupBlock": "match",
     "cost": "1Q",
     "text": "To Win: Do 8 damage to your opponent while this card is in play. (That damage doesn't have to be done all at once.)Prize: The winner may draw 5 cards, the loose takes 5damage.",
-    "id": 151
-}, {
+    "id": 152
+  },
+  {
     "set": "Quidditch Cup",
     "number": "38",
     "name": "In the Stands",
@@ -1532,8 +1768,9 @@ export default [{
     "type": "Adventure",
     "groupBlock": "adventure",
     "text": "Effect: Your opponent can't play creature cards.To solve: Your opponent chooses 4 Creature cards in his orher hand and discard them. Opponent's Reward: Your opponent may draw a card",
-    "id": 152
-}, {
+    "id": 153
+  },
+  {
     "set": "Quidditch Cup",
     "number": "39",
     "name": "Into the Forbidden Forest",
@@ -1541,8 +1778,9 @@ export default [{
     "type": "Adventure",
     "groupBlock": "adventure",
     "text": "Effect: Whenever 1 of your Creatures does damage to your opponent, it does 1 more damage. To Solve: Your opponent skips a total of 5 Actions (ThoseActions don't need to be one right after the other)Opponent's Reward: Your opponent may draw a card.",
-    "id": 153
-}, {
+    "id": 154
+  },
+  {
     "set": "Quidditch Cup",
     "number": "40",
     "name": "Jawbind Potion",
@@ -1551,8 +1789,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "4P",
     "text": "Do 2 damage to your opponent. During your opponent's nextturn, he or she can't play Spell cards.",
-    "id": 154
-}, {
+    "id": 155
+  },
+  {
     "set": "Quidditch Cup",
     "number": "41",
     "name": "Missing Parchment",
@@ -1561,8 +1800,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "2C",
     "text": "Look at your opponent's hand. If there are any Spell cardsthere, choose 1 of them and discard it.",
-    "id": 155
-}, {
+    "id": 156
+  },
+  {
     "set": "Quidditch Cup",
     "number": "42",
     "name": "Penalty Shot",
@@ -1571,8 +1811,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "5Q",
     "text": "Draw 3 cards.",
-    "id": 156
-}, {
+    "id": 157
+  },
+  {
     "set": "Quidditch Cup",
     "number": "43",
     "name": "Pep Talk",
@@ -1580,8 +1821,9 @@ export default [{
     "type": "Adventure",
     "groupBlock": "adventure",
     "text": "Effect: The first Action your opponent uses on each of his or her turns must be used to draw a card. To Solve: Your opponent shows you a card from his or her hand with a (printed) Power needed of 8 or more. Opponent's Reward: Your opponent may draw 2 cards.",
-    "id": 157
-}, {
+    "id": 158
+  },
+  {
     "set": "Quidditch Cup",
     "number": "44",
     "name": "Petificus Totalus",
@@ -1590,8 +1832,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "1T",
     "text": "Choose 1 of either player's Creatures in play and a Lessoncard in that player's discard pile. Discard that Creature and put that Lessoncard into play.",
-    "id": 158
-}, {
+    "id": 159
+  },
+  {
     "set": "Quidditch Cup",
     "number": "45",
     "name": "Power Play",
@@ -1600,8 +1843,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "6Q",
     "text": "Play this card only if a Match is in play. Do 7 damage to your opponent.",
-    "id": 159
-}, {
+    "id": 160
+  },
+  {
     "set": "Quidditch Cup",
     "number": "46",
     "name": "Race for the snitch",
@@ -1609,8 +1853,9 @@ export default [{
     "type": "Adventure",
     "groupBlock": "adventure",
     "text": "Effect: Your opponent discards the card he or she draws atthe start of each of his or her turns.To solve: Your opponent discards his or her hand. Opponent's Reward: You discard your hand.",
-    "id": 160
-}, {
+    "id": 161
+  },
+  {
     "set": "Quidditch Cup",
     "number": "47",
     "name": "Snape's Bias",
@@ -1618,8 +1863,9 @@ export default [{
     "type": "Adventure",
     "groupBlock": "adventure",
     "text": "Effect: Your opponent can't use Actions to draw cards. To Solve: Your opponent lets you search your deck for up to2 cards and put them into your hand. Then shuffle your deck. Opponent's Reward: Your opponent may draw a card.",
-    "id": 161
-}, {
+    "id": 162
+  },
+  {
     "set": "Quidditch Cup",
     "number": "48",
     "name": "Sticking Up for Neville",
@@ -1627,8 +1873,9 @@ export default [{
     "type": "Adventure",
     "groupBlock": "adventure",
     "text": "Effect: Before each of your turns, your opponent takes 4damage.To solve: Your opponent discards his or her hand. Opponent's Reward: Your opponent may put up to 4 non-Healingcards from his or her discard pile on the bottom of his or her deck (in anyorder).",
-    "id": 162
-}, {
+    "id": 163
+  },
+  {
     "set": "Quidditch Cup",
     "number": "49",
     "name": "Strategy Session",
@@ -1637,8 +1884,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "3Q",
     "text": "You may put up to 3 Quidditch Lesson from your hand into play.",
-    "id": 163
-}, {
+    "id": 164
+  },
+  {
     "set": "Quidditch Cup",
     "number": "50",
     "name": "Weakness Potion",
@@ -1647,8 +1895,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "7P",
     "text": "To play this card, discard 1 of your Potions Lessons fromplay. Do 5 damage to your opponent. During your opponent's next turn, preventall damage done to you by your opponent's Creatures.",
-    "id": 164
-}, {
+    "id": 165
+  },
+  {
     "set": "Quidditch Cup",
     "number": "51",
     "name": "Bloodroot Poison",
@@ -1657,8 +1906,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "2P",
     "text": "To play this card, discard 1 of your Potions Lessons fromplay. Do 4 damage to your opponent or to a Creature of your choice",
-    "id": 165
-}, {
+    "id": 166
+  },
+  {
     "set": "Quidditch Cup",
     "number": "52",
     "name": "Bravado",
@@ -1667,8 +1917,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "3C",
     "text": "For the rest of this turn, your Spell cards need 5 lessPower to play. (You will still need at least 1 Power that matches.)",
-    "id": 166
-}, {
+    "id": 167
+  },
+  {
     "set": "Quidditch Cup",
     "number": "53",
     "name": "Bruiswort Balm",
@@ -1677,8 +1928,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "3P",
     "text": "Shuffle up to 5 non-healing cards from your discard pileinto your deck.",
-    "id": 167
-}, {
+    "id": 168
+  },
+  {
     "set": "Quidditch Cup",
     "number": "54",
     "name": "Cleansweep Seven",
@@ -1687,8 +1939,9 @@ export default [{
     "groupBlock": "item",
     "cost": "2Q",
     "text": "Provides: 1QWhen you play this card, look at the top 4 cards of your deck and put them back on top in any order. (If there are fewer than 4, look atall of them.) If you play this card, and you already have a Broom in play,discard the old one.",
-    "id": 168
-}, {
+    "id": 169
+  },
+  {
     "set": "Quidditch Cup",
     "number": "55",
     "name": "Cobbing",
@@ -1697,8 +1950,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "7Q",
     "text": "Do 4 damage to your opponent. Then, if your opponent has any cards in play,he or she chooses 1 of them and discards it.",
-    "id": 169
-}, {
+    "id": 170
+  },
+  {
     "set": "Quidditch Cup",
     "number": "56",
     "name": "Cobra Lily",
@@ -1707,8 +1961,9 @@ export default [{
     "groupBlock": "creature",
     "cost": "5F",
     "text": "At the end of each of your turns, remove all damage countersfrom Cobra Lily. Damage each turn: 2, Health: 3",
-    "id": 170
-}, {
+    "id": 171
+  },
+  {
     "set": "Quidditch Cup",
     "number": "57",
     "name": "Cunning Fox",
@@ -1717,8 +1972,9 @@ export default [{
     "groupBlock": "creature",
     "cost": "5F",
     "text": "Damage each turn: 3, Health: 1",
-    "id": 171
-}, {
+    "id": 172
+  },
+  {
     "set": "Quidditch Cup",
     "number": "58",
     "name": "Desk Into Pig",
@@ -1727,8 +1983,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "1T",
     "text": "To play this card, discard 1 of your Lessons from play.Search your deck. You may take up to 3 Creature cards from your deck, show themto your opponent and put them into your hand. Then shuffle your deck.",
-    "id": 172
-}, {
+    "id": 173
+  },
+  {
     "set": "Quidditch Cup",
     "number": "59",
     "name": "Drowsiness Draught",
@@ -1737,8 +1994,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "8P",
     "text": "Do 3 damage to your opponent. During your opponent's nextturn, he or she can't use Actions to play Lesson cards.",
-    "id": 173
-}, {
+    "id": 174
+  },
+  {
     "set": "Quidditch Cup",
     "number": "60",
     "name": "Fouled!",
@@ -1747,8 +2005,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "4Q",
     "text": "Do 4 damage to your opponent. During your opponent's nextturn, he or she gets 1 fewer Action. (If this would mean your opponent hasfewer than 1 Action, he or she still gets 1 Action).",
-    "id": 174
-}, {
+    "id": 175
+  },
+  {
     "set": "Quidditch Cup",
     "number": "61",
     "name": "Gone!",
@@ -1757,8 +2016,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "1C",
     "text": "Look at your opponent's hand. If there are any Creaturecards there, choose one and discard it.",
-    "id": 175
-}, {
+    "id": 176
+  },
+  {
     "set": "Quidditch Cup",
     "number": "62",
     "name": "Mice to Snuffleboxes",
@@ -1767,8 +2027,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "5T",
     "text": "Choose up to 2 Creatures in play and return them to theirowners' hands.",
-    "id": 176
-}, {
+    "id": 177
+  },
+  {
     "set": "Quidditch Cup",
     "number": "63",
     "name": "Mopsus Potion",
@@ -1777,8 +2038,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "8P",
     "text": "Do 3 damage to your opponent or to a Creature of your choice.",
-    "id": 177
-}, {
+    "id": 178
+  },
+  {
     "set": "Quidditch Cup",
     "number": "64",
     "name": "Ouch!",
@@ -1787,8 +2049,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "5Q",
     "text": "Do 5 damage to your opponent. Then, if your opponent has any cards in his or her hand, he or she chooses 1 of them and discards it.",
-    "id": 178
-}, {
+    "id": 179
+  },
+  {
     "set": "Quidditch Cup",
     "number": "65",
     "name": "Practice Match",
@@ -1797,8 +2060,9 @@ export default [{
     "groupBlock": "match",
     "cost": "1Q",
     "text": "To Win: Do 5 damage to your opponent while this card is in play. (That damage doesn't have to be done all at once.)Prize: The winner may draw 4 cards.",
-    "id": 179
-}, {
+    "id": 180
+  },
+  {
     "set": "Quidditch Cup",
     "number": "66",
     "name": "Pulling Up",
@@ -1807,8 +2071,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "4Q",
     "text": "Do 2 damage to your opponent. Then draw 2 cards.",
-    "id": 180
-}, {
+    "id": 181
+  },
+  {
     "set": "Quidditch Cup",
     "number": "67",
     "name": "Research",
@@ -1817,8 +2082,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "5T",
     "text": "To play this card, discard 1 of your Lessons from play.Search your deck. You may put up to 2 Lesson cards from your deck into play.Then shuffle your deck.",
-    "id": 181
-}, {
+    "id": 182
+  },
+  {
     "set": "Quidditch Cup",
     "number": "68",
     "name": "Rope Bind",
@@ -1827,8 +2093,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "3C",
     "text": "Do 2 damage to your opponent or to a creature of your choice. Then draw a card.",
-    "id": 182
-}, {
+    "id": 183
+  },
+  {
     "set": "Quidditch Cup",
     "number": "69",
     "name": "Searching for the Snitch",
@@ -1837,8 +2104,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "2Q",
     "text": "Search you deck. You may take a quidditch lesson or a cardthat needs quidditch power from you deck, show it to your opponent and put itinto your hand. Then shuffle your deck.",
-    "id": 183
-}, {
+    "id": 184
+  },
+  {
     "set": "Quidditch Cup",
     "number": "70",
     "name": "Smash!",
@@ -1847,8 +2115,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "2Q",
     "text": "Choose 1 of your opponent's Items in plan and discard it.",
-    "id": 184
-}, {
+    "id": 185
+  },
+  {
     "set": "Quidditch Cup",
     "number": "71",
     "name": "Stream of Flames",
@@ -1857,8 +2126,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "5C",
     "text": "Do 3 Damage to your opponent. You may also choose a Creaturein play and do 3 damage to it.",
-    "id": 185
-}, {
+    "id": 186
+  },
+  {
     "set": "Quidditch Cup",
     "number": "72",
     "name": "Streeler",
@@ -1867,8 +2137,9 @@ export default [{
     "groupBlock": "creature",
     "cost": "4F",
     "text": "When you play this card, you may choose another Creature in play. Do 1 Damage to it. Damage each turn: 1, Health: 2",
-    "id": 186
-}, {
+    "id": 187
+  },
+  {
     "set": "Quidditch Cup",
     "number": "73",
     "name": "Swarm!",
@@ -1877,8 +2148,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "5F",
     "text": "Count the number or Creatures in play (yours and your opponent's) Do that much damage to your opponent.",
-    "id": 187
-}, {
+    "id": 188
+  },
+  {
     "set": "Quidditch Cup",
     "number": "74",
     "name": "Time Out",
@@ -1887,8 +2159,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "1Q",
     "text": "Look at the top 6 cards of your deck and put them back ontop in any order. (If there are fewer than 6, look at all of them.)",
-    "id": 188
-}, {
+    "id": 189
+  },
+  {
     "set": "Quidditch Cup",
     "number": "75",
     "name": "Vanish",
@@ -1897,8 +2170,9 @@ export default [{
     "groupBlock": "spell",
     "cost": "7T",
     "text": "Choose 1 of your opponent's Creatures or Characters in play(other than his or her starting Character) and put it on the bottom of his orher deck.",
-    "id": 189
-}, {
+    "id": 190
+  },
+  {
     "set": "Quidditch Cup",
     "number": "76",
     "name": "Care of Magical Creatures",
@@ -1906,8 +2180,9 @@ export default [{
     "type": "Lesson",
     "groupBlock": "lesson",
     "text": "Provides: 1F",
-    "id": 190
-}, {
+    "id": 191
+  },
+  {
     "set": "Quidditch Cup",
     "number": "77",
     "name": "Charms",
@@ -1915,8 +2190,9 @@ export default [{
     "type": "Lesson",
     "groupBlock": "lesson",
     "text": "Provides: 1C",
-    "id": 191
-}, {
+    "id": 192
+  },
+  {
     "set": "Quidditch Cup",
     "number": "78",
     "name": "Potions",
@@ -1924,8 +2200,9 @@ export default [{
     "type": "Lesson",
     "groupBlock": "lesson",
     "text": "Provides: 1P",
-    "id": 192
-}, {
+    "id": 193
+  },
+  {
     "set": "Quidditch Cup",
     "number": "79",
     "name": "Quidditch",
@@ -1933,8 +2210,9 @@ export default [{
     "type": "Lesson",
     "groupBlock": "lesson",
     "text": "Provides: 1Q",
-    "id": 193
-}, {
+    "id": 194
+  },
+  {
     "set": "Quidditch Cup",
     "number": "80",
     "name": "Transfiguration",
@@ -1942,8 +2220,9 @@ export default [{
     "type": "Lesson",
     "groupBlock": "lesson",
     "text": "Provides: 1T",
-    "id": 194
-}, {
+    "id": 195
+  },
+  {
     "set": "Diagon Alley",
     "number": "1",
     "name": "Beater Grabs the Snitch",
@@ -1951,9 +2230,10 @@ export default [{
     "type": "Spell",
     "cost": "4Q",
     "text": "Return a match in play to its owner's hand.",
-    "id": 195,
+    "id": 196,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "2",
     "name": "Bulgeye Potion",
@@ -1961,9 +2241,10 @@ export default [{
     "type": "Item",
     "cost": "10P",
     "text": "You may use an action and discard this card from play to do13 damage to your opponent.",
-    "id": 196,
+    "id": 197,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "3",
     "name": "Christmas Feast",
@@ -1971,9 +2252,10 @@ export default [{
     "type": "Spell",
     "cost": "4C",
     "text": "Put up to 4 non-Healing item cards from your discard pileinto your hand.",
-    "id": 197,
+    "id": 198,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "4",
     "name": "Colour-Changing Ink",
@@ -1981,19 +2263,25 @@ export default [{
     "type": "Item",
     "cost": "4T",
     "text": "You may use an action to count the cards in your hand. Putthem all on the bottom of your deck (in any order), and then draw that many cards.",
-    "id": 198,
+    "id": 199,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "5",
     "name": "Draco Malfoy, Slytherin",
     "rarity": "Rare/Holo",
     "type": "Character",
-    "descriptors": ["Wizard", "Slytherin", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Slytherin",
+      "Unique"
+    ],
     "text": "Once during each of your turns, when you use an action toplay an item card, you get 1 more action that turn.",
-    "id": 199,
+    "id": 200,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "6",
     "name": "Dragon-Hide Gloves",
@@ -2001,9 +2289,10 @@ export default [{
     "type": "Item",
     "cost": "8F",
     "text": "Whenever a creature does damage to you, prevent 1 of thatdamage.",
-    "id": 200,
+    "id": 201,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "7",
     "name": "Eeylops Owl Emporium",
@@ -2011,9 +2300,10 @@ export default [{
     "type": "Location",
     "cost": "Unique",
     "text": "4FWhen you play this card, discard any other location fromplay (yours or your opponent's). Each Owl has 1 more health. Whenever an Owldoes damage, it does 1 more damage.",
-    "id": 201,
+    "id": 202,
     "groupBlock": "location"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "8",
     "name": "Flourish and Blotts",
@@ -2021,9 +2311,10 @@ export default [{
     "type": "Location",
     "cost": "Unique",
     "text": "3TWhen you play this card, discard any other location fromplay (yours or your opponent's). Either player may use an action and discard 2of his or her lessons from play to draw 5 cards.",
-    "id": 202,
+    "id": 203,
     "groupBlock": "location"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "9",
     "name": "Good Night's Sleep",
@@ -2031,9 +2322,10 @@ export default [{
     "type": "Spell",
     "cost": "10T",
     "text": "Choose 1 of your characters in play that has a \"onceper game\" ability you have already used. Use that ability.",
-    "id": 203,
+    "id": 204,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "10",
     "name": "Gringotts",
@@ -2041,9 +2333,10 @@ export default [{
     "type": "Location",
     "cost": "Unique",
     "text": "4CWhen you play this card, discard an other location from play(yours or your opponent's). Each player gets 1 more Action on each of his orher turns (including the turn you play this card).",
-    "id": 204,
+    "id": 205,
     "groupBlock": "location"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "11",
     "name": "Gringotts Vault Key",
@@ -2051,19 +2344,24 @@ export default [{
     "type": "Spell",
     "cost": "6C",
     "text": "Search your deck. You may take any card from your deck andput it into your hand. Then shuffle your deck.",
-    "id": 205,
+    "id": 206,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "12",
     "name": "Griphook",
     "rarity": "Rare/Holo",
     "type": "Character",
-    "descriptors": ["Goblin", "Once per game, you may make your opponent discard his or her"],
+    "descriptors": [
+      "Goblin",
+      "Once per game, you may make your opponent discard his or her"
+    ],
     "text": "hand. Then your opponent draws as many cards as he or she discarded in thisway.",
-    "id": 206,
+    "id": 207,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "13",
     "name": "Gryffindor Match",
@@ -2071,19 +2369,23 @@ export default [{
     "type": "Match",
     "cost": "1Q",
     "text": "To Win: Do 12 damage to your opponent while this card is inplay. (That damage doesn't have to be done all at once.)Prize: The winner gets 2 more actions during his or her nextturn.",
-    "id": 207,
+    "id": 208,
     "groupBlock": "match"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "14",
     "name": "Hagrid, Keeper of Keys",
     "rarity": "Rare/Holo",
     "type": "Character",
-    "descriptors": ["Unique"],
+    "descriptors": [
+      "Unique"
+    ],
     "text": "You may use an action to search your deck. You may take alocation card from your deck, show it to your opponent and put it into yourhand. Then shuffle your deck.",
-    "id": 208,
+    "id": 209,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "15",
     "name": "Hagrid's Umbrella",
@@ -2091,9 +2393,10 @@ export default [{
     "type": "Item",
     "cost": "Unique",
     "text": "3CYou may use an action and discard this card from play tosearch your deck. You make take a location card from your deck, show it to youropponent and put it into your hand. Then shuffle your deck. If you play thiscard, and you already have a Wand in play, discard the old one.",
-    "id": 209,
+    "id": 210,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "16",
     "name": "Hebridean Black Dragon",
@@ -2101,9 +2404,10 @@ export default [{
     "type": "Creature",
     "cost": "8F",
     "text": "To play this card, discard 1 of your CoMC lessons from play.Damage each turn: 7, Health: 5",
-    "id": 210,
+    "id": 211,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "17",
     "name": "Hedwig",
@@ -2111,58 +2415,78 @@ export default [{
     "type": "Creature",
     "cost": "Gryffindor/Unique",
     "text": "6FWhen you play this card, you may put a non-Healing card fromyour discard pile into your hand.Damage each turn: 1, Health: 2",
-    "id": 211,
+    "id": 212,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "18",
     "name": "Hermione, Top Student",
     "rarity": "Rare/Holo",
     "type": "Character",
-    "descriptors": ["Witch", "Gryffindor", "Unique"],
+    "descriptors": [
+      "Witch",
+      "Gryffindor",
+      "Unique"
+    ],
     "text": "Once per game, you may search your deck. You may take up to2 lesson cards from your deck, show them to your opponent and put them intoyour hand. Then shuffle your deck.",
-    "id": 212,
+    "id": 213,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "19",
     "name": "Lee Jordan",
     "rarity": "Rare/Holo",
     "type": "Character",
-    "descriptors": ["Wizard", "Gryffindor", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Gryffindor",
+      "Unique"
+    ],
     "text": "You may use an action to reveal the top 3 cards of yourdeck. Put all of those cards that need Quidditch power into your hand. Put therest on the bottom of your deck (in any order).",
-    "id": 213,
+    "id": 214,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "20",
     "name": "Letters From No One",
     "rarity": "Rare/Foil",
     "type": "Adventure",
     "text": "Effect: Your opponent may only use actions to draw cards.To Solve: Your opponent discards 5 cards from his or herhand.Opponent's Reward: Your opponent may draw two cards.",
-    "id": 214,
+    "id": 215,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "21",
     "name": "Madam Irma Pince",
     "rarity": "Rare/Holo",
     "type": "Character",
-    "descriptors": ["Witch", "Unique"],
+    "descriptors": [
+      "Witch",
+      "Unique"
+    ],
     "text": "You may use an action to put a book card from your discardpile into your hand. (Lesson cards aren't books.)",
-    "id": 215,
+    "id": 216,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "22",
     "name": "Professor Quirinus Quirrell",
     "rarity": "Rare/Holo",
     "type": "Character",
-    "descriptors": ["Wizard", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Unique"
+    ],
     "text": "Once per game, you may return all Creatures and Items totheir owners' hands.",
-    "id": 216,
+    "id": 217,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "23",
     "name": "Self-Stirring Cauldron",
@@ -2170,9 +2494,10 @@ export default [{
     "type": "Item",
     "cost": "4P",
     "text": "Provides: 4PTo play this card, discard 2 of your Potion lessons fromplay. You get 1 more action the turn you play this card.",
-    "id": 217,
+    "id": 218,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "24",
     "name": "Silver Unicorn Horn",
@@ -2180,9 +2505,10 @@ export default [{
     "type": "Item",
     "cost": "6P",
     "text": "When you play this card, put up to 2 non-Healing cards fromyour discard pile on the bottom of your deck (in any order). You may use anAction and discard this card from play to shuffle up to 6 non-Healing cardsfrom your discard pile into your deck.",
-    "id": 218,
+    "id": 219,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "25",
     "name": "Table Trouble",
@@ -2190,19 +2516,25 @@ export default [{
     "type": "Spell",
     "cost": "5T",
     "text": "Discard all items from play (yours and your opponent's).",
-    "id": 219,
+    "id": 220,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "26",
     "name": "The Famous Harry Potter",
     "rarity": "Rare/Holo",
     "type": "Character",
-    "descriptors": ["Wizard", "Gryffindor", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Gryffindor",
+      "Unique"
+    ],
     "text": "Before each of your turns, if there are 4 or fewer cards inyour hand, you may draw a card.",
-    "id": 220,
+    "id": 221,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "27",
     "name": "The Leaky Cauldron",
@@ -2210,9 +2542,10 @@ export default [{
     "type": "Location",
     "cost": "Unique",
     "text": "2PWhen you play this card, discard any other location fromplay (yours or your opponent's). Whenever either player plays a character card,he or she uses up 1 action to play it instead of 2.",
-    "id": 221,
+    "id": 222,
     "groupBlock": "location"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "28",
     "name": "Three-Month-Long Match",
@@ -2220,18 +2553,20 @@ export default [{
     "type": "Match",
     "cost": "1Q",
     "text": "To Win: Do 30 damage to your opponent while this card is inplay. (That damage doesn't have to be done all at once.)Prize: The winner does 15 damage to his or her opponent.",
-    "id": 222,
+    "id": 223,
     "groupBlock": "match"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "29",
     "name": "Through the Arch",
     "rarity": "Rare/Foil",
     "type": "Adventure",
     "text": "29Effect: Your opponent can't play spell cards.To Solve: Your opponent skips a total of 4 actions. (Thoseaction don't need to be one right after the other.)Opponent's Reward: Your opponent may put an item card fromhis or her discard pile into his or her hand.",
-    "id": 223,
+    "id": 224,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "30",
     "name": "Vanishing Referee",
@@ -2239,9 +2574,10 @@ export default [{
     "type": "Spell",
     "cost": "4Q",
     "text": "Choose a non-Healing character in play (other than astarting character) and shuffle it into its owner's deck.",
-    "id": 224,
+    "id": 225,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "31",
     "name": "Alihotsy Draught",
@@ -2249,9 +2585,10 @@ export default [{
     "type": "Spell",
     "cost": "7P",
     "text": "Do 6 damage to your opponent or choose 1 of his or her itemsin play and discard it.",
-    "id": 225,
+    "id": 226,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "32",
     "name": "Barn Owl",
@@ -2259,9 +2596,10 @@ export default [{
     "type": "Creature",
     "cost": "3F",
     "text": "When you play this card, you may discard 1 of your CoMClessons from play to put a creature card from your discard pile into your hand.Damage each turn: 1, Health: 1",
-    "id": 226,
+    "id": 227,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "33",
     "name": "Beetle Eyes",
@@ -2269,9 +2607,10 @@ export default [{
     "type": "Item",
     "cost": "5P",
     "text": "When you play this card, do 4 damage to your opponent. Youmay use an action to discard this and Eel Eyes from play to search your deck.You may take a Bulgeye Potion card from your deck and put it into play. Thenshuffle your deck.",
-    "id": 227,
+    "id": 228,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "34",
     "name": "Biased Commentary",
@@ -2279,9 +2618,10 @@ export default [{
     "type": "Spell",
     "cost": "3Q",
     "text": "The next time this turn you play a spell card that needsQuidditch power, if that card does damage to your opponent, it does 5 moredamage.",
-    "id": 228,
+    "id": 229,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "35",
     "name": "Bluebottle Broom",
@@ -2289,9 +2629,10 @@ export default [{
     "type": "Item",
     "cost": "4Q",
     "text": "Provides: 1QYou may use an action to put a non-Healing card from yourdiscard pile on the bottom of your deck. If you play this card, and you alreadyhave a broom in play, discard the old one.",
-    "id": 229,
+    "id": 230,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "36",
     "name": "Cauldron Shop",
@@ -2299,9 +2640,10 @@ export default [{
     "type": "Location",
     "cost": "3P",
     "text": "When you play this card, discard any other location fromplay (yours or your opponent's). Either player may use an action to search hisor her deck. That player may take an item card from his or her deck that needsPotions power, show it to his or her opponent and put it into his or her hand.Then the player shuffles his or her deck.",
-    "id": 230,
+    "id": 231,
     "groupBlock": "location"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "37",
     "name": "Colloshoo",
@@ -2309,9 +2651,10 @@ export default [{
     "type": "Spell",
     "cost": "3C",
     "text": "Look at your opponent's hand. If there are any item cardsthere, choose 1 of them and discard it.",
-    "id": 231,
+    "id": 232,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "38",
     "name": "Eel Eyes",
@@ -2319,9 +2662,10 @@ export default [{
     "type": "Item",
     "cost": "1P",
     "text": "When you play this card, look at your opponent's hand. Youmay use an action to discard this and Beetle Eyes from play to search yourdeck. You may take a Bulgeye Potion card from your deck and put it into play.Then shuffle your deck.",
-    "id": 232,
+    "id": 233,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "39",
     "name": "Frog-Spawn",
@@ -2329,9 +2673,10 @@ export default [{
     "type": "Spell",
     "cost": "2F",
     "text": "During your opponent's next turn, prevent all damage done toyour creatures.",
-    "id": 233,
+    "id": 234,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "40",
     "name": "Injured",
@@ -2339,9 +2684,10 @@ export default [{
     "type": "Spell",
     "cost": "5C",
     "text": "Look at your opponent's hand. Discard all cards from it thatneed Quidditch power.",
-    "id": 234,
+    "id": 235,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "41",
     "name": "Lapifors",
@@ -2349,9 +2695,10 @@ export default [{
     "type": "Spell",
     "cost": "7T",
     "text": "Choose 1 of your opponent's creatures in play and discardit. Then search your deck. You may take a creature card from your deck, show itto your opponent and put it into your hand. Then shuffle your deck.",
-    "id": 235,
+    "id": 236,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "42",
     "name": "Madam Malkin's Robes",
@@ -2359,9 +2706,10 @@ export default [{
     "type": "Location",
     "cost": "Unique",
     "text": "4TWhen you play this card, discard any other Location fromplay (yours or your opponent's). Whenever a card (yours or your opponent's) doesdamage, it does 1 less damage.",
-    "id": 236,
+    "id": 237,
     "groupBlock": "location"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "43",
     "name": "Porcupine Robe",
@@ -2369,9 +2717,10 @@ export default [{
     "type": "Item",
     "cost": "7T",
     "text": "At the end of each of your opponent's turns, do 1 damage toeach creature that did damage to you that turn.",
-    "id": 237,
+    "id": 238,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "44",
     "name": "Practical Joke",
@@ -2379,9 +2728,10 @@ export default [{
     "type": "Spell",
     "cost": "3T",
     "text": "Count the number of items in play (yours and youropponent's). Do that much damage to your opponent.",
-    "id": 238,
+    "id": 239,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "45",
     "name": "Quality Quidditch Supplies",
@@ -2389,9 +2739,10 @@ export default [{
     "type": "Location",
     "cost": "Unique",
     "text": "3QWhen you play this card, discard any other location fromplay (yours or your opponent's). Either player may use an action to search hisor her deck. That player may take an item card from his or her deck that needsQuidditch power, show it to his or her opponent and put it into his or herhand. Then the player shuffles his or her deck.",
-    "id": 239,
+    "id": 240,
     "groupBlock": "location"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "46",
     "name": "Quintaped",
@@ -2399,9 +2750,10 @@ export default [{
     "type": "Creature",
     "cost": "5F",
     "text": "Damage each turn: 2, Health: 5",
-    "id": 240,
+    "id": 241,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "47",
     "name": "Spiral Dive",
@@ -2409,9 +2761,10 @@ export default [{
     "type": "Spell",
     "cost": "5Q",
     "text": "Discard any number of cards from your hand. Do that muchdamage to your opponent.",
-    "id": 241,
+    "id": 242,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "48",
     "name": "Verdillious",
@@ -2419,9 +2772,10 @@ export default [{
     "type": "Spell",
     "cost": "9C",
     "text": "Do 5 damage to your opponent or to a creature of yourchoice.",
-    "id": 242,
+    "id": 243,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "49",
     "name": "Wand Shop",
@@ -2429,9 +2783,10 @@ export default [{
     "type": "Location",
     "cost": "Unique",
     "text": "4CWhen you play this card, discard any other location fromplay (yours or your opponent's). All Charms lessons (yours and your opponent's)provide two Charms power instead of one.",
-    "id": 243,
+    "id": 244,
     "groupBlock": "location"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "50",
     "name": "Wild Boar",
@@ -2439,9 +2794,10 @@ export default [{
     "type": "Creature",
     "cost": "2F",
     "text": "To play this card, discard 2 of your CoMC lessons from play.Damage each turn: 3, Health: 5",
-    "id": 244,
+    "id": 245,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "51",
     "name": "A Beginner's Guide to Transfiguration",
@@ -2449,9 +2805,10 @@ export default [{
     "type": "Item",
     "cost": "2T",
     "text": "Provides: 1TYou may use an action and discard this card from play todraw 3 cards.",
-    "id": 245,
+    "id": 246,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "52",
     "name": "Bludger in the Stands",
@@ -2459,9 +2816,10 @@ export default [{
     "type": "Spell",
     "cost": "6Q",
     "text": "Do 4 damage to your opponent. Then, if your opponent has anyitems in play, he or she chooses 1 of them and discards it.",
-    "id": 246,
+    "id": 247,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "53",
     "name": "Blue Wig",
@@ -2469,9 +2827,10 @@ export default [{
     "type": "Spell",
     "cost": "6C",
     "text": "Do 4 damage to your opponent. Then draw a card.",
-    "id": 247,
+    "id": 248,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "54",
     "name": "Butterfly Weed Balm",
@@ -2479,9 +2838,10 @@ export default [{
     "type": "Spell",
     "cost": "5P",
     "text": "To play this card, discard 1 of your Potions lessons fromplay. Shuffle up to 9 non-Healing cards from your discard pile into your deck.",
-    "id": 248,
+    "id": 249,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "55",
     "name": "Cancelled Practice",
@@ -2489,9 +2849,10 @@ export default [{
     "type": "Spell",
     "cost": "2T",
     "text": "Choose 1 of your opponent's Quidditch lessons in play anddiscard it.56 Dog BiscuitsCommon Spell1FRemove all damage counters (if any) from 1 of your creaturesin play. Then draw a card.",
-    "id": 249,
+    "id": 250,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "57",
     "name": "Dogbane Potion",
@@ -2499,9 +2860,10 @@ export default [{
     "type": "Spell",
     "cost": "5P",
     "text": "Choose 1 of your opponent's creatures in play and do 3damage to it.",
-    "id": 250,
+    "id": 251,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "58",
     "name": "Fantastic Beasts &amp; Where to Find Them",
@@ -2509,9 +2871,10 @@ export default [{
     "type": "Item",
     "cost": "2F",
     "text": "Provides: 1FYou may use an action and discard this card from play todraw 3 cards.",
-    "id": 251,
+    "id": 252,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "59",
     "name": "Flipendo",
@@ -2519,9 +2882,10 @@ export default [{
     "type": "Spell",
     "cost": "2C",
     "text": "Do 2 damage to your opponent or to a creature of yourchoice.",
-    "id": 252,
+    "id": 253,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "60",
     "name": "Freeze!",
@@ -2529,9 +2893,10 @@ export default [{
     "type": "Spell",
     "cost": "3C",
     "text": "Choose 1 of your opponent's creatures in play and do 4damage to it.",
-    "id": 253,
+    "id": 254,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "61",
     "name": "Magical Drafts and Potions",
@@ -2539,9 +2904,10 @@ export default [{
     "type": "Item",
     "cost": "2P",
     "text": "Provides: 1PYou may use an action and discard this card from play todraw 3 cards.",
-    "id": 254,
+    "id": 255,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "62",
     "name": "Mid-air Collision",
@@ -2549,9 +2915,10 @@ export default [{
     "type": "Spell",
     "cost": "10Q",
     "text": "Do 10 damage to your opponent. Then choose 1 of your cardsin play (other than your starting character) and discard it.",
-    "id": 255,
+    "id": 256,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "63",
     "name": "Moonseed Poison",
@@ -2559,9 +2926,10 @@ export default [{
     "type": "Item",
     "cost": "8P",
     "text": "When you play this card, do 3 damage to your opponent. Youmay use an action and discard this card from play to do 6 damage to youropponent.",
-    "id": 256,
+    "id": 257,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "64",
     "name": "Picking on Neville",
@@ -2569,9 +2937,10 @@ export default [{
     "type": "Spell",
     "cost": "4T",
     "text": "Choose 1 of your opponent's cards in play (other than his orher starting character) and discard it. Your opponent may prevent this bychoosing 2 of his or her cards in play (other than his or her startingcharacter) and discarding them.",
-    "id": 257,
+    "id": 258,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "65",
     "name": "Pigley Dudley",
@@ -2579,9 +2948,10 @@ export default [{
     "type": "Spell",
     "cost": "5T",
     "text": "Choose 1 of your opponent's creatures or characters in play(other than his or her starting character) and put it on top of his or herdeck.",
-    "id": 258,
+    "id": 259,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "66",
     "name": "Quick Thinking",
@@ -2589,9 +2959,10 @@ export default [{
     "type": "Spell",
     "cost": "6Q",
     "text": "Do 3 damage to your opponent or draw 3 cards.",
-    "id": 259,
+    "id": 260,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "67",
     "name": "Quidditch Through the Ages",
@@ -2599,9 +2970,10 @@ export default [{
     "type": "Item",
     "cost": "2Q",
     "text": "Provides: 1QYou may use an action and discard this card from play todraw 3 cards.",
-    "id": 260,
+    "id": 261,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "68",
     "name": "River Troll",
@@ -2609,9 +2981,10 @@ export default [{
     "type": "Creature",
     "cost": "5F",
     "text": "To play this card, discard 1 of your CoMC lessons from play.Damage each turn: 4, Health: 3",
-    "id": 261,
+    "id": 262,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "69",
     "name": "Screech Owl",
@@ -2619,9 +2992,10 @@ export default [{
     "type": "Creature",
     "cost": "3F",
     "text": "When you play this card, you may put a lesson card from yourdiscard pile into your hand.Damage each turn: 1, Health: 1",
-    "id": 262,
+    "id": 263,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "70",
     "name": "Sloth Grip",
@@ -2629,9 +3003,10 @@ export default [{
     "type": "Spell",
     "cost": "5Q",
     "text": "During your opponent's next turn, you may prevent all butthe first 3 damage done to you.",
-    "id": 263,
+    "id": 264,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "71",
     "name": "Spongify",
@@ -2639,9 +3014,10 @@ export default [{
     "type": "Spell",
     "cost": "2C",
     "text": "Choose a non-Healing item in play and return it to itsowner's hand. Then draw a card.",
-    "id": 264,
+    "id": 265,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "72",
     "name": "Swelling Potion",
@@ -2649,9 +3025,10 @@ export default [{
     "type": "Spell",
     "cost": "7P",
     "text": "Do 5 damage to your opponent. During your opponent's nextturn, he or she can't use actions to play item cards.",
-    "id": 265,
+    "id": 266,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "73",
     "name": "Tawny Owl",
@@ -2659,9 +3036,10 @@ export default [{
     "type": "Creature",
     "cost": "3F",
     "text": "When you play this card, you may put a non-Healing item cardfrom your discard pile into your hand.Damage each turn: 1, Health: 1",
-    "id": 266,
+    "id": 267,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "74",
     "name": "Teacup to Rat",
@@ -2669,9 +3047,10 @@ export default [{
     "type": "Spell",
     "cost": "3T",
     "text": "Choose 1 of your opponent's items in play and discard it.Then draw a card.",
-    "id": 267,
+    "id": 268,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "75",
     "name": "The Standard Book of Spells (Grade 1)",
@@ -2679,93 +3058,112 @@ export default [{
     "type": "Item",
     "cost": "2C",
     "text": "Provides: 1CYou may use an action and discard this card from play todraw 3 cards.",
-    "id": 268,
+    "id": 269,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "76",
     "name": "Care of Magical Creatures",
     "rarity": "Common",
     "type": "Lesson",
     "text": "Provides: 1F",
-    "id": 269,
+    "id": 270,
     "groupBlock": "lesson"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "77",
     "name": "Charms",
     "rarity": "Common",
     "type": "Lesson",
     "text": "Provides: 1C",
-    "id": 270,
+    "id": 271,
     "groupBlock": "lesson"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "78",
     "name": "Potions",
     "rarity": "Common",
     "type": "Lesson",
     "text": "Provides: 1P",
-    "id": 271,
+    "id": 272,
     "groupBlock": "lesson"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "79",
     "name": "Quidditch",
     "rarity": "Common",
     "type": "Lesson",
     "text": "Provides: 1Q",
-    "id": 272,
+    "id": 273,
     "groupBlock": "lesson"
-}, {
+  },
+  {
     "set": "Diagon Alley",
     "number": "80",
     "name": "Transfiguration",
     "rarity": "Common",
     "type": "Lesson",
     "text": "Provides: 1T",
-    "id": 273,
+    "id": 274,
     "groupBlock": "lesson"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "1",
     "name": "Albus Dumbledore",
     "rarity": "Rare/Holo",
     "type": "Character",
-    "descriptors": ["Wizard", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Unique"
+    ],
     "text": "If you have at least 4 Lessons in play, your Spell cardswith a printed Power cost of 6 or more need 2 less Power to play. (You stillneed at least 1 Power that matches.)",
-    "id": 274,
+    "id": 275,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "2",
     "name": "Argus Filch",
     "rarity": "Rare/Holo",
     "type": "Character",
-    "descriptors": ["Unique"],
+    "descriptors": [
+      "Unique"
+    ],
     "text": "You may use an Action to discard an Adventure from play(yours or your opponent's). (You don't get the reward.)",
-    "id": 275,
+    "id": 276,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "3",
     "name": "Crabbe &amp; Goyle",
     "rarity": "Rare/Holo",
     "type": "Character",
-    "descriptors": ["Wizard", "Slytherin", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Slytherin",
+      "Unique"
+    ],
     "text": "You may use an Action and discard 2 cards from your hand todo 3 damage to your opponent.",
-    "id": 276,
+    "id": 277,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "4",
     "name": "Detention!",
     "rarity": "Rare/Foil",
     "type": "Adventure",
     "text": "Effect: Your opponent can't use Actions to play Adventurecards.To Solve: Your opponent chooses 2 Adventure cards in his orher hand and discards them.Opponent's Reward: Your opponent may draw a card.",
-    "id": 277,
+    "id": 278,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "5",
     "name": "Dragon's Blood",
@@ -2773,9 +3171,10 @@ export default [{
     "type": "Spell",
     "cost": "7P",
     "text": "To play this card, discard 2 of your P Lessons from play. Do11 damage to your opponent or to a Creature of your choice.",
-    "id": 278,
+    "id": 279,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "6",
     "name": "Dumbledore's Watch",
@@ -2783,9 +3182,10 @@ export default [{
     "type": "Item",
     "cost": "Unique",
     "text": "9TIf this card is in play before your turn, discard all cards(other than each player's starting Character) from play (including this card).",
-    "id": 279,
+    "id": 280,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "7",
     "name": "End-of-Year Feast",
@@ -2793,9 +3193,10 @@ export default [{
     "type": "Spell",
     "cost": "4C",
     "text": "Put up to 4 Adventure cards from your discard pile into yourhand.",
-    "id": 280,
+    "id": 281,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "8",
     "name": "Fang",
@@ -2803,18 +3204,20 @@ export default [{
     "type": "Creature",
     "cost": "Unique",
     "text": "8FTo play this card, discard 1 of your F Lessons from play.When you play this card, do 4 damage to your opponent.Damage each turn: 4, Health: 7",
-    "id": 281,
+    "id": 282,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "9",
     "name": "Finding the Platform",
     "rarity": "Rare/Foil",
     "type": "Adventure",
     "text": "Effect: Your opponent can't use Actions to play Locationcards.To Solve: Your opponent lets you search your deck. You maytake up to 2 Location cards from your deck, show them to your opponent and putthem into your hand. Then shuffle your deck.Opponent's Reward: Your opponent may put a Lesson card fromhis or her hand into play.",
-    "id": 282,
+    "id": 283,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "10",
     "name": "Galleon",
@@ -2822,9 +3225,10 @@ export default [{
     "type": "Item",
     "cost": "10C",
     "text": "You can play only 1 Money card each turn. Before your turn,if this card is in play, discard it and your get 3 more Actions this turn.",
-    "id": 283,
+    "id": 284,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "11",
     "name": "Great Hall",
@@ -2832,9 +3236,10 @@ export default [{
     "type": "Location",
     "cost": "Unique",
     "text": "2CWhen you play this card, discard any other Location fromplay (yours or your opponent's). Before each player's turn, he or she draws acard.",
-    "id": 284,
+    "id": 285,
     "groupBlock": "location"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "12",
     "name": "Hagrid's House",
@@ -2842,19 +3247,25 @@ export default [{
     "type": "Location",
     "cost": "Unique",
     "text": "3FWhen you play this card, discard any other Location fromplay (yours or your opponent's). Whenever a F Lesson (yours or your opponent's)is discarded from play, put it into its owner's hand.",
-    "id": 285,
+    "id": 286,
     "groupBlock": "location"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "13",
     "name": "Harry Triumphant",
     "rarity": "Rare/Holo",
     "type": "Character",
-    "descriptors": ["Wizard", "Gryffindor", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Gryffindor",
+      "Unique"
+    ],
     "text": "At the end of each of your turns, if you played an Adventurecard that turn, draw up to 4 cards.",
-    "id": 286,
+    "id": 287,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "14",
     "name": "Hospital Dormitory",
@@ -2862,46 +3273,55 @@ export default [{
     "type": "Location",
     "cost": "7P",
     "text": "When you play this card, discard any other Location fromplay (yours or your opponent's). Each turn, each player may prevent 4 damagedone to him or her. (The damage may be prevented from one or more cards.)",
-    "id": 287,
+    "id": 288,
     "groupBlock": "location"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "15",
     "name": "Hut on the Rock",
     "rarity": "Rare/Foil",
     "type": "Adventure",
     "text": "Play this card only if you have at least 5 Lessons in play.Effect: Before each of your opponent's turns, if he or shehas any cards in play (other than his or her starting Character), he or shechooses 1 of them and discards it.To Solve: Your opponent discards his or her hand.Opponent's Reward: You take 5 damage.",
-    "id": 288,
+    "id": 289,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "16",
     "name": "Madam Pomfrey ",
     "rarity": "Rare/Holo",
     "type": "Character",
-    "descriptors": ["Witch", "Unique", "Healing"],
+    "descriptors": [
+      "Witch",
+      "Unique",
+      "Healing"
+    ],
     "text": "Once per game, you may shuffle up to 12 non-Healing cardsfrom your discard pile into your deck. ",
-    "id": 289,
+    "id": 290,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "17",
     "name": "Meeting Fluffy",
     "rarity": "Rare/Foil",
     "type": "Adventure",
     "text": "Play this card only if you have at least 9 Lessons in play.Effect: Before each of your turns, your opponent takes 12damage.To Solve: Your opponent lets you choose 3 of his or hercards in play (other than his or her starting Character) and discard them.Opponent's Reward: Your opponent gets 1 more Action the turnhe or she solves this Adventure.",
-    "id": 290,
+    "id": 291,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "18",
     "name": "Midnight Duel",
     "rarity": "Rare/Foil",
     "type": "Adventure",
     "text": "Play this card only if you have at least 5 Lessons in play.Effect: To use an Action to play a Creature or a Spell cardfrom his or her hand, your opponent must discard another card from his or herhand.To Solve: Your opponent chooses 4 of his or her cards inplay (other than his or her starting Character) and discards them.Opponent's Reward: Your opponent may draw 4 cards.",
-    "id": 291,
+    "id": 292,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "19",
     "name": "Mirror of Erised",
@@ -2909,19 +3329,23 @@ export default [{
     "type": "Item",
     "cost": "Unique",
     "text": "10TYou may use an Action to discard this card from play. If youdo, count the number of cards in your hand and discard them. Then search yourdeck. You may take up to that number of cards from your deck and put them intoyour hand. Then shuffle your deck.",
-    "id": 292,
+    "id": 293,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "20",
     "name": "Peeves",
     "rarity": "Rare/Holo",
     "type": "Character",
-    "descriptors": ["Unique"],
+    "descriptors": [
+      "Unique"
+    ],
     "text": "Once per game, you may discard your hands and draw 7 cardsto make your opponent discard his or her hand and then draw 7 cards.",
-    "id": 293,
+    "id": 294,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "21",
     "name": "Philosopher's Stone",
@@ -2929,9 +3353,10 @@ export default [{
     "type": "Item",
     "cost": "Unique",
     "text": "15TYou may use 2 Actions to discard this card from play to putall Lesson cards from your discard pile into play. Then shuffle all non-Healingcards from your discard pile into your deck. When you build your deck, you canonly put 1 Philosopher's Stone in it.",
-    "id": 294,
+    "id": 295,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "22",
     "name": "Potions Dungeon",
@@ -2939,9 +3364,10 @@ export default [{
     "type": "Location",
     "cost": "Unique",
     "text": "3PWhen you play this card, discard any other Location fromplay (yours or your opponent's). Whenever a P Lesson (yours or your opponent's)is discarded from play, put it into its owner's hand.",
-    "id": 295,
+    "id": 296,
     "groupBlock": "location"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "23",
     "name": "Quidditch Cup",
@@ -2949,9 +3375,10 @@ export default [{
     "type": "Item",
     "cost": "Unique",
     "text": "9QOnce during each of your turns, when you use an Action toplay a card that requires Q Power, you get 1 more Action that turn.",
-    "id": 296,
+    "id": 297,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "24",
     "name": "Quidditch Pitch",
@@ -2959,56 +3386,69 @@ export default [{
     "type": "Location",
     "cost": "2Q",
     "text": "When you play this card, discard any other Location fromplay (yours or your opponent's). Spell cards that need Q Power (yours and youropponent's) need 2 less Power to play (you still need at least 1 Power thatmatches).",
-    "id": 297,
+    "id": 298,
     "groupBlock": "location"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "25",
     "name": "Riding the Centaur",
     "rarity": "Rare/Foil",
     "type": "Adventure",
     "text": "Effect: Prevent all damage done to you by your opponent'sCreatures.To Solve: Your opponent chooses 4 of his or her cards inplay (other than his or her starting Character) and returns them to his or herhand.Opponent's Reward: Your opponent may draw a card.",
-    "id": 298,
+    "id": 299,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "26",
     "name": "Ron the Brave",
     "rarity": "Rare/Holo",
     "type": "Character",
-    "descriptors": ["Wizard", "Gryffindor", "Unique"],
+    "descriptors": [
+      "Wizard",
+      "Gryffindor",
+      "Unique"
+    ],
     "text": "At the end of each of your turns, if you played an Adventurecard that turn, your may search your deck. You may take a Character card fromyour deck, show it to your opponent and put it into your hand. Then shuffleyour deck.",
-    "id": 299,
+    "id": 300,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "27",
     "name": "Stoat Sandwiches",
     "rarity": "Rare/Foil",
     "type": "Adventure",
     "text": "Effect: Your opponent can't use Actions to play Healingcards.To Solve: Your opponent chooses 5 of his or her cards inplay (other than his or her starting Character) and discards them.Opponent's Reward: Your opponent may shuffle up to 5non-Healing cards from his or her discard pile into his or her deck.",
-    "id": 300,
+    "id": 301,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "28",
     "name": "The Fat Lady",
     "rarity": "Rare/Holo",
     "type": "Character",
-    "descriptors": ["Gryffindor", "Unique"],
+    "descriptors": [
+      "Gryffindor",
+      "Unique"
+    ],
     "text": "You may use an Action to search your deck. You may take aGryffindor card from your deck, show it to your opponent and put it into yourhand. Then shuffle your deck.",
-    "id": 301,
+    "id": 302,
     "groupBlock": "character"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "29",
     "name": "Voldemort Revealed",
     "rarity": "Rare/Foil",
     "type": "Adventure",
     "text": "Effect: Your opponent can't use Actions to play Spell cards.To Solve: Your opponent takes 7 damage.Opponent's Reward: Your opponent may put up to 2 non-Healingcards from his or her discard pile and put them on the bottom of his deck (inany order).",
-    "id": 302,
+    "id": 303,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "30",
     "name": "Welsh Green Dragon",
@@ -3016,18 +3456,20 @@ export default [{
     "type": "Creature",
     "cost": "7F",
     "text": "To play this card, discard 2 of your F Lessons from play.When you play this card, do 6 damage to your opponent.Damage each turn: 6, Health: 4",
-    "id": 303,
+    "id": 304,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "31",
     "name": "5 Points from Gryffindor",
     "rarity": "Uncommon",
     "type": "Adventure",
     "text": "Play this card only if you have at least 5 Lessons in play.Effect: Your opponent gets 1 fewer Action on each of his orher turns (even the turn this Adventure is solved). (If this would mean youropponent would have fewer than 1 Action, he or she still gets 1 Action.)To Solve: Your opponent chooses 5 cards from his or her handand discards them.Opponent's Reward: You take 5 damage.",
-    "id": 304,
+    "id": 305,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "32",
     "name": "Alohomora",
@@ -3035,9 +3477,10 @@ export default [{
     "type": "Spell",
     "cost": "4C",
     "text": "Search your deck. You may take a Location of Adventure cardfrom your deck, show it to your opponent and put it into your hand. Thenshuffle your deck.",
-    "id": 305,
+    "id": 306,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "33",
     "name": "Baneberry Potion",
@@ -3045,9 +3488,10 @@ export default [{
     "type": "Spell",
     "cost": "3P",
     "text": "To play this card, discard 2 of your P Lessons from play. Do8 damage to your opponent or to a Creature of your choice.",
-    "id": 306,
+    "id": 307,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "34",
     "name": "Bludger Bop",
@@ -3055,18 +3499,20 @@ export default [{
     "type": "Spell",
     "cost": "6Q",
     "text": "Your opponent chooses 1 of his or her cards in play (otherthan his or her starting Character) and discards it. Then, if he or she has any cards in his or her hand, he or she chooses 1 of them and discards it.",
-    "id": 307,
+    "id": 308,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "35",
     "name": "Candy Cart",
     "rarity": "Uncommon",
     "type": "Adventure",
     "text": "Play this card only if you have at least 3 Lessons in play.Effect: Before each of your opponent's turns, he or shedraws 3 cards and then chooses 3 cards in his or her hand and discards them.To Solve: Your opponent takes 10 damage.Opponent's Reward: Your opponent may draw a card.",
-    "id": 308,
+    "id": 309,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "36",
     "name": "Collapsible Cauldron",
@@ -3074,9 +3520,10 @@ export default [{
     "type": "Item",
     "cost": "6P",
     "text": "To play this card, discard 1 of your P Lessons from play. Ifthis card is discarded from play, put it into your hand.Provides: 3P",
-    "id": 309,
+    "id": 310,
     "groupBlock": "item"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "37",
     "name": "Flying Motorbike",
@@ -3084,18 +3531,20 @@ export default [{
     "type": "Spell",
     "cost": "3T",
     "text": "Choose an Adventure or Location in play and discard it. (Ifyou discard an Adventure, you don't get the reward.)",
-    "id": 310,
+    "id": 311,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "38",
     "name": "Flying Practice",
     "rarity": "Uncommon",
     "type": "Adventure",
     "text": "Effect: Spell cards that need Q Power use up 2 of youropponent's Actions instead of 1.To Solve: Your opponent discards 4 cards that need Q Powerfrom his or her hand.Opponent's Reward: You take 2 damage.",
-    "id": 311,
+    "id": 312,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "39",
     "name": "Forbidden Corridor",
@@ -3103,18 +3552,20 @@ export default [{
     "type": "Location",
     "cost": "Unique",
     "text": "6TWhen you play this card, discard any other Location fromplay (yours or your opponent's). Before each player's turn, he or she chooses 1of his or her cards in play (other than his or her starting Character) anddiscards it. At the end of each player's turn, if he or she has no Lessons inplay, discard this card.<span style=\"mso-spacerun: yes\">&nbsp;</span>40 Giant SquidUncommon Creature/Squid10FDamage each turn: 5, Health: 10",
-    "id": 312,
+    "id": 313,
     "groupBlock": "location"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "41",
     "name": "Looking for Trevor",
     "rarity": "Uncommon",
     "type": "Adventure",
     "text": "Effect: Your opponent can't use Actions to play Creaturecards.To Solve: Your opponent chooses 2 of his or her Lessons inplay and discards them.Opponent's Reward: Your opponent may search his or her deck.He or she may take a Creature card, show it to you, and put it into his or herhand. Then your opponent shuffles his or her deck.",
-    "id": 313,
+    "id": 314,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "42",
     "name": "Marble Gargoyle",
@@ -3122,9 +3573,10 @@ export default [{
     "type": "Creature",
     "cost": "5F ",
     "text": "When Marble Gargoyle does damage to your opponent, if he orshe doesn't have any Creatures in play, it does 3 more damage to him or her.Damage each turn: 2, Health: 3",
-    "id": 314,
+    "id": 315,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "43",
     "name": "Muddy Practice",
@@ -3132,18 +3584,20 @@ export default [{
     "type": "Match",
     "cost": "1Q",
     "text": "Either player may use an Action to discard a card from hisor her hand.To Win: Discard 5 cards from your hand in this way.Prize: The winner does 10 damage to his or her opponent.<span style=\"mso-spacerun: yes\">&nbsp;</span>44 Purple FirecrackersUncommon Spell6CYour opponent chooses 3 cards in his or her hand anddiscards them. (If he or she has fewer than 3 cards in his or her hand, he orshe discards them all.)",
-    "id": 315,
+    "id": 316,
     "groupBlock": "match"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "45",
     "name": "Running from Filch",
     "rarity": "Uncommon",
     "type": "Adventure",
     "text": "Play this card only if you have at least 6 Lessons in play.Effect: Your opponent can't use Actions to play Lessoncards.To Solve: Your opponent discards his or her hand.Opponent's Reward: Your opponent may draw 3 cards.<span style=\"mso-spacerun: yes\">&nbsp;</span>46 SickleUncommon Item/Money7CYou can play only 1 Money card each turn. Before your turn,if this card is in play, discard it and your get 2 more Actions this turn.<span style=\"mso-spacerun: yes\">&nbsp;</span>47 Star Grass SalveUncommon Spell/Healing8PTo play this card, discard one of your P Lessons from play.Shuffle up to 11 non-Healing cards from your discard pile into your deck.<span style=\"mso-spacerun: yes\">&nbsp;</span>48 Through the TrapdoorUncommon AdventureEffect: Your opponent discards the card drawn at the startof each of his or her turns.To Solve: The card drawn and discarded at the start of youropponent's turn is a Lesson card.Opponent's Reward: You take 1 damage.<span style=\"mso-spacerun: yes\">&nbsp;</span>49 Winter HolidayUncommon Spell9TYour opponent chooses 3 of his or her Lessons in play anddiscards them. Then you choose 3 of your Lessons in play and discard them. (Ifeither of you has fewer than 3 Lessons in play, that player discards them all.)<span style=\"mso-spacerun: yes\">&nbsp;</span>50 Wooden FluteUncommon Spell8FChoose up to 3 Creatures in play and return them to theirowner's hands.",
-    "id": 316,
+    "id": 317,
     "groupBlock": "adventure"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "51",
     "name": "Anti-Cheating Spell",
@@ -3151,9 +3605,10 @@ export default [{
     "type": "Spell",
     "cost": "3C",
     "text": "Look at your opponent's hand. If there are any Lessonsthere, choose 1 of them and discard it.<span style=\"mso-spacerun: yes\">&nbsp;</span>52 Bewitched SnowballsCommon Spell5CDo 3 damage to your opponent or to a Creature of yourchoice. Then draw a card.",
-    "id": 317,
+    "id": 318,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "53",
     "name": "Black Bat",
@@ -3161,9 +3616,10 @@ export default [{
     "type": "Creature",
     "cost": "4F",
     "text": "When you play this card, do 2 damage to your opponent.Damage each turn: 2, Health: 1",
-    "id": 318,
+    "id": 319,
     "groupBlock": "creature"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "54",
     "name": "Bucking Broomstick",
@@ -3171,9 +3627,10 @@ export default [{
     "type": "Spell",
     "cost": "7Q",
     "text": "Do 3 damage to your opponent. Then, if your opponent has any cards in his or her hand, he or she chooses 2 of them and discards them (1 ifhe or she only has 1).",
-    "id": 319,
+    "id": 320,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "55",
     "name": "Cauldron Cakes",
@@ -3181,9 +3638,10 @@ export default [{
     "type": "Spell",
     "cost": "1P",
     "text": "Choose up to 2 non-Healing cards from your discard pile andput them on the bottom of your deck (in any order). When draw a card. (CauldronCakes isn't really a Cauldron.)<span style=\"mso-spacerun: yes\">&nbsp;</span>56 Charms AccidentCommon Spell2CDo 2 damage to your opponent. You may also choose anon-Healing Item in play and return it to its owner's hand.<span style=\"mso-spacerun: yes\">&nbsp;</span>57 ChimaeraCommon Creature/Chimaera7FDamage each turn: 4, Health: 2<span style=\"mso-spacerun: yes\">&nbsp;</span>58 Dog BiteCommon Spell4FChoose a Creature in play. That Creature does damage to youropponent equal to that Creature's printed \"Damage each turn.\"<span style=\"mso-spacerun: yes\">&nbsp;</span>59 Every-Flavour BeansCommon Spell/Candy1TReveal the top 2 card of your deck. Put into play any Lessoncards you revealed. Put into your discard pile any non-Lesson cards yourevealed. Then draw a card.<span style=\"mso-spacerun: yes\">&nbsp;</span>60 Fire Protection PotionCommon Spell3PDo 3 damage to your opponent. During your opponent's nextturn, prevent all damage done to you by Spell cards.<span style=\"mso-spacerun: yes\">&nbsp;</span>61 Fungiface PotionCommon Spell4PTo play this card, discard 1 of your P Lessons from play. Do6 damage to your opponent or to a Creature of your choice.<span style=\"mso-spacerun: yes\">&nbsp;</span>62 KnutCommon Item/Money1CYou can play only 1 Money card each turn. Before your turn,if this card is in play, discard it and you get 1 more Action this turn.<span style=\"mso-spacerun: yes\">&nbsp;</span>63 Liquorice WandCommon Spell/Candy1CDo 2 damage to your opponent. Then draw a card. (LiquoriceWand isn't really a Wand.)<span style=\"mso-spacerun: yes\">&nbsp;</span>64 Loop-the-LoopsCommon Spell8QDo 4 damage to your opponent. Then draw 4 cards.<span style=\"mso-spacerun: yes\">&nbsp;</span>65 Manegro PotionCommon Spell6PCount the number of P Lessons you have in play. Do that muchdamage to your opponent. Then choose 1 of your P Lessons in play and discardit.<span style=\"mso-spacerun: yes\">&nbsp;</span>66 Muffling DraughtCommon Spell3PDuring your opponent's next turn, he or she can't useActions to play Spell cards.",
-    "id": 320,
+    "id": 321,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "67",
     "name": "Owl Post",
@@ -3191,9 +3649,10 @@ export default [{
     "type": "Spell",
     "cost": "6F",
     "text": "Draw 3 cards.<span style=\"mso-spacerun: yes\">&nbsp;</span>68 Photo AlbumCommon Item5CBefore each of your turns, draw a card.<span style=\"mso-spacerun: yes\">&nbsp;</span>69 Sandstone GargoyleCommon Creature/Gargoyle3FWhen Sandstone Gargoyle does damage to your opponent, if heor she doesn't have any Creatures in play, it does 2 more damage to him or her.Damage each turn: 1, Health: 2<span style=\"mso-spacerun: yes\">&nbsp;</span>70 School BroomCommon Item/Broom4QWhen you play this card, draw a card. If you play this card,and you already have a Broom in play, discard the old one.",
-    "id": 321,
+    "id": 322,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "71",
     "name": "Scribblifors",
@@ -3201,54 +3660,60 @@ export default [{
     "type": "Spell",
     "cost": "7T",
     "text": "Choose 2 of your opponent's cards in play (other than his orher starting Character). Your opponent discards one of them and returns theother to his or her hand.<span style=\"mso-spacerun: yes\">&nbsp;</span>72 Sleeping PotionCommon Spell4PDo 4 damage to your opponent. During your opponent's nextturn, he or she can't use Actions to play Adventure cards.<span style=\"mso-spacerun: yes\">&nbsp;</span>73 Switching SpellCommon Spell4TChoose an Item in play (yours or your opponent's) anddiscard it. Then search your deck. You may take an Item card from your deck,show it to your opponent and put it into your hand. Then shuffle your deck.<span style=\"mso-spacerun: yes\">&nbsp;</span>74 Troll BogiesCommon Spell3FChoose a non-Healing Item in play and return it to itsowner's hand.<span style=\"mso-spacerun: yes\">&nbsp;</span>75 Vanishing StepCommon Spell1TDuring your opponent's next turn, he or she gets 1 fewerAction. (If this would mean your opponent has fewer than 1 Action, he or shestill gets 1 Action.)",
-    "id": 322,
+    "id": 323,
     "groupBlock": "spell"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "76",
     "name": "Care of Magical Creatures",
     "rarity": "Common",
     "type": "Lesson",
     "text": "Provides: 1F",
-    "id": 323,
+    "id": 324,
     "groupBlock": "lesson"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "77",
     "name": "Charms",
     "rarity": "Common",
     "type": "Lesson",
     "text": "Provides: 1C",
-    "id": 324,
+    "id": 325,
     "groupBlock": "lesson"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "78",
     "name": "Potions",
     "rarity": "Common",
     "type": "Lesson",
     "text": "Provides: 1P",
-    "id": 325,
+    "id": 326,
     "groupBlock": "lesson"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "79",
     "name": "Quidditch",
     "rarity": "Common",
     "type": "Lesson",
     "text": "Provides: 1Q",
-    "id": 326,
+    "id": 327,
     "groupBlock": "lesson"
-}, {
+  },
+  {
     "set": "Hogwarts",
     "number": "80",
     "name": "Transfiguration",
     "rarity": "Common",
     "type": "Lesson",
     "text": "Provides: 1T",
-    "id": 327,
+    "id": 328,
     "groupBlock": "lesson"
-}, {
+  },
+  {
     "text": "Before each of your turns, if there is a Match in play, you get 1 more Action that turn.",
     "set": "Chamber of Secrets",
     "number": "1",
@@ -3256,9 +3721,14 @@ export default [{
     "rarity": "Rare",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Witch", "Gryffindor", "Unique"],
-    "id": 328
-}, {
+    "descriptors": [
+      "Witch",
+      "Gryffindor",
+      "Unique"
+    ],
+    "id": 329
+  },
+  {
     "text": "Once per turn, you may use an Action to choose 1 of your Items in play and do damage to your opponent equal to its printed Power cost.",
     "set": "Chamber of Secrets",
     "number": "2",
@@ -3266,9 +3736,13 @@ export default [{
     "rarity": "Rare",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Wizard", "Unique"],
-    "id": 329
-}, {
+    "descriptors": [
+      "Wizard",
+      "Unique"
+    ],
+    "id": 330
+  },
+  {
     "text": "Do 8 damage to your opponent. Then, if your opponent has any cards in play (other than his or her starting Character), he or she chooses 1 of them and discards it.",
     "set": "Chamber of Secrets",
     "number": "3",
@@ -3277,8 +3751,9 @@ export default [{
     "cost": "11Q",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 330
-}, {
+    "id": 331
+  },
+  {
     "text": "Do 8 damage to your opponent. Then your opponent may choose a Lesson card from his or her hand and discard it. If he or she does, you take 8 damage.",
     "set": "Chamber of Secrets",
     "number": "4",
@@ -3287,8 +3762,9 @@ export default [{
     "cost": "7Q",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 331
-}, {
+    "id": 332
+  },
+  {
     "text": "You may use an Action to reveal the top card of your deck. If it's a Lesson card, put it into play. If it isn't a Lesson card, discard it. If you play this card, and you already have a Wand in play, discard the old one. Provide:",
     "set": "Chamber of Secrets",
     "number": "5",
@@ -3298,9 +3774,12 @@ export default [{
     "power": "1C",
     "type": "Item",
     "groupBlock": "item",
-    "descriptors": ["Wand"],
-    "id": 332
-}, {
+    "descriptors": [
+      "Wand"
+    ],
+    "id": 333
+  },
+  {
     "text": "When you play this card, discard any other Location from play (yours or your opponent's). Before each player's turn, if that player has fewer than 4 cards in his or her hand, that player draws cards until he or she has 4.",
     "set": "Chamber of Secrets",
     "number": "6",
@@ -3309,9 +3788,12 @@ export default [{
     "cost": "5C",
     "type": "Location",
     "groupBlock": "location",
-    "descriptors": ["Unique"],
-    "id": 333
-}, {
+    "descriptors": [
+      "Unique"
+    ],
+    "id": 334
+  },
+  {
     "text": "Once per turn, you may use an Action to draw 3 cards and then make your opponent draw 3 cards.",
     "set": "Chamber of Secrets",
     "number": "7",
@@ -3319,9 +3801,14 @@ export default [{
     "rarity": "Rare",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Wizard", "Gryffindor", "Unique"],
-    "id": 334
-}, {
+    "descriptors": [
+      "Wizard",
+      "Gryffindor",
+      "Unique"
+    ],
+    "id": 335
+  },
+  {
     "text": "When you play this card, draw a card.Damage: 3 Health: 3",
     "set": "Chamber of Secrets",
     "number": "8",
@@ -3330,9 +3817,12 @@ export default [{
     "cost": "7F",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Capybara"],
-    "id": 335
-}, {
+    "descriptors": [
+      "Capybara"
+    ],
+    "id": 336
+  },
+  {
     "text": "Play this card only if you have at least 5 Lessons in play. Effect: At the end of each of your opponent's turns, if he or she has any cards in his or her hand, he or she chooses 1 of them and discards it. To Solve: Your opponent discards 5 cards in this way. Opponent's Reward: Your opponent may draw a card.",
     "set": "Chamber of Secrets",
     "number": "9",
@@ -3340,8 +3830,9 @@ export default [{
     "rarity": "Rare",
     "type": "Adventure",
     "groupBlock": "adventure",
-    "id": 336
-}, {
+    "id": 337
+  },
+  {
     "text": "Choose 1 of your opponent's cards in play (other than his or her starting Character) and return it to his or her hand. You get 1 more Action this turn.",
     "set": "Chamber of Secrets",
     "number": "10",
@@ -3350,8 +3841,9 @@ export default [{
     "cost": "4T",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 337
-}, {
+    "id": 338
+  },
+  {
     "text": "Your opponent draws 10 cards.",
     "set": "Chamber of Secrets",
     "number": "11",
@@ -3360,8 +3852,9 @@ export default [{
     "cost": "10C",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 338
-}, {
+    "id": 339
+  },
+  {
     "text": "To play this card, discard 2 other cards from your hand. Do 5 damage to your opponent. Then, if your opponent has any cards in his or her hand, he or she chooses 2 of them and discards them (1 if he or she has only 1).",
     "set": "Chamber of Secrets",
     "number": "12",
@@ -3370,8 +3863,9 @@ export default [{
     "cost": "8Q",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 339
-}, {
+    "id": 340
+  },
+  {
     "text": "If your opponent has any cards in his or her hand, you may use an Action to make him or her choose 1 of them and discard it.",
     "set": "Chamber of Secrets",
     "number": "13",
@@ -3379,9 +3873,14 @@ export default [{
     "rarity": "Rare",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Wizard", "Slytherin", "Unique"],
-    "id": 340
-}, {
+    "descriptors": [
+      "Wizard",
+      "Slytherin",
+      "Unique"
+    ],
+    "id": 341
+  },
+  {
     "text": "To play this card, return 2 of you: Lessons from play to your hand. Do 10 damage to your opponent or to a Creature of your choice.",
     "set": "Chamber of Secrets",
     "number": "14",
@@ -3390,8 +3889,9 @@ export default [{
     "cost": "7P",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 341
-}, {
+    "id": 342
+  },
+  {
     "text": "When you play this card, discard any other Location from play (yours or your opponent's). All Item cards (yours and your opponent's) need 3 less Power to play. (You still need at least 1 Power that matches.)",
     "set": "Chamber of Secrets",
     "number": "15",
@@ -3400,9 +3900,12 @@ export default [{
     "cost": "5T",
     "type": "Location",
     "groupBlock": "location",
-    "descriptors": ["Unique"],
-    "id": 342
-}, {
+    "descriptors": [
+      "Unique"
+    ],
+    "id": 343
+  },
+  {
     "text": "Search your deck. You may take a Character card from your deck, show it to your opponent and put it into your hand. Then shuffle your deck.",
     "set": "Chamber of Secrets",
     "number": "16",
@@ -3411,8 +3914,9 @@ export default [{
     "cost": "2C",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 343
-}, {
+    "id": 344
+  },
+  {
     "text": "When you play this card, reveal the top card of your deck. If it's a Lesson card, put it into play. If it isn't, put it back on top of your deck.Damage: 1 Health: 1",
     "set": "Chamber of Secrets",
     "number": "17",
@@ -3421,9 +3925,13 @@ export default [{
     "cost": "3F",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Owl", "Unique"],
-    "id": 344
-}, {
+    "descriptors": [
+      "Owl",
+      "Unique"
+    ],
+    "id": 345
+  },
+  {
     "text": "Effect: Your opponent can't use Actions to play non-Lesson cards. To Solve: Your opponent discards his or her hand. Opponent's Reward: Your opponent searches his or her deck for any card, puts it into his or her hand and then shuffles his or her deck.",
     "set": "Chamber of Secrets",
     "number": "18",
@@ -3431,8 +3939,9 @@ export default [{
     "rarity": "Rare",
     "type": "Adventure",
     "groupBlock": "adventure",
-    "id": 345
-}, {
+    "id": 346
+  },
+  {
     "text": "Once per game, you may draw 2 cards, then do 2 damage to your opponent and then put up to 2 non-Healing cards from your discard pile on the bottom of your deck.",
     "set": "Chamber of Secrets",
     "number": "19",
@@ -3440,9 +3949,14 @@ export default [{
     "rarity": "Rare",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Ghost", "Hufflepuff", "Unique"],
-    "id": 346
-}, {
+    "descriptors": [
+      "Ghost",
+      "Hufflepuff",
+      "Unique"
+    ],
+    "id": 347
+  },
+  {
     "text": "Each turn, you may prevent 4 damage done to you. If Fawkes is discarded from play, put it into your hand.Damage: 0 Health: 4",
     "set": "Chamber of Secrets",
     "number": "20",
@@ -3451,9 +3965,13 @@ export default [{
     "cost": "12F",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Phoenix", "Unique"],
-    "id": 347
-}, {
+    "descriptors": [
+      "Phoenix",
+      "Unique"
+    ],
+    "id": 348
+  },
+  {
     "text": "Play this card only if you have at least 7 Lessons in play. Effect: Before each of your turns, your opponent takes 5 damage. To Solve: Your opponent chooses 4 of his or her cards in play (other than his or her starting Character) and discards them. Opponent's Reward: You take 5 damage.",
     "set": "Chamber of Secrets",
     "number": "21",
@@ -3461,8 +3979,9 @@ export default [{
     "rarity": "Rare",
     "type": "Adventure",
     "groupBlock": "adventure",
-    "id": 348
-}, {
+    "id": 349
+  },
+  {
     "text": "You may use an Action to choose an Adventure or a Location in play and discard it. (If you discard an Adventure, you don't get the reward.)",
     "set": "Chamber of Secrets",
     "number": "22",
@@ -3471,8 +3990,9 @@ export default [{
     "cost": "8C",
     "type": "Item",
     "groupBlock": "item",
-    "id": 349
-}, {
+    "id": 350
+  },
+  {
     "text": "Count the number of Lessons you have in play. Do that much damage to your opponent. Then draw that many cards.",
     "set": "Chamber of Secrets",
     "number": "23",
@@ -3481,8 +4001,9 @@ export default [{
     "cost": "10Q",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 350
-}, {
+    "id": 351
+  },
+  {
     "text": "Effect: Before each of your turns, your opponent takes 2 damage. To Solve: Your opponent skips a total of 5 Actions. (They don't need to be one right after the other.) Opponent's Reward: Your opponent may look at your hand, choose 1 of those cards and discard it.",
     "set": "Chamber of Secrets",
     "number": "24",
@@ -3490,8 +4011,9 @@ export default [{
     "rarity": "Rare",
     "type": "Adventure",
     "groupBlock": "adventure",
-    "id": 351
-}, {
+    "id": 352
+  },
+  {
     "text": "Before each of your turns, count the number of other Characters you have in play. You may draw that many cards.",
     "set": "Chamber of Secrets",
     "number": "25",
@@ -3499,9 +4021,14 @@ export default [{
     "rarity": "Rare",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Witch", "Gryffindor", "Unique"],
-    "id": 352
-}, {
+    "descriptors": [
+      "Witch",
+      "Gryffindor",
+      "Unique"
+    ],
+    "id": 353
+  },
+  {
     "text": "When you play this card, discard any other Location from play (yours or your opponent's). Once during each player's turn, when he or she uses an Action to play a Plant card, he or she gets 1 more Action that turn.",
     "set": "Chamber of Secrets",
     "number": "26",
@@ -3510,9 +4037,12 @@ export default [{
     "cost": "3F",
     "type": "Location",
     "groupBlock": "location",
-    "descriptors": ["Unique"],
-    "id": 353
-}, {
+    "descriptors": [
+      "Unique"
+    ],
+    "id": 354
+  },
+  {
     "text": "When you play this card, discard any other Location from play (yours or your opponent's). Before each player's turn, he or she counts the number of Gryffindor cards he or she has in play and may draw that many cards.",
     "set": "Chamber of Secrets",
     "number": "27",
@@ -3521,9 +4051,13 @@ export default [{
     "cost": "5T",
     "type": "Location",
     "groupBlock": "location",
-    "descriptors": ["Gryffindor", "Unique"],
-    "id": 354
-}, {
+    "descriptors": [
+      "Gryffindor",
+      "Unique"
+    ],
+    "id": 355
+  },
+  {
     "text": "At the start of the game, if Harry, Second Year is your starting Character, secretly write down the name of a Creature, Item or Spell card. If your opponent plays that card, you may reveal what you wrote down. If you do, at the end of that turn, you may shuffle up to 20 non-Healing cards from your discard pile into your deck.",
     "set": "Chamber of Secrets",
     "number": "28",
@@ -3531,9 +4065,14 @@ export default [{
     "rarity": "Rare",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Wizard", "Gryffindor", "Unique"],
-    "id": 355
-}, {
+    "descriptors": [
+      "Wizard",
+      "Gryffindor",
+      "Unique"
+    ],
+    "id": 356
+  },
+  {
     "text": "You may use an Action to put up to 2 Lesson cards of different types from your hand into play.",
     "set": "Chamber of Secrets",
     "number": "29",
@@ -3541,9 +4080,14 @@ export default [{
     "rarity": "Rare",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Witch", "Gryffindor", "Unique"],
-    "id": 356
-}, {
+    "descriptors": [
+      "Witch",
+      "Gryffindor",
+      "Unique"
+    ],
+    "id": 357
+  },
+  {
     "text": "Choose a Character in play (other than a starting Character) and discard it. Then search your deck. You may take a Character card from your deck, show it to your opponent and put it into your hand. Then shuffle your deck.",
     "set": "Chamber of Secrets",
     "number": "30",
@@ -3552,8 +4096,9 @@ export default [{
     "cost": "5P",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 357
-}, {
+    "id": 358
+  },
+  {
     "text": "Effect: Before each of your turns, you may show your opponent any number of Creature cards from your hand. Your opponent takes that much damage. To Solve: Your opponent takes 10 damage. Opponent's Reward: If you have any cards in your hand, you choose 1 of them and discard it.",
     "set": "Chamber of Secrets",
     "number": "31",
@@ -3561,8 +4106,9 @@ export default [{
     "rarity": "Rare",
     "type": "Adventure",
     "groupBlock": "adventure",
-    "id": 358
-}, {
+    "id": 359
+  },
+  {
     "text": "You may use an Action to draw 2 cards and then put 2 cards from your hand on the bottom of your deck (in any order).",
     "set": "Chamber of Secrets",
     "number": "32",
@@ -3570,9 +4116,14 @@ export default [{
     "rarity": "Rare",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Wizard", "Hufflepuff", "Unique"],
-    "id": 359
-}, {
+    "descriptors": [
+      "Wizard",
+      "Hufflepuff",
+      "Unique"
+    ],
+    "id": 360
+  },
+  {
     "text": "Effect: Whenever you use an Action to play a Spell, your opponent says 'Brilliant!' If your opponent forgets, he or she takes 3 damage at the end of that turn. To Solve: Your opponent lets you have 4 more Actions on your next turn. Opponent's Reward: You take 3 damage.",
     "set": "Chamber of Secrets",
     "number": "33",
@@ -3580,8 +4131,9 @@ export default [{
     "rarity": "Rare",
     "type": "Adventure",
     "groupBlock": "adventure",
-    "id": 360
-}, {
+    "id": 361
+  },
+  {
     "text": "You may use an Action and discard Mandrake from play to put a non-Healing Character card from your discard pile into your hand.Damage: 3   Health: 1",
     "set": "Chamber of Secrets",
     "number": "34",
@@ -3590,9 +4142,12 @@ export default [{
     "cost": "5F",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Plant"],
-    "id": 361
-}, {
+    "descriptors": [
+      "Plant"
+    ],
+    "id": 362
+  },
+  {
     "text": "Your opponent chooses 1 card in his or her hand and discards the rest.",
     "set": "Chamber of Secrets",
     "number": "35",
@@ -3601,8 +4156,9 @@ export default [{
     "cost": "9C",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 362
-}, {
+    "id": 363
+  },
+  {
     "text": "When you play this card, discard any other Location from play (yours or your opponent's). Before each player's turn, if he or she has at least 2 Characters in play (including his or her starting Character), he or she gets 1 more Action that turn.",
     "set": "Chamber of Secrets",
     "number": "36",
@@ -3611,9 +4167,12 @@ export default [{
     "cost": "5P",
     "type": "Location",
     "groupBlock": "location",
-    "descriptors": ["Unique"],
-    "id": 363
-}, {
+    "descriptors": [
+      "Unique"
+    ],
+    "id": 364
+  },
+  {
     "text": "You may use an Action to search your deck. You may take a Character card for a Weasley character from your deck, show it to your opponent and put it into your hand. Then shuffle your deck.",
     "set": "Chamber of Secrets",
     "number": "37",
@@ -3621,9 +4180,13 @@ export default [{
     "rarity": "Rare",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Witch", "Unique"],
-    "id": 364
-}, {
+    "descriptors": [
+      "Witch",
+      "Unique"
+    ],
+    "id": 365
+  },
+  {
     "text": "Whenever one of your Quidditch Spells does damage to your opponent, it does 3 more damage. If you play this card, and you already have a Broom in play, discard the old one.",
     "set": "Chamber of Secrets",
     "number": "38",
@@ -3632,9 +4195,12 @@ export default [{
     "cost": "9Q",
     "type": "Item",
     "groupBlock": "item",
-    "descriptors": ["Broom"],
-    "id": 365
-}, {
+    "descriptors": [
+      "Broom"
+    ],
+    "id": 366
+  },
+  {
     "text": "Play this card only if there is a Match in play. Discard the top card of your deck. If that card is a Lesson card, you win the current Match (you get the prize). Otherwise, you take 3 damage.",
     "set": "Chamber of Secrets",
     "number": "39",
@@ -3643,8 +4209,9 @@ export default [{
     "cost": "3Q",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 366
-}, {
+    "id": 367
+  },
+  {
     "text": "To play this card, return 2 of you: Lessons from play to your hand. <p>Damage: 7   Health: 5</p>",
     "set": "Chamber of Secrets",
     "number": "40",
@@ -3653,9 +4220,12 @@ export default [{
     "cost": "8F",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Dragon"],
-    "id": 367
-}, {
+    "descriptors": [
+      "Dragon"
+    ],
+    "id": 368
+  },
+  {
     "text": "At the end of each of your opponent's turns, if he or she played a non-Lesson card that turn, he or she takes 1 damage.",
     "set": "Chamber of Secrets",
     "number": "41",
@@ -3663,9 +4233,14 @@ export default [{
     "rarity": "Rare",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Wizard", "Gryffindor", "Unique"],
-    "id": 368
-}, {
+    "descriptors": [
+      "Wizard",
+      "Gryffindor",
+      "Unique"
+    ],
+    "id": 369
+  },
+  {
     "text": "Choose 1 of your opponent's Creatures or Characters in play (other than his or her starting Character) and put it on the bottom of his or her deck.",
     "set": "Chamber of Secrets",
     "number": "42",
@@ -3674,8 +4249,9 @@ export default [{
     "cost": "7T",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 369
-}, {
+    "id": 370
+  },
+  {
     "text": "To play this card, return 4 of you:  Lessons from play to your hand. Shuffle up to 16 non-Healing cards from your discard pile into your deck.",
     "set": "Chamber of Secrets",
     "number": "43",
@@ -3684,9 +4260,12 @@ export default [{
     "cost": "10P",
     "type": "Spell",
     "groupBlock": "spell",
-    "descriptors": ["Healing"],
-    "id": 370
-}, {
+    "descriptors": [
+      "Healing"
+    ],
+    "id": 371
+  },
+  {
     "text": "Your opponent takes damage until he or she discards a total of 3 Lesson cards from his or her deck.",
     "set": "Chamber of Secrets",
     "number": "44",
@@ -3695,8 +4274,9 @@ export default [{
     "cost": "12P",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 371
-}, {
+    "id": 372
+  },
+  {
     "text": "Each of your Plants has 2 more Health. Provide:",
     "set": "Chamber of Secrets",
     "number": "45",
@@ -3704,9 +4284,14 @@ export default [{
     "rarity": "Rare",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Witch", "Hufflepuff", "Unique:"],
-    "id": 372
-}, {
+    "descriptors": [
+      "Witch",
+      "Hufflepuff",
+      "Unique:"
+    ],
+    "id": 373
+  },
+  {
     "text": "Put a non-Healing card from your discard pile into your hand.",
     "set": "Chamber of Secrets",
     "number": "46",
@@ -3715,8 +4300,9 @@ export default [{
     "cost": "7C",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 373
-}, {
+    "id": 374
+  },
+  {
     "text": "Before each of your turns, your opponent takes 3 damage.",
     "set": "Chamber of Secrets",
     "number": "47",
@@ -3725,8 +4311,9 @@ export default [{
     "cost": "8Q",
     "type": "Item",
     "groupBlock": "item",
-    "id": 374
-}, {
+    "id": 375
+  },
+  {
     "text": "If you have no cards in your hand, you may use an Action to draw 5 cards.",
     "set": "Chamber of Secrets",
     "number": "48",
@@ -3734,9 +4321,14 @@ export default [{
     "rarity": "Rare",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Wizard", "Gryffindor", "Unique"],
-    "id": 375
-}, {
+    "descriptors": [
+      "Wizard",
+      "Gryffindor",
+      "Unique"
+    ],
+    "id": 376
+  },
+  {
     "text": "Search your deck. You may take up to 2 Creature cards from your deck, show them to your opponent and put them into your hand. Then shuffle your deck.",
     "set": "Chamber of Secrets",
     "number": "49",
@@ -3745,8 +4337,9 @@ export default [{
     "cost": "6T",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 376
-}, {
+    "id": 377
+  },
+  {
     "text": "When you play this card, discard any other Location from play (yours or your opponent's). Before each player's turn, he or she counts the number of Slytherin cards he or she has in play and does that much damage to his or her opponent",
     "set": "Chamber of Secrets",
     "number": "50",
@@ -3755,9 +4348,13 @@ export default [{
     "cost": "5P",
     "type": "Location",
     "groupBlock": "location",
-    "descriptors": ["Slytherin", "Unique"],
-    "id": 377
-}, {
+    "descriptors": [
+      "Slytherin",
+      "Unique"
+    ],
+    "id": 378
+  },
+  {
     "text": "Return all Creatures in play (yours and your opponent's) to their owners' hands.",
     "set": "Chamber of Secrets",
     "number": "51",
@@ -3766,8 +4363,9 @@ export default [{
     "cost": "6T",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 378
-}, {
+    "id": 379
+  },
+  {
     "text": "Count the number of cards in your opponent's hand. He or she draws twice that many cards.",
     "set": "Chamber of Secrets",
     "number": "52",
@@ -3776,8 +4374,9 @@ export default [{
     "cost": "9P",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 379
-}, {
+    "id": 380
+  },
+  {
     "text": "Before each of your turns, if you have an Adventure in play, your opponent takes 2 damage.",
     "set": "Chamber of Secrets",
     "number": "53",
@@ -3785,9 +4384,14 @@ export default [{
     "rarity": "Rare",
     "type": "Character",
     "groupBlock": "character",
-    "descriptors": ["Wizard", "Gryffindor", "Unique"],
-    "id": 380
-}, {
+    "descriptors": [
+      "Wizard",
+      "Gryffindor",
+      "Unique"
+    ],
+    "id": 381
+  },
+  {
     "text": "To play this card, return 3 of you: Lessons from play to your hand. Before each of your turns, if your opponent has any Items in play, choose 1 of them and discard it. Damage: 8  Health: 12",
     "set": "Chamber of Secrets",
     "number": "54",
@@ -3796,9 +4400,13 @@ export default [{
     "cost": "9F",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Plant", "Unique"],
-    "id": 381
-}, {
+    "descriptors": [
+      "Plant",
+      "Unique"
+    ],
+    "id": 382
+  },
+  {
     "text": "You may use an Action and discard 1 of your Lessons from play to do 2 damage to your opponent.",
     "set": "Chamber of Secrets",
     "number": "55",
@@ -3807,8 +4415,9 @@ export default [{
     "cost": "6T",
     "type": "Item",
     "groupBlock": "item",
-    "id": 382
-}, {
+    "id": 383
+  },
+  {
     "text": "To play this card, return 2 of: Lessons from play to your hand. Do 7 damage to your opponent or to a Creature of your choice.",
     "set": "Chamber of Secrets",
     "number": "56",
@@ -3817,8 +4426,9 @@ export default [{
     "cost": "4P",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 383
-}, {
+    "id": 384
+  },
+  {
     "text": "Draw 4 cards. Then your opponent may choose a Lesson card from his or her hand and discard it. If he or she does, you choose 3 cards in your hand and discard them.",
     "set": "Chamber of Secrets",
     "number": "57",
@@ -3827,8 +4437,9 @@ export default [{
     "cost": "5Q",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 384
-}, {
+    "id": 385
+  },
+  {
     "text": "Effect: Your opponent can't use Actions to play Location cards. To Solve: Your opponent chooses 2 Location cards in his or her hand and discards them. Opponent's Reward: Once during this turn, when your opponent uses an Action to play a Location card, he or she gets 2 more Actions this turn.",
     "set": "Chamber of Secrets",
     "number": "58",
@@ -3836,8 +4447,9 @@ export default [{
     "rarity": "Uncommon",
     "type": "Adventure",
     "groupBlock": "adventure",
-    "id": 385
-}, {
+    "id": 386
+  },
+  {
     "text": "Your opponent chooses 1 of his or her Creatures or Items in play and discards it. Then he or she takes damage equal to that card's printed Power cost.",
     "set": "Chamber of Secrets",
     "number": "59",
@@ -3846,8 +4458,9 @@ export default [{
     "cost": "5P",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 386
-}, {
+    "id": 387
+  },
+  {
     "text": "Choose 1 of your opponent's cards in play (other than his or her starting Character) and discard it. Your opponent may prevent this by choosing 4 cards in his or her hand and discarding them.",
     "set": "Chamber of Secrets",
     "number": "60",
@@ -3856,8 +4469,9 @@ export default [{
     "cost": "6T",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 387
-}, {
+    "id": 388
+  },
+  {
     "text": "Effect: Your opponent can't use Actions to play any cards except Lesson cards. To Solve: Your opponent uses Actions to play Lesson cards 3 times. (Those Actions don't need to be one right after the other.) Opponent's Reward: Your opponent may put any number of Lesson cards from his or her hand into play.",
     "set": "Chamber of Secrets",
     "number": "61",
@@ -3865,8 +4479,9 @@ export default [{
     "rarity": "Uncommon",
     "type": "Adventure",
     "groupBlock": "adventure",
-    "id": 388
-}, {
+    "id": 389
+  },
+  {
     "text": "Do 4 damage to your opponent. Then your opponent may choose a Lesson card in his or her hand and discard it. If he or she does, you take 4 damage.",
     "set": "Chamber of Secrets",
     "number": "62",
@@ -3875,8 +4490,9 @@ export default [{
     "cost": "3Q",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 389
-}, {
+    "id": 390
+  },
+  {
     "text": "When you play this card, look at the top 2 cards of your deck (1 if there is only 1) and put both of them on the bottom or back on the top of your deck in any order. If you play this card, and you already have a Broom in play, discard the old one.",
     "set": "Chamber of Secrets",
     "number": "63",
@@ -3885,9 +4501,12 @@ export default [{
     "cost": "5Q",
     "type": "Item",
     "groupBlock": "item",
-    "descriptors": ["Broom"],
-    "id": 390
-}, {
+    "descriptors": [
+      "Broom"
+    ],
+    "id": 391
+  },
+  {
     "text": "Choose 1 of your opponent's Creatures in play and put it on the bottom of his or her deck.",
     "set": "Chamber of Secrets",
     "number": "64",
@@ -3896,8 +4515,9 @@ export default [{
     "cost": "5T",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 391
-}, {
+    "id": 392
+  },
+  {
     "text": "Before each of your turns, count the number of Plants you have in play. Do that much damage to your opponent.",
     "set": "Chamber of Secrets",
     "number": "65",
@@ -3906,8 +4526,9 @@ export default [{
     "cost": "7F",
     "type": "Item",
     "groupBlock": "item",
-    "id": 392
-}, {
+    "id": 393
+  },
+  {
     "text": "Once during each of your turns, you may choose 1 of your opponent's Creatures in play. Prevent up to 3 damage from that Creature on your opponent's next turn.",
     "set": "Chamber of Secrets",
     "number": "66",
@@ -3916,8 +4537,9 @@ export default [{
     "cost": "7F",
     "type": "Item",
     "groupBlock": "item",
-    "id": 393
-}, {
+    "id": 394
+  },
+  {
     "text": "Play this card only if you have fewer than 7 other cards in your hand. Draw cards until you have 7 cards in your hand.",
     "set": "Chamber of Secrets",
     "number": "67",
@@ -3926,8 +4548,9 @@ export default [{
     "cost": "7C",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 394
-}, {
+    "id": 395
+  },
+  {
     "text": "Search your deck. You may take a Location card from your deck, show it to your opponent and put it into your hand. Then shuffle your deck.",
     "set": "Chamber of Secrets",
     "number": "68",
@@ -3936,8 +4559,9 @@ export default [{
     "cost": "2T",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 395
-}, {
+    "id": 396
+  },
+  {
     "text": "During your opponent's next turn, he or she can't use Actions to play Lesson cards.",
     "set": "Chamber of Secrets",
     "number": "69",
@@ -3946,8 +4570,9 @@ export default [{
     "cost": "6C",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 396
-}, {
+    "id": 397
+  },
+  {
     "text": "Choose 1 of your opponent's cards in play (other than his or her starting Character) and discard it. Then he or she chooses 1 of your cards in play (other than your starting Character) and discards it.",
     "set": "Chamber of Secrets",
     "number": "70",
@@ -3956,8 +4581,9 @@ export default [{
     "cost": "4T",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 397
-}, {
+    "id": 398
+  },
+  {
     "text": "Effect: Your opponent discards the card drawn at the start of each of his or her turns. To Solve: Your opponent takes 8 damage. Opponent's Reward: You take 2 damage.",
     "set": "Chamber of Secrets",
     "number": "71",
@@ -3965,8 +4591,9 @@ export default [{
     "rarity": "Uncommon",
     "type": "Adventure",
     "groupBlock": "adventure",
-    "id": 398
-}, {
+    "id": 399
+  },
+  {
     "text": "Effect: Your opponent gets 1 fewer Action on each of his or her turns (even the turn this Adventure is solved). (If this would mean your opponent has fewer than 1 Action, he or she still gets 1 Action.) To Solve: Your opponent chooses 4 cards in his or her hand and discards them. Opponent's Reward: Your opponent may draw 2 cards.",
     "set": "Chamber of Secrets",
     "number": "72",
@@ -3974,8 +4601,9 @@ export default [{
     "rarity": "Uncommon",
     "type": "Adventure",
     "groupBlock": "adventure",
-    "id": 399
-}, {
+    "id": 400
+  },
+  {
     "text": "Whenever you play a Character card, you use up 1 Action to play it instead of 2.",
     "set": "Chamber of Secrets",
     "number": "73",
@@ -3984,8 +4612,9 @@ export default [{
     "cost": "1P",
     "type": "Item",
     "groupBlock": "item",
-    "id": 400
-}, {
+    "id": 401
+  },
+  {
     "text": "Choose any number of your cards in play (other than your starting Character) and discard them.",
     "set": "Chamber of Secrets",
     "number": "74",
@@ -3994,8 +4623,9 @@ export default [{
     "cost": "1P",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 401
-}, {
+    "id": 402
+  },
+  {
     "text": "Damage: 2   Health: 4",
     "set": "Chamber of Secrets",
     "number": "75",
@@ -4004,9 +4634,12 @@ export default [{
     "cost": "5F",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Manticore"],
-    "id": 402
-}, {
+    "descriptors": [
+      "Manticore"
+    ],
+    "id": 403
+  },
+  {
     "text": "Your opponent takes damage until he or she discards a total of 2 Lesson cards from his or her deck.",
     "set": "Chamber of Secrets",
     "number": "76",
@@ -4015,8 +4648,9 @@ export default [{
     "cost": "5P",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 403
-}, {
+    "id": 404
+  },
+  {
     "text": "When you play this card, draw a card. Damage: 2   Health: 2",
     "set": "Chamber of Secrets",
     "number": "77",
@@ -4025,9 +4659,12 @@ export default [{
     "cost": "5F",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Porcupine"],
-    "id": 404
-}, {
+    "descriptors": [
+      "Porcupine"
+    ],
+    "id": 405
+  },
+  {
     "text": "When you play this card, play it face down and tell your opponent to guess 'Pure-Blood', 'Sherbet Lemon' or 'Wattlebird'. If he or she guesses 'Pure-Blood', nothing happens. Otherwise, do 8 damage to your opponent.",
     "set": "Chamber of Secrets",
     "number": "78",
@@ -4036,9 +4673,12 @@ export default [{
     "cost": "6C",
     "type": "Spell",
     "groupBlock": "spell",
-    "descriptors": ["Password"],
-    "id": 405
-}, {
+    "descriptors": [
+      "Password"
+    ],
+    "id": 406
+  },
+  {
     "text": "Choose up to 2 Creatures in play and discard them.",
     "set": "Chamber of Secrets",
     "number": "79",
@@ -4047,8 +4687,9 @@ export default [{
     "cost": "8T",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 406
-}, {
+    "id": 407
+  },
+  {
     "text": "To Win: Do 9 damage to your opponent. (That damage doesn't have to be done all at once.) Prize: Winner shuffles up to 6 non-Healing cards from his or her discard pile into his or her deck.",
     "set": "Chamber of Secrets",
     "number": "80",
@@ -4057,8 +4698,9 @@ export default [{
     "cost": "1Q",
     "type": "Match",
     "groupBlock": "match",
-    "id": 407
-}, {
+    "id": 408
+  },
+  {
     "text": "When you play this card, discard any other Location from play (yours or your opponent's). Whenever a Spell card (yours or your opponent's) does damage to a player, it does 1 less damage to that player.",
     "set": "Chamber of Secrets",
     "number": "81",
@@ -4067,8 +4709,9 @@ export default [{
     "cost": "3T",
     "type": "Location",
     "groupBlock": "location",
-    "id": 408
-}, {
+    "id": 409
+  },
+  {
     "text": "You may use an Action to have both players shuffle their decks.",
     "set": "Chamber of Secrets",
     "number": "82",
@@ -4077,8 +4720,9 @@ export default [{
     "cost": "3C",
     "type": "Item",
     "groupBlock": "item",
-    "id": 409
-}, {
+    "id": 410
+  },
+  {
     "text": "When you play this card, play it face down and tell your opponent to guess 'Pure-Blood', 'Sherbet Lemon' or 'Wattlebird'. If he or she guesses 'Sherbet Lemon', nothing happens. Otherwise, do 8 damage to your opponent.",
     "set": "Chamber of Secrets",
     "number": "83",
@@ -4087,9 +4731,12 @@ export default [{
     "cost": "6C",
     "type": "Spell",
     "groupBlock": "spell",
-    "descriptors": ["Password"],
-    "id": 410
-}, {
+    "descriptors": [
+      "Password"
+    ],
+    "id": 411
+  },
+  {
     "text": "Do 8 damage to your opponent. He or she can prevent this by choosing 3 cards in his or her hand and discarding them.",
     "set": "Chamber of Secrets",
     "number": "84",
@@ -4098,8 +4745,9 @@ export default [{
     "cost": "7P",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 411
-}, {
+    "id": 412
+  },
+  {
     "text": "Effect: Before each of your opponent's turns, he or she draws 3 cards and then chooses 3 cards in his or her hand and discards them. To Solve: Your opponent chooses 1 of his or her Locations in play or 4 of his or her Lessons in play and discards them. Opponent's Reward: You take 3 damage.",
     "set": "Chamber of Secrets",
     "number": "85",
@@ -4107,8 +4755,9 @@ export default [{
     "rarity": "Uncommon",
     "type": "Adventure",
     "groupBlock": "adventure",
-    "id": 412
-}, {
+    "id": 413
+  },
+  {
     "text": "Do 5 damage to your opponent. Then, if he or she has any cards in play other than Lessons (or his or her starting Character), he or she chooses 1 of those cards and returns it to his or her hand.",
     "set": "Chamber of Secrets",
     "number": "86",
@@ -4117,8 +4766,9 @@ export default [{
     "cost": "8Q",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 413
-}, {
+    "id": 414
+  },
+  {
     "text": "Once per turn, you may let Umbrella Flowers take 1 damage that you were going to take. Damage: 0  Health: 6",
     "set": "Chamber of Secrets",
     "number": "87",
@@ -4127,9 +4777,12 @@ export default [{
     "cost": "3F",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Plant"],
-    "id": 414
-}, {
+    "descriptors": [
+      "Plant"
+    ],
+    "id": 415
+  },
+  {
     "text": "You may use an Action and discard Venomous Tentacula from play to put: Lesson from your discard pile into play.<p>Damage: 2  Health: 1</p>",
     "set": "Chamber of Secrets",
     "number": "88",
@@ -4138,9 +4791,12 @@ export default [{
     "cost": "4F",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Plant"],
-    "id": 415
-}, {
+    "descriptors": [
+      "Plant"
+    ],
+    "id": 416
+  },
+  {
     "text": "When you play this card, play it face down and tell your opponent to guess 'Pure-Blood', 'Sherbet Lemon' or 'Wattlebird'. If he or she guesses 'Wattlebird', nothing happens. Otherwise, do 8 damage to your opponent.",
     "set": "Chamber of Secrets",
     "number": "89",
@@ -4149,9 +4805,12 @@ export default [{
     "cost": "6C",
     "type": "Spell",
     "groupBlock": "spell",
-    "descriptors": ["Password"],
-    "id": 416
-}, {
+    "descriptors": [
+      "Password"
+    ],
+    "id": 417
+  },
+  {
     "text": "To Win: Use Actions to play Spell cards 2 times while this card is in play. Prize: Loser takes 6 damage.",
     "set": "Chamber of Secrets",
     "number": "90",
@@ -4160,8 +4819,9 @@ export default [{
     "cost": "1Q",
     "type": "Match",
     "groupBlock": "match",
-    "id": 417
-}, {
+    "id": 418
+  },
+  {
     "text": "Show your hand to your opponent. Put all Lesson cards there into play.",
     "set": "Chamber of Secrets",
     "number": "91",
@@ -4170,8 +4830,9 @@ export default [{
     "cost": "5T",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 418
-}, {
+    "id": 419
+  },
+  {
     "text": "Do 5 damage to your opponent.",
     "set": "Chamber of Secrets",
     "number": "92",
@@ -4180,8 +4841,9 @@ export default [{
     "cost": "6C",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 419
-}, {
+    "id": 420
+  },
+  {
     "text": "Search your deck. You may take a Creature card from your deck, show it to your opponent and put it into your hand. Then shuffle your deck.",
     "set": "Chamber of Secrets",
     "number": "93",
@@ -4190,8 +4852,9 @@ export default [{
     "cost": "4T",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 420
-}, {
+    "id": 421
+  },
+  {
     "text": "You may use an Action and discard a card from your hand to do 2 damage to your opponent.",
     "set": "Chamber of Secrets",
     "number": "94",
@@ -4200,8 +4863,9 @@ export default [{
     "cost": "4Q",
     "type": "Item",
     "groupBlock": "item",
-    "id": 421
-}, {
+    "id": 422
+  },
+  {
     "text": "Choose 1 of your opponent's Creatures in play and discard it.",
     "set": "Chamber of Secrets",
     "number": "95",
@@ -4210,8 +4874,9 @@ export default [{
     "cost": "6T",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 422
-}, {
+    "id": 423
+  },
+  {
     "text": "Do 3 damage to your opponent. Then, if your opponent has any cards in play (other than his or her starting Character), he or she chooses 1 of them and returns it to his or her hand.",
     "set": "Chamber of Secrets",
     "number": "96",
@@ -4220,8 +4885,9 @@ export default [{
     "cost": "5Q",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 423
-}, {
+    "id": 424
+  },
+  {
     "text": "You may use an Action to put up to 2 cards from your hand on the bottom of your deck (in any order).",
     "set": "Chamber of Secrets",
     "number": "97",
@@ -4230,8 +4896,9 @@ export default [{
     "cost": "3Q",
     "type": "Item",
     "groupBlock": "item",
-    "id": 424
-}, {
+    "id": 425
+  },
+  {
     "text": "To play this card, return 1 of you: Lessons from play to your hand.",
     "set": "Chamber of Secrets",
     "number": "98",
@@ -4240,9 +4907,12 @@ export default [{
     "cost": "3P",
     "type": "Item",
     "groupBlock": "item",
-    "descriptors": ["Cauldron"],
-    "id": 425
-}, {
+    "descriptors": [
+      "Cauldron"
+    ],
+    "id": 426
+  },
+  {
     "text": "To play this card, return 1 of: 'Lessons from play to your hand. Do 6 damage to your opponent or to a Creature of your choice.'",
     "set": "Chamber of Secrets",
     "number": "99",
@@ -4251,8 +4921,9 @@ export default [{
     "cost": "5P",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 426
-}, {
+    "id": 427
+  },
+  {
     "text": "During your opponent's next turn, he or she can't use Actions to play cards.",
     "set": "Chamber of Secrets",
     "number": "100",
@@ -4261,8 +4932,9 @@ export default [{
     "cost": "7T",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 427
-}, {
+    "id": 428
+  },
+  {
     "text": "Do 4 damage to your opponent. During your opponent's next turn, he or she can't use Actions to play Quidditch cards.",
     "set": "Chamber of Secrets",
     "number": "101",
@@ -4271,8 +4943,9 @@ export default [{
     "cost": "4P",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 428
-}, {
+    "id": 429
+  },
+  {
     "text": "Remove all damage counters from all of your Creatures in play.",
     "set": "Chamber of Secrets",
     "number": "102",
@@ -4281,8 +4954,9 @@ export default [{
     "cost": "5C",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 429
-}, {
+    "id": 430
+  },
+  {
     "text": "Choose a Creature or Lesson in play and discard it.",
     "set": "Chamber of Secrets",
     "number": "103",
@@ -4291,8 +4965,9 @@ export default [{
     "cost": "7T",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 430
-}, {
+    "id": 431
+  },
+  {
     "text": "To play this card, return 1 of your Creatures in play to your hand.Damage: 2 Health: 2",
     "set": "Chamber of Secrets",
     "number": "104",
@@ -4301,9 +4976,12 @@ export default [{
     "cost": "3F",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Ghoul"],
-    "id": 431
-}, {
+    "descriptors": [
+      "Ghoul"
+    ],
+    "id": 432
+  },
+  {
     "text": "To play this card, return 1 of you: Lessons from play to your hand. Do 9 damage to your opponent or to a Creature of your choice.",
     "set": "Chamber of Secrets",
     "number": "105",
@@ -4312,8 +4990,9 @@ export default [{
     "cost": "8P",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 432
-}, {
+    "id": 433
+  },
+  {
     "text": "Do 2 damage to your opponent. Then, if your opponent has any cards in his or her hand, he or she chooses 1 of them and discards it.",
     "set": "Chamber of Secrets",
     "number": "106",
@@ -4322,8 +5001,9 @@ export default [{
     "cost": "3Q",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 433
-}, {
+    "id": 434
+  },
+  {
     "text": "Do 4 damage to your opponent or to a Creature of your choice.",
     "set": "Chamber of Secrets",
     "number": "107",
@@ -4332,8 +5012,9 @@ export default [{
     "cost": "7C",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 434
-}, {
+    "id": 435
+  },
+  {
     "text": "At the end of each of your opponent's turns, if there are any cards in his or her hand, he or she chooses 1 of them and discards it.Damage: 0 Health: 1",
     "set": "Chamber of Secrets",
     "number": "108",
@@ -4342,9 +5023,12 @@ export default [{
     "cost": "4F",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Gnome"],
-    "id": 435
-}, {
+    "descriptors": [
+      "Gnome"
+    ],
+    "id": 436
+  },
+  {
     "text": "Damage: 3 Health: 3",
     "set": "Chamber of Secrets",
     "number": "109",
@@ -4353,9 +5037,13 @@ export default [{
     "cost": "6F",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Lion","Gryffindor"],
-    "id": 436
-}, {
+    "descriptors": [
+      "Lion",
+      "Gryffindor"
+    ],
+    "id": 437
+  },
+  {
     "text": "You may use an Action and discard this card from play to choose a Creature in play and do 4 damage to it. Provide: ",
     "set": "Chamber of Secrets",
     "number": "110",
@@ -4364,9 +5052,12 @@ export default [{
     "cost": "2F",
     "type": "Item",
     "groupBlock": "item",
-    "descriptors": ["Book"],
-    "id": 437
-}, {
+    "descriptors": [
+      "Book"
+    ],
+    "id": 438
+  },
+  {
     "text": "Do 1 damage to your opponent or to a Creature of your choice.",
     "set": "Chamber of Secrets",
     "number": "111",
@@ -4375,8 +5066,9 @@ export default [{
     "cost": "3P",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 438
-}, {
+    "id": 439
+  },
+  {
     "text": "Do 6 damage to your opponent.",
     "set": "Chamber of Secrets",
     "number": "112",
@@ -4385,8 +5077,9 @@ export default [{
     "cost": "7Q",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 439
-}, {
+    "id": 440
+  },
+  {
     "text": "Discard the Adventure your opponent has played. You get the reward.",
     "set": "Chamber of Secrets",
     "number": "113",
@@ -4395,8 +5088,9 @@ export default [{
     "cost": "6C",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 440
-}, {
+    "id": 441
+  },
+  {
     "text": "Search your deck. You may take a Lesson card from your deck and put it into play. Then shuffle your deck.",
     "set": "Chamber of Secrets",
     "number": "114",
@@ -4405,8 +5099,9 @@ export default [{
     "cost": "3T",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 441
-}, {
+    "id": 442
+  },
+  {
     "text": "Choose 1 of your opponent's cards in play (other than his or her starting Character) and return it to his or her hand.",
     "set": "Chamber of Secrets",
     "number": "115",
@@ -4415,8 +5110,9 @@ export default [{
     "cost": "4C",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 442
-}, {
+    "id": 443
+  },
+  {
     "text": "Do 2 damage to your opponent. Then, if your opponent has any cards in his or her hand, look at them. Choose 1 of those cards and put it on top of his or her deck.",
     "set": "Chamber of Secrets",
     "number": "116",
@@ -4425,8 +5121,9 @@ export default [{
     "cost": "4C",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 443
-}, {
+    "id": 444
+  },
+  {
     "text": "Damage:1Health:3",
     "set": "Chamber of Secrets",
     "number": "117",
@@ -4435,9 +5132,13 @@ export default [{
     "cost": "3F",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Badger", "Hufflepuff"],
-    "id": 444
-}, {
+    "descriptors": [
+      "Badger",
+      "Hufflepuff"
+    ],
+    "id": 445
+  },
+  {
     "text": "Choose up to 2 Lessons in play and discard them.",
     "set": "Chamber of Secrets",
     "number": "118",
@@ -4446,8 +5147,9 @@ export default [{
     "cost": "8T",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 445
-}, {
+    "id": 446
+  },
+  {
     "text": "Once per turn, you may let Leaping Toadstools take 1 damage that you were going to take.Damage: 0 Health: 4",
     "set": "Chamber of Secrets",
     "number": "119",
@@ -4456,9 +5158,12 @@ export default [{
     "cost": "1F",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Plant"],
-    "id": 446
-}, {
+    "descriptors": [
+      "Plant"
+    ],
+    "id": 447
+  },
+  {
     "text": "Look at your opponent's hand. Count the number of Lesson cards there. Do that much damage to your opponent.",
     "set": "Chamber of Secrets",
     "number": "120",
@@ -4467,8 +5172,9 @@ export default [{
     "cost": "2C",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 447
-}, {
+    "id": 448
+  },
+  {
     "text": "Put up to 4 non-Healing cards from your discard pile on the bottom of your deck (in any order).",
     "set": "Chamber of Secrets",
     "number": "121",
@@ -4477,9 +5183,12 @@ export default [{
     "cost": "1P",
     "type": "Spell",
     "groupBlock": "spell",
-    "descriptors": ["Healing"],
-    "id": 448
-}, {
+    "descriptors": [
+      "Healing"
+    ],
+    "id": 449
+  },
+  {
     "text": "Your opponent takes damage until he or she discards a Lesson card from his or her deck.",
     "set": "Chamber of Secrets",
     "number": "122",
@@ -4488,8 +5197,9 @@ export default [{
     "cost": "3P",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 449
-}, {
+    "id": 450
+  },
+  {
     "text": "Your opponent chooses 2 cards in his or her hand and discards them (1 if he or she has only 1).",
     "set": "Chamber of Secrets",
     "number": "123",
@@ -4498,8 +5208,9 @@ export default [{
     "cost": "5C",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 450
-}, {
+    "id": 451
+  },
+  {
     "text": "Damage: 2  Health: 2",
     "set": "Chamber of Secrets",
     "number": "124",
@@ -4508,9 +5219,13 @@ export default [{
     "cost": "4F",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Eagle", "Ravenclaw"],
-    "id": 451
-}, {
+    "descriptors": [
+      "Eagle",
+      "Ravenclaw"
+    ],
+    "id": 452
+  },
+  {
     "text": "Do 4 damage to your opponent. During your opponent's next turn, he or she can't use Actions to play Transfiguration cards.",
     "set": "Chamber of Secrets",
     "number": "125",
@@ -4519,8 +5234,9 @@ export default [{
     "cost": "4P",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 452
-}, {
+    "id": 453
+  },
+  {
     "text": "You may use an Action to look at your opponent's hand.",
     "set": "Chamber of Secrets",
     "number": "126",
@@ -4529,8 +5245,9 @@ export default [{
     "cost": "2T",
     "type": "Item",
     "groupBlock": "item",
-    "id": 453
-}, {
+    "id": 454
+  },
+  {
     "text": "Do 2 damage to your opponent or to a Creature of your choice. Then draw a card.",
     "set": "Chamber of Secrets",
     "number": "127",
@@ -4539,8 +5256,9 @@ export default [{
     "cost": "3C",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 454
-}, {
+    "id": 455
+  },
+  {
     "text": "You may use an Action and discard a card from your hand to draw 2 cards. If you play this card, and you already have a Broom in play, discard the old one.",
     "set": "Chamber of Secrets",
     "number": "128",
@@ -4549,9 +5267,12 @@ export default [{
     "cost": "4Q",
     "type": "Item",
     "groupBlock": "item",
-    "descriptors": ["Broom"],
-    "id": 455
-}, {
+    "descriptors": [
+      "Broom"
+    ],
+    "id": 456
+  },
+  {
     "text": "When you play this card, draw a card.<p>Damage: 1  Health: 1</p>",
     "set": "Chamber of Secrets",
     "number": "129",
@@ -4560,9 +5281,12 @@ export default [{
     "cost": "3F",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Ferret"],
-    "id": 456
-}, {
+    "descriptors": [
+      "Ferret"
+    ],
+    "id": 457
+  },
+  {
     "text": "Before each of your turns, your opponent takes 1 damage.",
     "set": "Chamber of Secrets",
     "number": "130",
@@ -4571,8 +5295,9 @@ export default [{
     "cost": "6P",
     "type": "Item",
     "groupBlock": "item",
-    "id": 457
-}, {
+    "id": 458
+  },
+  {
     "text": "Damage: 3  Health: 1",
     "set": "Chamber of Secrets",
     "number": "131",
@@ -4581,9 +5306,13 @@ export default [{
     "cost": "5F",
     "type": "Creature",
     "groupBlock": "creature",
-    "descriptors": ["Snake", "Slytherin"],
-    "id": 458
-}, {
+    "descriptors": [
+      "Snake",
+      "Slytherin"
+    ],
+    "id": 459
+  },
+  {
     "text": "Do 2 damage to your opponent. Then, if your opponent has any cards in play (other than his or her starting Character), he or she chooses 1 of them and discards it.",
     "set": "Chamber of Secrets",
     "number": "132",
@@ -4592,8 +5321,9 @@ export default [{
     "cost": "5Q",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 459
-}, {
+    "id": 460
+  },
+  {
     "text": "Draw 2 cards. Then you may put up to 2 Lesson cards from your hand into play.",
     "set": "Chamber of Secrets",
     "number": "133",
@@ -4602,8 +5332,9 @@ export default [{
     "cost": "7Q",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 460
-}, {
+    "id": 461
+  },
+  {
     "text": "Choose 1 of your opponent's Items in play and put it on the bottom of his or her deck.",
     "set": "Chamber of Secrets",
     "number": "134",
@@ -4612,8 +5343,9 @@ export default [{
     "cost": "1T",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 461
-}, {
+    "id": 462
+  },
+  {
     "text": "Put a non-Healing Quidditch card from your discard pile into your hand.",
     "set": "Chamber of Secrets",
     "number": "135",
@@ -4622,5 +5354,6 @@ export default [{
     "cost": "5Q",
     "type": "Spell",
     "groupBlock": "spell",
-    "id": 462
-}]
+    "id": 463
+  }
+]
